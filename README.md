@@ -16,8 +16,8 @@ Provides the administrative areas data of Indonesia, from the province, regency,
 
 ## Prerequisite
 
-- [Node.js](https://nodejs.org/en) (version 14 or higher)
-- [NPM](https://www.npmjs.com)
+- [Node.js](https://nodejs.org) (version 16 or higher)
+- [npm](https://www.npmjs.com)
 
 ## Installation
 
