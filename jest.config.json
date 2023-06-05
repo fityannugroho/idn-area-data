@@ -1,0 +1,13 @@
+{
+  "moduleFileExtensions": [
+    "js",
+    "json"
+  ],
+  "rootDir": "./",
+  "testRegex": ".*\\.spec\\.js$",
+  "collectCoverageFrom": [
+    "**/*.js"
+  ],
+  "coverageDirectory": "./coverage",
+  "testEnvironment": "node"
+}
