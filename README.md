@@ -13,11 +13,17 @@ Provides the administrative areas data of Indonesia, from the province, regency,
   - [Get all villages](#get-all-villages)
 - [Motivation](#motivation)
 - [Data](#data)
+- [Problem Reporting](#problem-reporting)
+  - [Reporting a Bug](#reporting-a-bug)
+  - [Requesting a New Feature](#requesting-a-new-feature)
+  - [Asking a Question](#asking-a-question)
+
+---
 
 ## Prerequisite
 
 - [Node.js](https://nodejs.org) (version 16 or higher)
-- [npm](https://www.npmjs.com)
+- [npm](https://www.npmjs.com) or [yarn](https://yarnpkg.com)
 
 ## Installation
 
@@ -25,9 +31,15 @@ Provides the administrative areas data of Indonesia, from the province, regency,
 npm install --save idn-area-data
 ```
 
+Use this for **yarn** user :
+
+```bash
+yarn add idn-area-data
+```
+
 ## Usage
 
-Import the package into your project:
+Import the package into your project :
 
 ```js
 // CommonJS
@@ -36,35 +48,82 @@ const IdnArea = require('idn-area-data');
 import IdnArea from 'idn-area-data';
 ```
 
-Then, you can get the data you need:
+Then, you can get the data you need :
 
 ### Get all provinces
 
 ```js
 const provinces = await IdnArea.provinces();
+
+/*
+[
+  {
+    id: '11',
+    name: 'ACEH',
+  },
+  ...
+]
+*/
 ```
 
 ### Get all regencies
 
 ```js
 const regencies = await IdnArea.regencies();
+
+/*
+[
+  {
+    id: '1101',
+    name: 'KABUPATEN ACEH SELATAN',
+    province_id: '11',
+  },
+  ...
+]
+*/
 ```
 
 ### Get all districts
 
 ```js
 const districts = await IdnArea.districts();
+
+/*
+[
+  {
+    id: '110101',
+    name: 'BAKONGAN',
+    regency_id: '1101',
+  },
+  ...
+]
+*/
 ```
 
 ### Get all villages
 
 ```js
 const villages = await IdnArea.villages();
+
+/*
+[
+  {
+    id: '1101012001',
+    district_id: '110101',
+    name: 'KEUDE BAKONGAN',
+  },
+  ...
+]
+*/
 ```
+
+You can try to run this package in the code playground :
+
+[![Edit idn-area-data](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/idn-area-data-rkievt)
 
 ## Motivation
 
-This package is a solution that addresses the limitations of other existing packages, repositories, or sources that provides Indonesian area data. Here's why it's the perfect choice for developers:
+This package is a solution that addresses the limitations of other existing packages, repositories, or sources that provides Indonesian area data. Here's why it's the perfect choice for developers :
 
 1. Up-to-date and Government-Sourced Data
 
@@ -83,3 +142,16 @@ This package is a solution that addresses the limitations of other existing pack
 The data we used is based on official data from the government and stored in separated CSV files by the levels in [`data`](data) directory.
 
 > You can see the list of official sources we refer to [here](docs/references.md).
+
+## Problem Reporting
+
+We have different channels for each problem, please use them by following these conditions :
+
+### Reporting a Bug
+To report a bug, please open a new issue following the guide [here](CONTRIBUTING.md#submitting-an-issue).
+
+### Requesting a New Feature
+If you have a new feature in mind, please open a new issue following the guide [here](CONTRIBUTING.md#submitting-an-issue).
+
+### Asking a Question
+If you have a question, you can search for answers in the GitHub Discussions Q&A category [here](https://github.com/fityannugroho/idn-area-data/discussions/categories/q-a). If you don't find a relevant discussion already, you can open a new discussion.
