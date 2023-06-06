@@ -101,7 +101,7 @@ Closes #123
 
 Before you submit an issue, please search the issue tracker, maybe an issue for your problem already exists and the discussion might inform you of workarounds readily available.
 
-You can report the issues by filling out the [new issue form](https://github.com/fityannugroho/idn-area-data/issues/new). Please select the right form template:
+You can report the issues by filling out the [new issue form](https://github.com/fityannugroho/idn-area-data/issues/new/choose). Please select the right form template:
 - **Bug Report**: if you found a bug in the source code.
 - **Feature Request**: if you want a new feature or enhancement.
 
