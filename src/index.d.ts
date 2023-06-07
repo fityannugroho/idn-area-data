@@ -3,25 +3,25 @@ export as namespace IdnArea;
 export type Province = {
   code: string;
   name: string;
-}
+};
 
 export type Regency = {
   code: string;
-  province_code: string;
   name: string;
-}
+  province_code: string;
+};
 
 export type District = {
   code: string;
-  regency_code: string;
   name: string;
-}
+  regency_code: string;
+};
 
 export type Village = {
   code: string;
   district_code: string;
   name: string;
-}
+};
 
 export type Areas = 'provinces' | 'regencies' | 'districts' | 'villages';
 
