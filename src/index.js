@@ -26,10 +26,15 @@ function villages() {
   return getData('villages');
 }
 
+function islands() {
+  return getData('islands');
+}
+
 module.exports = {
   getData,
   provinces,
   regencies,
   districts,
   villages,
+  islands,
 };
