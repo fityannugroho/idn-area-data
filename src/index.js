@@ -27,6 +27,7 @@ function villages() {
 }
 
 module.exports = {
+  getData,
   provinces,
   regencies,
   districts,

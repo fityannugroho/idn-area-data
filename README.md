@@ -11,6 +11,7 @@ Provides the administrative areas data of Indonesia, from the province, regency,
   - [Get all regencies](#get-all-regencies)
   - [Get all districts](#get-all-districts)
   - [Get all villages](#get-all-villages)
+  - [`getData()`](#getdata)
 - [Motivation](#motivation)
 - [Data](#data)
 - [Problem Reporting](#problem-reporting)
@@ -115,6 +116,17 @@ const villages = await IdnArea.villages();
   ...
 ]
 */
+```
+
+### `getData()`
+
+You also can use `getData()` function to get the data by providing the `area` parameter.
+
+```js
+const provinces = await IdnArea.getData('provinces');
+const regencies = await IdnArea.getData('regencies');
+const districts = await IdnArea.getData('districts');
+const villages = await IdnArea.getData('villages');
 ```
 
 You can try to run this package in the code playground :
