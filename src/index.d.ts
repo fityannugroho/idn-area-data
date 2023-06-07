@@ -1,3 +1,5 @@
+export as namespace IdnArea;
+
 export type Province = {
   code: string;
   name: string;
@@ -23,7 +25,7 @@ export type Village = {
 
 export type Areas = 'provinces' | 'regencies' | 'districts' | 'villages';
 
-export private function getData<T extends Areas>(area: T): T extends 'provinces'
+export function getData<T extends Areas>(area: T): T extends 'provinces'
   ? Promise<Province[]> : T extends 'regencies'
   ? Promise<Regency[]> : T extends 'districts'
   ? Promise<District[]> : T extends 'villages'
@@ -48,5 +50,3 @@ export function districts(): Promise<District[]>;
  * Get all villages.
  */
 export function villages(): Promise<Village[]>;
-
-export as namespace IdnArea;
