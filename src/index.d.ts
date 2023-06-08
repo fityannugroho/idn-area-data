@@ -3,33 +3,43 @@ export as namespace IdnArea;
 export type Province = {
   code: string;
   name: string;
-}
+};
 
 export type Regency = {
   code: string;
-  province_code: string;
   name: string;
-}
+  province_code: string;
+};
 
 export type District = {
   code: string;
-  regency_code: string;
   name: string;
-}
+  regency_code: string;
+};
 
 export type Village = {
   code: string;
   district_code: string;
   name: string;
-}
+};
 
-export type Areas = 'provinces' | 'regencies' | 'districts' | 'villages';
+export type Island = {
+  code: string;
+  coordinate: string;
+  is_outermost_small: string;
+  is_populated: string;
+  name: string;
+  regency_code: string;
+};
+
+export type Areas = 'provinces' | 'regencies' | 'districts' | 'villages' | 'islands';
 
 export function getData<T extends Areas>(area: T): T extends 'provinces'
   ? Promise<Province[]> : T extends 'regencies'
   ? Promise<Regency[]> : T extends 'districts'
   ? Promise<District[]> : T extends 'villages'
-  ? Promise<Village[]> : never;
+  ? Promise<Village[]> : T extends 'islands'
+  ? Promise<Island[]> : never;
 
 /**
  * Get all provinces.
@@ -50,3 +60,8 @@ export function districts(): Promise<District[]>;
  * Get all villages.
  */
 export function villages(): Promise<Village[]>;
+
+/**
+ * Get all islands.
+ */
+export function islands(): Promise<Island[]>;
