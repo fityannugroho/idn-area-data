@@ -59,7 +59,7 @@ const provinces = await IdnArea.provinces();
 /*
 [
   {
-    id: '11',
+    code: '11',
     name: 'ACEH',
   },
   ...
@@ -75,9 +75,9 @@ const regencies = await IdnArea.regencies();
 /*
 [
   {
-    id: '1101',
+    code: '1101',
     name: 'KABUPATEN ACEH SELATAN',
-    province_id: '11',
+    province_code: '11',
   },
   ...
 ]
@@ -92,9 +92,9 @@ const districts = await IdnArea.districts();
 /*
 [
   {
-    id: '110101',
+    code: '110101',
     name: 'BAKONGAN',
-    regency_id: '1101',
+    regency_code: '1101',
   },
   ...
 ]
@@ -109,8 +109,8 @@ const villages = await IdnArea.villages();
 /*
 [
   {
-    id: '1101012001',
-    district_id: '110101',
+    code: '1101012001',
+    district_code: '110101',
     name: 'KEUDE BAKONGAN',
   },
   ...
