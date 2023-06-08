@@ -3873,11 +3873,15 @@ code,regency_code,coordinate,is_populated,is_outermost_small,name
 330140024,3301,07°40'53.69" S 108°49'12.11" E,0,0,Pulau Maja Garkim
 330140025,3301,07°39'17.77" S 108°50'39.30" E,0,0,Pulau Mekar Sari
 330140026,3301,07°39'23.42" S 108°50'33.29" E,0,0,Pulau Muara Dua Timur
-330140027,3301,07°43'35.83" S 108°51'44.65" E,0,1,Pulau Nusakambangan
+330140027,3301,07°43'35.83" S 108°51'44.65" E,1,1,Pulau Nusakambangan
 330140028,3301,07°39'57.50" S 109°07'26.54" E,0,0,Pulau Platar
 330140029,3301,07°42'32.09" S 109°23'19.17" E,0,0,Pulau Platar Tengah
 330140030,3301,07°46'40.53" S 109°02'51.04" E,0,0,Pulau Solok Kumudu
+330540001,3305,07°43'53.18" S 109°23'25.79" E,0,0,Pulau Batu Masjid 1
+330540002,3305,07°43'52.91" S 109°23'26.83" E,0,0,Pulau Batu Masjid 2
 330540003,3305,07°46'34.55" S 109°24'39.67" E,0,0,Pulau Congot
+330540004,3305,07°46'32.05" S 109°24'36.96" E,0,0,Pulau Gebyuran 1
+330540005,3305,07°46'32.40" S 109°24'38.69" E,0,0,Pulau Gebyuran 2
 330540006,3305,07°46'39.79" S 109°24'41.67" E,0,0,Pulau Selo
 331740001,3317,06°39'10.48" S 111°17'25.37" E,0,0,Pulau Gede
 331740002,3317,06°39'59.96" S 111°15'32.84" E,0,0,Pulau Marongan
@@ -4287,6 +4291,7 @@ code,regency_code,coordinate,is_populated,is_outermost_small,name
 350940078,3509,08°33'40.84" S 113°48'47.32" E,0,0,Pulau Watukadal
 350940079,3509,08°33'43.81" S 113°49'04.81" E,0,0,Pulau Watulobang
 350940080,3509,08°33'11.79" S 113°48'13.43" E,0,0,Pulau Waturai
+351040001,3510,08°36'46.69" S 113°59'33.88" E,0,0,Pulau Bedil
 351040002,3510,08°37'00.64" S 113°59'38.94" E,0,0,Pulau Bedil Kecil
 351040003,3510,08°34'27.52" S 113°55'24.05" E,0,0,Pulau Bibit
 351040004,3510,08°12'21.55" S 114°22'57.44" E,0,0,Pulau Boom
@@ -4462,7 +4467,7 @@ code,regency_code,coordinate,is_populated,is_outermost_small,name
 360140010,3601,06°40'03.98" S 105°11'47.86" E,0,0,Pulau Batuputih
 360140011,3601,06°35'03.19" S 105°07'33.85" E,0,0,Pulau Batuqur'An
 360140012,3601,06°46'18.96" S 105°26'09.58" E,0,0,Pulau Boboko
-360140013,3601,07°00'22.96" S 105°32'42.58" E,0,1,Pulau Deli
+360140013,3601,07°00'22.96" S 105°32'42.58" E,1,1,Pulau Deli
 360140014,3601,06°50'18.14" S 105°14'21.73" E,0,1,Pulau Guhakolak
 360140015,3601,06°45'05.96" S 105°25'19.58" E,0,0,Pulau Handeuleum
 360140016,3601,06°45'19.96" S 105°25'54.58" E,0,0,Pulau Handeuleum Tengah
