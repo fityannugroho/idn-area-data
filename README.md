@@ -1,6 +1,12 @@
 <h1 align="">Indonesian Area Data (<i>Data Wilayah Indonesia</i>)</h1>
 
+[![npm version](https://img.shields.io/npm/v/idn-area-data.svg)](https://www.npmjs.com/package/idn-area-data)
+[![npm downloads](https://img.shields.io/npm/dm/idn-area-data.svg)](https://www.npmjs.com/package/idn-area-data)
+[![GitHub license](https://img.shields.io/github/license/fityannugroho/idn-area-data.svg)](LICENSE)
+
 Provides the administrative areas data of Indonesia, from the province, regency, district, to village levels based on the latest official sources.
+
+> **NEW!** [Islands data 🏝️](#get-all-islands) now available in version 1.3.0
 
 <h2>Table of Contents</h2>
 
