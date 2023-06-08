@@ -4,7 +4,7 @@ const Papa = require('papaparse');
 class CsvParser {
   /**
    * Create a new instance of CsvHelper.
-   * @param defaultConfig The default options
+   * @param {Papa.ParseLocalConfig} defaultConfig The default options
    */
   constructor(defaultConfig = {}) {
     this.defaultConfig = defaultConfig;
@@ -13,11 +13,11 @@ class CsvParser {
   /**
    * Parse CSV file asynchronously.
    *
-   * @param path Path to the CSV file.
-   * @param config The configuration for the parser.
+   * @param {string} path Path to the CSV file.
+   * @param {Papa.ParseLocalConfig} config The configuration for the parser.
    */
   static parse(path, config = {}) {
-    const sourceFile = createReadStream(path);
+    const sourceFile = createReadStream(path, config.encoding ?? 'utf8');
 
     return new Promise((resolve, reject) => {
       Papa.parse(sourceFile, {
@@ -31,8 +31,8 @@ class CsvParser {
   /**
    * Parse CSV file asynchronously.
    *
-   * @param path Path to the CSV file.
-   * @param config The configuration for the parser.
+   * @param {string} path Path to the CSV file.
+   * @param {Papa.ParseLocalConfig} config The configuration for the parser.
    */
   async parse(path, config = {}) {
     return CsvParser.parse(path, {
