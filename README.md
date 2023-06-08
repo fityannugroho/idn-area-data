@@ -11,6 +11,7 @@ Provides the administrative areas data of Indonesia, from the province, regency,
   - [Get all regencies](#get-all-regencies)
   - [Get all districts](#get-all-districts)
   - [Get all villages](#get-all-villages)
+  - [Get all islands](#get-all-islands)
   - [`getData()`](#getdata)
 - [Motivation](#motivation)
 - [Data](#data)
@@ -118,6 +119,26 @@ const villages = await IdnArea.villages();
 */
 ```
 
+### Get all islands
+
+```js
+const islands = await IdnArea.islands();
+
+/*
+[
+  {
+    code: '110140001',
+    coordinate: '03°19'03.44" N 097°07'41.73" E',
+    name: 'Pulau Batukapal',
+    is_outermost_small: '0',
+    is_populated: '0',
+    regency_code: '1101',
+  },
+  ...
+]
+*/
+```
+
 ### `getData()`
 
 You also can use `getData()` function to get the data by providing the `area` parameter.
@@ -127,6 +148,7 @@ const provinces = await IdnArea.getData('provinces');
 const regencies = await IdnArea.getData('regencies');
 const districts = await IdnArea.getData('districts');
 const villages = await IdnArea.getData('villages');
+const islands = await IdnArea.getData('islands');
 ```
 
 You can try to run this package in the code playground :
