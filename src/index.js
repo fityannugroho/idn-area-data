@@ -80,8 +80,8 @@ async function getData(area, options = defaultOptions) {
   return result.data;
 }
 
-function provinces() {
-  return getData('provinces');
+function provinces(options = {}) {
+  return getData('provinces', options);
 }
 
 function regencies(options = {}) {

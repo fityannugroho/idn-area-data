@@ -95,7 +95,9 @@ export function getData<
 /**
  * Get all provinces.
  */
-export function provinces(): Promise<Province[]>;
+export function provinces<
+  T extends Options = {},
+>(options: T): Promise<Province[]>;
 
 /**
  * Get all regencies.
