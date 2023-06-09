@@ -66,8 +66,8 @@ const defaultOptions = {
   transform: false,
 };
 
-async function getData(area, options = defaultOptions) {
-  const { transform } = options;
+async function getData(area, options) {
+  const { transform } = options ?? defaultOptions;
   const filePath = join(__dirname, `../data/${area}.csv`);
   const result = await CsvParser.parse(filePath, {
     header: true,
@@ -80,23 +80,23 @@ async function getData(area, options = defaultOptions) {
   return result.data;
 }
 
-function provinces(options = {}) {
+function provinces(options) {
   return getData('provinces', options);
 }
 
-function regencies(options = {}) {
+function regencies(options) {
   return getData('regencies', options);
 }
 
-function districts(options = {}) {
+function districts(options) {
   return getData('districts', options);
 }
 
-function villages(options = {}) {
+function villages(options) {
   return getData('villages', options);
 }
 
-function islands(options = {}) {
+function islands(options) {
   return getData('islands', options);
 }
 

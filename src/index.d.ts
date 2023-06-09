@@ -82,47 +82,52 @@ export type Options = {
   transform?: boolean;
 };
 
+type Transform<T> = T extends Options
+  ? T['transform'] extends true
+    ? true : false
+  : false;
+
 export function getData<
   A extends Areas,
-  T extends Options = {},
->(area: A, options: T): A extends 'provinces'
+  T extends Options,
+>(area: A, options?: T): A extends 'provinces'
   ? Promise<Province[]> : A extends 'regencies'
-  ? Promise<RegencyResult<T['transform']>[]> : A extends 'districts'
-  ? Promise<DistrictResult<T['transform']>[]> : A extends 'villages'
-  ? Promise<VillageResult<T['transform']>[]> : A extends 'islands'
-  ? Promise<IslandResult<T['transform']>[]> : never;
+  ? Promise<RegencyResult<Transform<T>>[]> : A extends 'districts'
+  ? Promise<DistrictResult<Transform<T>>[]> : A extends 'villages'
+  ? Promise<VillageResult<Transform<T>>[]> : A extends 'islands'
+  ? Promise<IslandResult<Transform<T>>[]> : never;
 
 /**
  * Get all provinces.
  */
 export function provinces<
-  T extends Options = {},
->(options: T): Promise<Province[]>;
+  T extends Options,
+>(options?: T): ReturnType<typeof getData<'provinces', T>>;
 
 /**
  * Get all regencies.
  */
 export function regencies<
-  T extends Options = {},
->(options: T): Promise<RegencyResult<T['transform']>[]>;
+  T extends Options,
+>(options?: T): ReturnType<typeof getData<'regencies', T>>;
 
 /**
  * Get all districts.
  */
 export function districts<
-  T extends Options = {},
->(options: T): Promise<DistrictResult<T['transform']>[]>;
+  T extends Options,
+>(options?: T): ReturnType<typeof getData<'districts', T>>;
 
 /**
  * Get all villages.
  */
 export function villages<
-  T extends Options = {},
->(options: T): Promise<VillageResult<T['transform']>[]>;
+  T extends Options,
+>(options?: T): ReturnType<typeof getData<'villages', T>>;
 
 /**
  * Get all islands.
  */
 export function islands<
-  T extends Options = {},
->(options: T): Promise<IslandResult<T['transform']>[]>;
+  T extends Options,
+>(options?: T): ReturnType<typeof getData<'islands', T>>;
