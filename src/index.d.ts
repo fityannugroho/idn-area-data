@@ -61,27 +61,36 @@ export type IslandTransformed = {
 
 export type Areas = 'provinces' | 'regencies' | 'districts' | 'villages' | 'islands';
 
-export type RegencyResult<T extends boolean = false> = T extends true
+export type RegencyResult<T extends boolean | undefined = false> = T extends true
   ? RegencyTransformed : Regency;
 
-export type DistrictResult<T extends boolean = false> = T extends true
+export type DistrictResult<T extends boolean | undefined = false> = T extends true
   ? DistrictTransformed : District;
 
-export type VillageResult<T extends boolean = false> = T extends true
+export type VillageResult<T extends boolean | undefined = false> = T extends true
   ? VillageTransformed : Village;
 
-export type IslandResult<T extends boolean = false> = T extends true
+export type IslandResult<T extends boolean | undefined = false> = T extends true
   ? IslandTransformed : Island;
+
+export type Options = {
+  /**
+   * Transform the data.
+   *
+   * @default false
+   */
+  transform?: boolean;
+};
 
 export function getData<
   A extends Areas,
-  T extends boolean = false,
->(area: A, transform: T): A extends 'provinces'
+  T extends Options = {},
+>(area: A, options: T): A extends 'provinces'
   ? Promise<Province[]> : A extends 'regencies'
-  ? Promise<RegencyResult<T>[]> : A extends 'districts'
-  ? Promise<DistrictResult<T>[]> : A extends 'villages'
-  ? Promise<VillageResult<T>[]> : A extends 'islands'
-  ? Promise<IslandResult<T>[]> : never;
+  ? Promise<RegencyResult<T['transform']>[]> : A extends 'districts'
+  ? Promise<DistrictResult<T['transform']>[]> : A extends 'villages'
+  ? Promise<VillageResult<T['transform']>[]> : A extends 'islands'
+  ? Promise<IslandResult<T['transform']>[]> : never;
 
 /**
  * Get all provinces.
@@ -92,26 +101,26 @@ export function provinces(): Promise<Province[]>;
  * Get all regencies.
  */
 export function regencies<
-  T extends boolean = false,
->(transform: T): Promise<RegencyResult<T>[]>;
+  T extends Options = {},
+>(options: T): Promise<RegencyResult<T['transform']>[]>;
 
 /**
  * Get all districts.
  */
 export function districts<
-  T extends boolean = false
->(transform: T): Promise<DistrictResult<T>[]>;
+  T extends Options = {},
+>(options: T): Promise<DistrictResult<T['transform']>[]>;
 
 /**
  * Get all villages.
  */
 export function villages<
-  T extends boolean = false,
->(transform: T): Promise<VillageResult<T>[]>;
+  T extends Options = {},
+>(options: T): Promise<VillageResult<T['transform']>[]>;
 
 /**
  * Get all islands.
  */
 export function islands<
-  T extends boolean = false,
->(transform: T): Promise<IslandResult<T>[]>;
+  T extends Options = {},
+>(options: T): Promise<IslandResult<T['transform']>[]>;
