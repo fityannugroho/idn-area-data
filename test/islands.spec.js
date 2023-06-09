@@ -13,7 +13,7 @@ describe('islands', () => {
     regencyCodes = (await IdnArea.regencies()).map((regency) => regency.code);
   });
 
-  describe('get all islands `islands()`', () => {
+  describe('get all islands', () => {
     /**
      * @type {IdnArea.Island[]}
      */
@@ -27,7 +27,7 @@ describe('islands', () => {
       expect(islands).toBeDefined();
     });
 
-    it('should equals with `getData(\'islands\')`', async () => {
+    it('should equals with `getData()` method', async () => {
       expect(islands).toEqual(await IdnArea.getData('islands'));
     });
 
@@ -56,22 +56,22 @@ describe('islands', () => {
     });
   });
 
-  describe('get all transformed islands `islands(true)`', () => {
+  describe('get all transformed islands', () => {
     /**
      * @type {IdnArea.IslandTransformed[]}
      */
     let islands;
 
     beforeAll(async () => {
-      islands = await IdnArea.islands(true);
+      islands = await IdnArea.islands({ transform: true });
     });
 
     it('should be defined', () => {
       expect(islands).toBeDefined();
     });
 
-    it('should equals with `getData(\'islands\', true)`', async () => {
-      expect(islands).toEqual(await IdnArea.getData('islands', true));
+    it('should equals with `getData()` method', async () => {
+      expect(islands).toEqual(await IdnArea.getData('islands', { transform: true }));
     });
 
     it('should have valid transformed island objects', async () => {

@@ -11,7 +11,7 @@ describe('regencies', () => {
     provinceCodes = (await IdnArea.provinces()).map((province) => province.code);
   });
 
-  describe('get all regencies `regencies()`', () => {
+  describe('get all regencies', () => {
     /**
      * @type {IdnArea.Regency[]}
      */
@@ -25,7 +25,7 @@ describe('regencies', () => {
       expect(regencies).toBeDefined();
     });
 
-    it('should equals with `getData(\'regencies\')`', async () => {
+    it('should equals with `getData()` method', async () => {
       expect(regencies).toEqual(await IdnArea.getData('regencies'));
     });
 
@@ -48,22 +48,22 @@ describe('regencies', () => {
     });
   });
 
-  describe('get all transformed regencies `regencies(true)`', () => {
+  describe('get all transformed regencies', () => {
     /**
      * @type {IdnArea.RegencyTransformed[]}
      */
     let regencies;
 
     beforeAll(async () => {
-      regencies = await IdnArea.regencies(true);
+      regencies = await IdnArea.regencies({ transform: true });
     });
 
     it('should be defined', () => {
       expect(regencies).toBeDefined();
     });
 
-    it('should equals with `getData(\'regencies\', true)`', async () => {
-      expect(regencies).toEqual(await IdnArea.getData('regencies', true));
+    it('should equals with `getData()` method', async () => {
+      expect(regencies).toEqual(await IdnArea.getData('regencies', { transform: true }));
     });
 
     it('should have valid transformed regency objects', async () => {

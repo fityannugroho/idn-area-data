@@ -11,7 +11,7 @@ describe('districts', () => {
     regencyCodes = (await IdnArea.regencies()).map((regency) => regency.code);
   });
 
-  describe('get all districts `districts()`', () => {
+  describe('get all districts', () => {
     /**
      * @type {IdnArea.District[]}
      */
@@ -25,7 +25,7 @@ describe('districts', () => {
       expect(districts).toBeDefined();
     });
 
-    it('should equals with `getData(\'districts\')`', async () => {
+    it('should equals with `getData()`', async () => {
       expect(districts).toEqual(await IdnArea.getData('districts'));
     });
 
@@ -48,22 +48,22 @@ describe('districts', () => {
     });
   });
 
-  describe('get all transformed districts `districts(true)`', () => {
+  describe('get all transformed districts', () => {
     /**
      * @type {IdnArea.DistrictTransformed[]}
      */
     let districts;
 
     beforeAll(async () => {
-      districts = await IdnArea.districts(true);
+      districts = await IdnArea.districts({ transform: true });
     });
 
     it('should be defined', () => {
       expect(districts).toBeDefined();
     });
 
-    it('should equals with `getData(\'districts\', true)`', async () => {
-      expect(districts).toEqual(await IdnArea.getData('districts', true));
+    it('should equals with `getData()` method', async () => {
+      expect(districts).toEqual(await IdnArea.getData('districts', { transform: true }));
     });
 
     it('should have valid transformed district objects', async () => {

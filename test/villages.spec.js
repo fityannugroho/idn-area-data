@@ -11,7 +11,7 @@ describe('villages', () => {
     districtCodes = (await IdnArea.districts()).map((district) => district.code);
   });
 
-  describe('get all villages `villages()`', () => {
+  describe('get all villages', () => {
     /**
      * @type {IdnArea.Village[]}
      */
@@ -25,7 +25,7 @@ describe('villages', () => {
       expect(villages).toBeDefined();
     });
 
-    it('should equals with `getData(\'villages\')`', async () => {
+    it('should equals with `getData()` method', async () => {
       expect(villages).toEqual(await IdnArea.getData('villages'));
     });
 
@@ -48,22 +48,22 @@ describe('villages', () => {
     });
   });
 
-  describe('get all transformed villages `villages(true)`', () => {
+  describe('get all transformed villages', () => {
     /**
      * @type {IdnArea.VillageTransformed[]}
      */
     let villages;
 
     beforeAll(async () => {
-      villages = await IdnArea.villages(true);
+      villages = await IdnArea.villages({ transform: true });
     });
 
     it('should be defined', () => {
       expect(villages).toBeDefined();
     });
 
-    it('should equals with `getData(\'villages\', true)`', async () => {
-      expect(villages).toEqual(await IdnArea.getData('villages', true));
+    it('should equals with `getData()` method', async () => {
+      expect(villages).toEqual(await IdnArea.getData('villages', { transform: true }));
     });
 
     it('should have valid transformed village objects', async () => {
