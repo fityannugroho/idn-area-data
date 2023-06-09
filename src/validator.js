@@ -14,6 +14,12 @@ const isStrNumber = (value, digits) => /^\d+$/.test(value) && (!digits || value.
 const isStrBoolean = (value) => ['true', 'false', '0', '1'].includes(value.toLowerCase());
 
 /**
+ * Check if the type of the value given is boolean.
+ * @param value The value to checked.
+ */
+const isBoolean = (value) => typeof value === 'boolean';
+
+/**
  * Check if the coordinate has valid DMS (degrees minutes seconds) format.
  *
  * Valid DMS format: `{a}°{b}'{c}" {y} {d}°{e}'{f}" {x}`
@@ -35,4 +41,6 @@ function isValidCoordinate(coordinate) {
   return regex.test(coordinate);
 }
 
-module.exports = { isStrNumber, isStrBoolean, isValidCoordinate };
+module.exports = {
+  isBoolean, isStrNumber, isStrBoolean, isValidCoordinate,
+};
