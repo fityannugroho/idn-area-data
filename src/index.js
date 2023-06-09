@@ -1,10 +1,72 @@
 const { join } = require('path');
 const CsvParser = require('./csv-parser');
 
-async function getData(area) {
+/**
+ * @type {Record<IdnArea.Areas, (header: string) => string>}
+ */
+const headerTransformer = {
+  regencies: (header) => {
+    switch (header) {
+      case 'province_code':
+        return 'provinceCode';
+      default:
+        return header;
+    }
+  },
+  districts: (header) => {
+    switch (header) {
+      case 'regency_code':
+        return 'regencyCode';
+      default:
+        return header;
+    }
+  },
+  villages: (header) => {
+    switch (header) {
+      case 'district_code':
+        return 'districtCode';
+      default:
+        return header;
+    }
+  },
+  islands: (header) => {
+    switch (header) {
+      case 'regency_code':
+        return 'regencyCode';
+      case 'is_populated':
+        return 'isPopulated';
+      case 'is_outermost_small':
+        return 'isOutermostSmall';
+      default:
+        return header;
+    }
+  },
+};
+
+/**
+ * @type {Record<IdnArea.Areas, (value: string, header: string) => string>}
+ */
+const valueTransformer = {
+  islands: (value, header) => {
+    switch (header) {
+      case headerTransformer.islands('is_populated'):
+        return !!parseInt(value, 10);
+      case headerTransformer.islands('is_outermost_small'):
+        return !!parseInt(value, 10);
+      default:
+        return value;
+    }
+  },
+};
+
+async function getData(area, transform = false) {
   const filePath = join(__dirname, `../data/${area}.csv`);
   const result = await CsvParser.parse(filePath, {
     header: true,
+    ...(transform && {
+      transformHeader: (header) => headerTransformer[area]?.(header) ?? header,
+      transform: (value, header) => valueTransformer[area]?.(value, header) ?? value,
+    }),
   });
 
   return result.data;
@@ -14,20 +76,20 @@ function provinces() {
   return getData('provinces');
 }
 
-function regencies() {
-  return getData('regencies');
+function regencies(transform = false) {
+  return getData('regencies', transform);
 }
 
-function districts() {
-  return getData('districts');
+function districts(transform = false) {
+  return getData('districts', transform);
 }
 
-function villages() {
-  return getData('villages');
+function villages(transform = false) {
+  return getData('villages', transform);
 }
 
-function islands() {
-  return getData('islands');
+function islands(transform = false) {
+  return getData('islands', transform);
 }
 
 module.exports = {
