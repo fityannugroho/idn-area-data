@@ -6,19 +6,21 @@
 
 Provides the administrative areas data of Indonesia, from the province, regency, district, to village levels based on the latest official sources.
 
-> **NEW!** [Islands data 🏝️](#get-all-islands) now available in version 1.3.0
+> **NEW!** [Islands data 🏝️](#islands) available in version 1.3.0 and higher.
 
 <h2>Table of Contents</h2>
 
 - [Prerequisite](#prerequisite)
 - [Installation](#installation)
 - [Usage](#usage)
-  - [Get all provinces](#get-all-provinces)
-  - [Get all regencies](#get-all-regencies)
-  - [Get all districts](#get-all-districts)
-  - [Get all villages](#get-all-villages)
-  - [Get all islands](#get-all-islands)
+- [Methods](#methods)
+  - [`provinces()`](#provinces)
+  - [`regencies()`](#regencies)
+  - [`districts()`](#districts)
+  - [`villages()`](#villages)
+  - [`islands()`](#islands)
   - [`getData()`](#getdata)
+- [Try it now](#try-it-now)
 - [Motivation](#motivation)
 - [Data](#data)
 - [Problem Reporting](#problem-reporting)
@@ -56,9 +58,13 @@ const IdnArea = require('idn-area-data');
 import IdnArea from 'idn-area-data';
 ```
 
-Then, you can get the data you need :
+Then, you can get the data you need using these methods below.
 
-### Get all provinces
+## Methods
+
+### `provinces()`
+
+Get all provinces data.
 
 ```js
 const provinces = await IdnArea.provinces();
@@ -69,12 +75,13 @@ const provinces = await IdnArea.provinces();
     code: '11',
     name: 'ACEH',
   },
-  ...
 ]
 */
 ```
 
-### Get all regencies
+### `regencies()`
+
+Get all regencies data.
 
 ```js
 const regencies = await IdnArea.regencies();
@@ -86,12 +93,29 @@ const regencies = await IdnArea.regencies();
     name: 'KABUPATEN ACEH SELATAN',
     province_code: '11',
   },
-  ...
 ]
 */
 ```
 
-### Get all districts
+If **`options.transform`** argument is `true`, the property naming will be changed from `snake_case` into **`camelCase`**.
+
+```js
+const regencies = await IdnArea.regencies({ transform: true });
+
+/*
+[
+  {
+    code: '1101',
+    name: 'KABUPATEN ACEH SELATAN',
+    provinceCode: '11',
+  },
+]
+*/
+```
+
+### `districts()`
+
+Get all districts data.
 
 ```js
 const districts = await IdnArea.districts();
@@ -103,12 +127,29 @@ const districts = await IdnArea.districts();
     name: 'BAKONGAN',
     regency_code: '1101',
   },
-  ...
 ]
 */
 ```
 
-### Get all villages
+If **`options.transform`** argument is `true`, the property naming will be changed from `snake_case` into **`camelCase`**.
+
+```js
+const districts = await IdnArea.districts({ transform: true });
+
+/*
+[
+  {
+    code: '110101',
+    name: 'BAKONGAN',
+    regencyCode: '1101',
+  },
+]
+*/
+```
+
+### `villages()`
+
+Get all villages data.
 
 ```js
 const villages = await IdnArea.villages();
@@ -120,12 +161,29 @@ const villages = await IdnArea.villages();
     district_code: '110101',
     name: 'KEUDE BAKONGAN',
   },
-  ...
 ]
 */
 ```
 
-### Get all islands
+If **`options.transform`** argument is `true`, the property naming will be changed from `snake_case` into **`camelCase`**.
+
+```js
+const villages = await IdnArea.villages({ transform: true });
+
+/*
+[
+  {
+    code: '1101012001',
+    districtCode: '110101',
+    name: 'KEUDE BAKONGAN',
+  },
+]
+*/
+```
+
+### `islands()`
+
+Get all islands data.
 
 ```js
 const islands = await IdnArea.islands();
@@ -140,7 +198,25 @@ const islands = await IdnArea.islands();
     is_populated: '0',
     regency_code: '1101',
   },
-  ...
+]
+*/
+```
+
+If **`options.transform`** argument is `true`, the property naming will be changed from `snake_case` into **`camelCase`** and the data type will be converted (for `boolean` and `number`).
+
+```js
+const islands = await IdnArea.islands({ transform: true });
+
+/*
+[
+  {
+    code: '110140001',
+    coordinate: '03°19'03.44" N 097°07'41.73" E',
+    name: 'Pulau Batukapal',
+    isOutermostSmall: false,
+    isPopulated: false,
+    regencyCode: '1101',
+  },
 ]
 */
 ```
@@ -156,6 +232,14 @@ const districts = await IdnArea.getData('districts');
 const villages = await IdnArea.getData('villages');
 const islands = await IdnArea.getData('islands');
 ```
+
+You also can put the `options` as the second argument :
+
+```js
+const regencies = await IdnArea.getData('regencies', { transform: true });
+```
+
+## Try it now
 
 You can try to run this package in the code playground :
 
