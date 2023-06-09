@@ -1,39 +1,101 @@
 const IdnArea = require('../src');
-const { isStrNumber, isValidCoordinate, isStrBoolean } = require('../src/validator');
+const {
+  isStrNumber, isValidCoordinate, isStrBoolean, isBoolean,
+} = require('../src/validator');
 
-describe('islands data', () => {
-  let islands = [];
+describe('islands', () => {
+  /**
+   * @type {string[]}
+   */
+  let regencyCodes;
 
   beforeAll(async () => {
-    islands = await IdnArea.islands();
+    regencyCodes = (await IdnArea.regencies()).map((regency) => regency.code);
   });
 
-  it('should be defined', () => {
-    expect(islands).toBeDefined();
+  describe('get all islands `islands()`', () => {
+    /**
+     * @type {IdnArea.Island[]}
+     */
+    let islands;
+
+    beforeAll(async () => {
+      islands = await IdnArea.islands();
+    });
+
+    it('should be defined', () => {
+      expect(islands).toBeDefined();
+    });
+
+    it('should equals with `getData(\'islands\')`', async () => {
+      expect(islands).toEqual(await IdnArea.getData('islands'));
+    });
+
+    it('should have valid island objects', async () => {
+      const validIslands = islands.filter((island) => (
+        isStrNumber(island.code, 9)
+        && (!island.regency_code || (
+          isStrNumber(island.regency_code, 4)
+          && regencyCodes.includes(island.regency_code)
+        ))
+        && isValidCoordinate(island.coordinate)
+        && isStrBoolean(island.is_populated)
+        && isStrBoolean(island.is_outermost_small)
+        && island.name
+      ));
+
+      expect(islands).toEqual(validIslands);
+      expect(validIslands.length).toBeGreaterThan(0);
+    });
+
+    it('should have unique codes', () => {
+      const codes = islands.map((island) => island.code);
+      const uniqueIds = [...new Set(codes)];
+
+      expect(codes).toEqual(uniqueIds);
+    });
   });
 
-  it('should have valid island object', async () => {
-    const regencyCodes = (await IdnArea.regencies()).map((regency) => regency.code);
-    const validIslands = islands.filter((island) => (
-      isStrNumber(island.code, 9)
-      && (!island.regency_code || (
-        isStrNumber(island.regency_code, 4)
-        && regencyCodes.includes(island.regency_code)
-      ))
-      && isValidCoordinate(island.coordinate)
-      && isStrBoolean(island.is_populated)
-      && isStrBoolean(island.is_outermost_small)
-      && island.name
-    ));
+  describe('get all transformed islands `islands(true)`', () => {
+    /**
+     * @type {IdnArea.IslandTransformed[]}
+     */
+    let islands;
 
-    expect(islands).toEqual(validIslands);
-    expect(validIslands.length).toBeGreaterThan(0);
-  });
+    beforeAll(async () => {
+      islands = await IdnArea.islands(true);
+    });
 
-  it('should have unique code', () => {
-    const codes = islands.map((island) => island.code);
-    const uniqueIds = [...new Set(codes)];
+    it('should be defined', () => {
+      expect(islands).toBeDefined();
+    });
 
-    expect(codes).toEqual(uniqueIds);
+    it('should equals with `getData(\'islands\', true)`', async () => {
+      expect(islands).toEqual(await IdnArea.getData('islands', true));
+    });
+
+    it('should have valid transformed island objects', async () => {
+      const validIslands = islands.filter((island) => (
+        isStrNumber(island.code, 9)
+        && (!island.regencyCode || (
+          isStrNumber(island.regencyCode, 4)
+          && regencyCodes.includes(island.regencyCode)
+        ))
+        && isValidCoordinate(island.coordinate)
+        && isBoolean(island.isPopulated)
+        && isBoolean(island.isOutermostSmall)
+        && island.name
+      ));
+
+      expect(islands).toEqual(validIslands);
+      expect(validIslands.length).toBeGreaterThan(0);
+    });
+
+    it('should have unique codes', () => {
+      const codes = islands.map((island) => island.code);
+      const uniqueIds = [...new Set(codes)];
+
+      expect(codes).toEqual(uniqueIds);
+    });
   });
 });

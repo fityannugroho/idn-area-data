@@ -1,40 +1,87 @@
 const IdnArea = require('../src');
 const { isStrNumber } = require('../src/validator');
 
-describe('villages data', () => {
-  let villages = [];
+describe('villages', () => {
+  /**
+   * @type {string[]}
+   */
+  let districtCodes;
 
   beforeAll(async () => {
-    villages = await IdnArea.villages();
+    districtCodes = (await IdnArea.districts()).map((district) => district.code);
   });
 
-  it('should be defined', () => {
-    expect(villages).toBeDefined();
+  describe('get all villages `villages()`', () => {
+    /**
+     * @type {IdnArea.Village[]}
+     */
+    let villages;
+
+    beforeAll(async () => {
+      villages = await IdnArea.villages();
+    });
+
+    it('should be defined', () => {
+      expect(villages).toBeDefined();
+    });
+
+    it('should equals with `getData(\'villages\')`', async () => {
+      expect(villages).toEqual(await IdnArea.getData('villages'));
+    });
+
+    it('should have valid village objects', async () => {
+      const validVillages = villages.filter((village) => (
+        isStrNumber(village.code, 10)
+        && districtCodes.includes(village.district_code)
+        && village.name
+      ));
+
+      expect(villages).toEqual(validVillages);
+      expect(validVillages.length).toBeGreaterThan(0);
+    });
+
+    it('should have unique codes', () => {
+      const codes = villages.map((village) => village.code);
+      const uniqueCodes = [...new Set(codes)];
+
+      expect(codes).toEqual(uniqueCodes);
+    });
   });
 
-  it('should have valid code (10 digits number)', () => {
-    const ids = villages.map((village) => village.code);
-    const validIds = ids.filter((id) => isStrNumber(id, 10));
+  describe('get all transformed villages `villages(true)`', () => {
+    /**
+     * @type {IdnArea.VillageTransformed[]}
+     */
+    let villages;
 
-    expect(ids).toEqual(validIds);
-    expect(validIds.length).toBeGreaterThan(0);
-  });
+    beforeAll(async () => {
+      villages = await IdnArea.villages(true);
+    });
 
-  it('should have unique code', () => {
-    const ids = villages.map((village) => village.code);
-    const uniqueIds = [...new Set(ids)];
+    it('should be defined', () => {
+      expect(villages).toBeDefined();
+    });
 
-    expect(ids).toEqual(uniqueIds);
-  });
+    it('should equals with `getData(\'villages\', true)`', async () => {
+      expect(villages).toEqual(await IdnArea.getData('villages', true));
+    });
 
-  it('should have valid district code', async () => {
-    const districtCodes = (await IdnArea.districts())
-      .map((district) => district.code).sort();
+    it('should have valid transformed village objects', async () => {
+      const validVillages = villages.filter((village) => (
+        isStrNumber(village.code, 10)
+        && districtCodes.includes(village.districtCode)
+        && village.name
+      ));
 
-    const uniqueVillageDistrictCodes = [
-      ...new Set(villages.map((village) => village.district_code)),
-    ].sort();
+      expect(villages).toEqual(validVillages);
+      expect(validVillages.length).toBeGreaterThan(0);
+    });
 
-    expect(uniqueVillageDistrictCodes).toEqual(districtCodes);
+    it('should have unique codes', () => {
+      const codes = villages.map((village) => village.code);
+      const uniqueCodes = [...new Set(codes)];
+
+      expect(codes).toEqual(uniqueCodes);
+    });
   });
 });

@@ -1,40 +1,87 @@
 const IdnArea = require('../src');
 const { isStrNumber } = require('../src/validator');
 
-describe('regencies data', () => {
-  let regencies = [];
+describe('regencies', () => {
+  /**
+   * @type {string[]}
+   */
+  let provinceCodes = [];
 
   beforeAll(async () => {
-    regencies = await IdnArea.regencies();
+    provinceCodes = (await IdnArea.provinces()).map((province) => province.code);
   });
 
-  it('should be defined', () => {
-    expect(regencies).toBeDefined();
+  describe('get all regencies `regencies()`', () => {
+    /**
+     * @type {IdnArea.Regency[]}
+     */
+    let regencies;
+
+    beforeAll(async () => {
+      regencies = await IdnArea.regencies();
+    });
+
+    it('should be defined', () => {
+      expect(regencies).toBeDefined();
+    });
+
+    it('should equals with `getData(\'regencies\')`', async () => {
+      expect(regencies).toEqual(await IdnArea.getData('regencies'));
+    });
+
+    it('should have valid regency objects', async () => {
+      const validRegencies = regencies.filter((regency) => (
+        isStrNumber(regency.code, 4)
+        && provinceCodes.includes(regency.province_code)
+        && regency.name
+      ));
+
+      expect(regencies).toEqual(validRegencies);
+      expect(validRegencies.length).toBeGreaterThan(0);
+    });
+
+    it('should have unique codes', () => {
+      const codes = regencies.map((regency) => regency.code);
+      const uniqueCodes = [...new Set(codes)];
+
+      expect(codes).toEqual(uniqueCodes);
+    });
   });
 
-  it('should have valid code (4 digits number)', () => {
-    const ids = regencies.map((regency) => regency.code);
-    const validIds = ids.filter((id) => isStrNumber(id, 4));
+  describe('get all transformed regencies `regencies(true)`', () => {
+    /**
+     * @type {IdnArea.RegencyTransformed[]}
+     */
+    let regencies;
 
-    expect(ids).toEqual(validIds);
-    expect(validIds.length).toBeGreaterThan(0);
-  });
+    beforeAll(async () => {
+      regencies = await IdnArea.regencies(true);
+    });
 
-  it('should have unique code', () => {
-    const ids = regencies.map((regency) => regency.code);
-    const uniqueIds = [...new Set(ids)];
+    it('should be defined', () => {
+      expect(regencies).toBeDefined();
+    });
 
-    expect(ids).toEqual(uniqueIds);
-  });
+    it('should equals with `getData(\'regencies\', true)`', async () => {
+      expect(regencies).toEqual(await IdnArea.getData('regencies', true));
+    });
 
-  it('should have valid province code', async () => {
-    const provinceCodes = (await IdnArea.provinces())
-      .map((province) => province.code).sort();
+    it('should have valid transformed regency objects', async () => {
+      const validRegencies = regencies.filter((regency) => (
+        isStrNumber(regency.code, 4)
+        && provinceCodes.includes(regency.provinceCode)
+        && regency.name
+      ));
 
-    const uniqueRegencyProvinceCodes = [
-      ...new Set(regencies.map((regency) => regency.province_code)),
-    ].sort();
+      expect(regencies).toEqual(validRegencies);
+      expect(validRegencies.length).toBeGreaterThan(0);
+    });
 
-    expect(uniqueRegencyProvinceCodes).toEqual(provinceCodes);
+    it('should have unique codes', () => {
+      const codes = regencies.map((regency) => regency.code);
+      const uniqueCodes = [...new Set(codes)];
+
+      expect(codes).toEqual(uniqueCodes);
+    });
   });
 });
