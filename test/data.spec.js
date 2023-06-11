@@ -47,6 +47,13 @@ validateCsvFile(path.join(__dirname, '../data/districts.csv'), {
   rowRegex: /^(\d{6})(?!\s),(?!\s)(\d{4})(?!\s),(?!\s)((?!')[A-Z0-9\-'./() ]+)$/,
 });
 
+validateCsvFile(path.join(__dirname, '../data/villages.csv'), {
+  tag: 'villages',
+  header: ['code', 'district_code', 'name'],
+  /* The regex is already tested in https://regex101.com/r/7FKCem */
+  rowRegex: /^(\d{10})(?!\s),(?!\s)(\d{6})(?!\s),(?!\s)((?!')[A-Z0-9\-'./() ]+)$/,
+});
+
 validateCsvFile(path.join(__dirname, '../data/islands.csv'), {
   tag: 'islands',
   header: [
