@@ -33,6 +33,13 @@ validateCsvFile(path.join(__dirname, '../data/provinces.csv'), {
   rowRegex: /^(\d{2})(?!\s),(?!\s)((?!PROVINSI)(?:[A-Z]| )+)$/,
 });
 
+validateCsvFile(path.join(__dirname, '../data/regencies.csv'), {
+  tag: 'regencies',
+  header: ['code', 'province_code', 'name'],
+  /* The regex is already tested in https://regex101.com/r/4iefT0 */
+  rowRegex: /^(\d{4})(?!\s),(?!\s)(\d{2})(?!\s),(?!\s)((?:KABUPATEN|KOTA)[A-Z ]+)$/,
+});
+
 validateCsvFile(path.join(__dirname, '../data/islands.csv'), {
   tag: 'islands',
   header: [
