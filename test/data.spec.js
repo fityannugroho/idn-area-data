@@ -26,6 +26,13 @@ const validateCsvFile = (filePath, options) => {
   });
 };
 
+validateCsvFile(path.join(__dirname, '../data/provinces.csv'), {
+  tag: 'provinces',
+  header: ['code', 'name'],
+  /* The regex is already tested in https://regex101.com/r/hw8PEP */
+  rowRegex: /^(\d{2})(?!\s),(?!\s)((?!PROVINSI)(?:[A-Z]| )+)$/,
+});
+
 validateCsvFile(path.join(__dirname, '../data/islands.csv'), {
   tag: 'islands',
   header: [
