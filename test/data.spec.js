@@ -30,7 +30,7 @@ validateCsvFile(path.join(__dirname, '../data/provinces.csv'), {
   tag: 'provinces',
   header: ['code', 'name'],
   /* The regex is already tested in https://regex101.com/r/hw8PEP */
-  rowRegex: /^(\d{2})(?!\s),(?!\s)((?!PROVINSI)(?:[A-Z]| )+)$/,
+  rowRegex: /^(\d{2})(?!\s),(?!\s)((?!PROVINSI)[A-Z ]+)$/,
 });
 
 validateCsvFile(path.join(__dirname, '../data/regencies.csv'), {
@@ -51,5 +51,5 @@ validateCsvFile(path.join(__dirname, '../data/islands.csv'), {
     'name',
   ],
   /* The regex is already tested in https://regex101.com/r/NoRXu9 */
-  rowRegex: /^(\d{4}4\d{4})(?!\s),(?!\s)(\d{4}|)(?!\s),(?!\s)((?:[0-8][0-9]|90)°(?:[0-5][0-9]|60)'(?:[0-5][0-9].[0-9]{2}|60.00)"\s[N|S]\s(?:0\d{2}|1(?:[0-7][0-9]|80))°(?:[0-5][0-9]|60)'(?:[0-5][0-9].[0-9]{2}|60.00)"\s[W|E])(?!\s),(?!\s)(0|1)(?!\s),(?!\s)(0|1)(?!\s),(?!\s)((?!')(?:[a-zA-Z0-9\-'/]| )+)$/,
+  rowRegex: /^(\d{4}4\d{4})(?!\s),(?!\s)(\d{4}|)(?!\s),(?!\s)((?:[0-8][0-9]|90)°(?:[0-5][0-9]|60)'(?:[0-5][0-9].[0-9]{2}|60.00)"\s[N|S]\s(?:0\d{2}|1(?:[0-7][0-9]|80))°(?:[0-5][0-9]|60)'(?:[0-5][0-9].[0-9]{2}|60.00)"\s[W|E])(?!\s),(?!\s)(0|1)(?!\s),(?!\s)(0|1)(?!\s),(?!\s)((?!')[a-zA-Z0-9\-'/ ]+)$/,
 });
