@@ -52,7 +52,7 @@ code,regency_code,coordinate,is_populated,is_outermost_small,name
 110640037,1106,05°39'28.73" N 095°09'30.26" E,0,0,Pulau Tengkorak
 110640038,1106,05°33'52.10" N 095°14'58.64" E,0,0,Pulau Tuan
 110640039,1106,05°40'18.81" N 095°02'20.16" E,0,0,Pulau Ujong Apui
-110640040,1106,05°13'23.91" N 095°14'28.35" E,0,1,Pulau Ujongriting
+110640040,1106,05°13'23.91" N 095°14'28.35" E,0,0,Pulau Ujongriting
 110640041,1106,05°40'16.06" N 095°02'16.81" E,0,0,Pulau Uu
 110640042,1106,05°45'18.48" N 095°00'42.64" E,0,0,Pulau Uuh
 110740001,1107,05°17'14.56" N 096°05'43.63" E,1,0,Pulau Busung
@@ -299,7 +299,7 @@ code,regency_code,coordinate,is_populated,is_outermost_small,name
 111440017,1114,04°44'14.33" N 095°29'45.42" E,0,0,Pulau Krumo
 111440018,1114,04°53'53.81" N 095°23'49.92" E,0,0,Pulau Lhok Geupaleeh
 111440019,1114,05°00'50.21" N 095°21'00.46" E,0,0,Pulau Lipan
-111440020,1114,04°52'34.11" N 095°21'51.00" E,1,1,Pulau Mane
+111440020,1114,04°52'34.11" N 095°21'51.00" E,1,0,Pulau Mane
 111440021,1114,04°43'22.00" N 095°30'13.00" E,0,0,Pulau Paling
 111440022,1114,04°36'38.99" N 095°34'56.69" E,0,0,Pulau Pasi
 111440023,1114,04°39'09.45" N 095°33'42.03" E,0,0,Pulau Pegasih
@@ -1390,7 +1390,7 @@ code,regency_code,coordinate,is_populated,is_outermost_small,name
 190240158,1902,02°32'50.25" S 107°40'18.23" E,0,0,Pulau Tukongkikmoi
 190240159,1902,03°16'18.33" S 107°43'54.99" E,0,0,Pulau Tupai
 190240160,1902,02°46'51.42" S 107°33'57.99" E,0,0,Pulau Ulatbulu
-190240161,1903,02°33'38.99" S 107°55'54.00" E,0,0,Pulau Umangkecil
+190240161,1902,02°33'38.99" S 107°55'54.00" E,0,0,Pulau Umangkecil
 190340001,1903,02°57'47.99" S 106°40'21.00" E,0,0,Pulau Anakaik
 190340002,1903,03°07'24.10" N 107°04'19.61" E,0,0,Pulau Baginda Selatan
 190340003,1903,03°07'06.93" S 107°04'39.08" E,0,0,Pulau Baginda Tengah
@@ -1913,7 +1913,7 @@ code,regency_code,coordinate,is_populated,is_outermost_small,name
 210140218,2101,00°46'39.00" N 104°36'28.00" E,1,0,Pulau Siolong
 210140219,2101,00°51'29.00" N 104°23'17.00" E,0,0,Pulau Sore
 210140220,2101,00°48'42.99" N 104°45'58.00" E,1,0,Pulau Suka
-210140221,2101,00°46'00.52" N 104°46'27.88" E,0,0,Pulau Sumpat
+210140221,2101,01°11'56.43" N 104°31'56.50" E,0,0,Pulau Sumpat
 210140222,2101,01°00'06.00" N 107°24'29.00" E,0,0,Pulau Tamban
 210140223,2101,01°11'01.67" N 104°27'51.41" E,0,0,Pulau Tanjungbintun
 210140224,2101,01°10'44.20" N 104°18'29.26" E,0,0,Pulau Tanjungbuntung Besar
