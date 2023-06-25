@@ -4,9 +4,9 @@
 [![npm downloads](https://img.shields.io/npm/dm/idn-area-data.svg)](https://www.npmjs.com/package/idn-area-data)
 [![GitHub license](https://img.shields.io/github/license/fityannugroho/idn-area-data.svg)](LICENSE)
 
-Provides the administrative areas data of Indonesia, from the province, regency, district, to village levels based on the latest official sources.
+Provides the administrative areas data of Indonesia, from the province, regency, district, to village levels based on the latest official sources. It also provides island data since version 1.3.0.
 
-> **NEW!** [Islands data 🏝️](#islands) available in version 1.3.0 and higher.
+> **New PAPUA provinces data** is available in version 2.0.0
 
 <h2>Table of Contents</h2>
 
