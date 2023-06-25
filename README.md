@@ -221,6 +221,8 @@ const islands = await IdnArea.islands({ transform: true });
 */
 ```
 
+> The `regencyCode` will be **`null`** if the island doesn't belong to any regency and the `transform` option is enabled.
+
 ### `getData()`
 
 You also can use `getData()` function to get the data by providing the `area` parameter.

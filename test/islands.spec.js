@@ -77,7 +77,7 @@ describe('islands', () => {
     it('should have valid transformed island objects', async () => {
       const validIslands = islands.filter((island) => (
         isStrNumber(island.code, 9)
-        && (!island.regencyCode || (
+        && (island.regencyCode === null || (
           isStrNumber(island.regencyCode, 4)
           && regencyCodes.includes(island.regencyCode)
         ))

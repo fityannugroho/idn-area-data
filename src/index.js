@@ -49,6 +49,8 @@ const headerTransformer = {
 const valueTransformer = {
   islands: (value, header) => {
     switch (header) {
+      case headerTransformer.islands('regency_code'):
+        return value || null;
       case headerTransformer.islands('is_populated'):
         return !!parseInt(value, 10);
       case headerTransformer.islands('is_outermost_small'):
@@ -72,8 +74,14 @@ async function getData(area, options) {
   const result = await CsvParser.parse(filePath, {
     header: true,
     ...(transform && {
-      transformHeader: (header) => headerTransformer[area]?.(header) ?? header,
-      transform: (value, header) => valueTransformer[area]?.(value, header) ?? value,
+      transformHeader: (header) => {
+        const transformer = headerTransformer[area];
+        return transformer ? transformer(header) : header;
+      },
+      transform: (value, header) => {
+        const transformer = valueTransformer[area];
+        return transformer ? transformer(value, header) : value;
+      },
     }),
   });
 
