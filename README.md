@@ -27,6 +27,7 @@ Provides the administrative areas data of Indonesia, from the province, regency,
   - [Reporting a Bug](#reporting-a-bug)
   - [Requesting a New Feature](#requesting-a-new-feature)
   - [Asking a Question](#asking-a-question)
+- [License](#license)
 
 ---
 
@@ -281,3 +282,10 @@ If you have a new feature in mind, please open a new issue following the guide [
 
 ### Asking a Question
 If you have a question, you can search for answers in the GitHub Discussions Q&A category [here](https://github.com/fityannugroho/idn-area-data/discussions/categories/q-a). If you don't find a relevant discussion already, you can open a new discussion.
+
+## License
+
+- This package and repository are licensed under the [MIT License](LICENSE).
+- All data that included in this package and repository are made available under the [Open Database License](data/LICENSE.md).
+
+These licenses apply to the current and previous versions, and apply to future versions until changed.
