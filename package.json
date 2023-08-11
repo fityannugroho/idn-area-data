@@ -3,6 +3,11 @@
   "version": "2.1.2",
   "description": "Indonesia administrative area data, based on the latest regulation",
   "main": "src/index.js",
+  "files": [
+    "data",
+    "docs",
+    "src"
+  ],
   "scripts": {
     "test": "jest",
     "test:cov": "jest --coverage",
