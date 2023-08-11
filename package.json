@@ -3,6 +3,11 @@
   "version": "2.1.2",
   "description": "Indonesia administrative area data, based on the latest regulation",
   "main": "src/index.js",
+  "files": [
+    "data",
+    "docs",
+    "src"
+  ],
   "scripts": {
     "test": "jest",
     "test:cov": "jest --coverage",
@@ -27,10 +32,10 @@
   },
   "homepage": "https://github.com/fityannugroho/idn-area-data#readme",
   "devDependencies": {
-    "eslint": "^8.45.0",
+    "eslint": "^8.46.0",
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.27.5",
-    "jest": "^29.5.0"
+    "eslint-plugin-import": "^2.28.0",
+    "jest": "^29.6.2"
   },
   "dependencies": {
     "papaparse": "^5.4.1"
