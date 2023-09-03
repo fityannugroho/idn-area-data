@@ -1,6 +1,6 @@
 {
   "name": "idn-area-data",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "Indonesia administrative area data, based on the latest regulation",
   "main": "src/index.js",
   "files": [
