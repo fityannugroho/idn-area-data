@@ -40,7 +40,7 @@ export type Island = {
   isOutermostSmall: boolean;
   isPopulated: boolean;
   name: string;
-  regencyCode: string;
+  regencyCode: string | null;
 };
 
 export type IslandCsv = ToCsv<Island,
@@ -175,6 +175,7 @@ export function getIslands<
       values: {
         is_populated: (value) => !!parseInt(value, 10),
         is_outermost_small: (value) => !!parseInt(value, 10),
+        regency_code: (value) => (value === '' ? null : value),
       },
     } : undefined,
   });

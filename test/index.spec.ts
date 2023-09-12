@@ -155,7 +155,9 @@ describe('getIslands', () => {
           isOutermostSmall: expect.any(Boolean) as boolean,
           isPopulated: expect.any(Boolean) as boolean,
           name: expect.not.stringMatching(/^$/) as string,
-          regencyCode: expect.stringMatching(regencyCodeRegex) as string,
+          regencyCode: typeof island.regencyCode === 'string'
+            ? expect.stringMatching(regencyCodeRegex) as string
+            : null,
         });
       });
     });
