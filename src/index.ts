@@ -1,4 +1,5 @@
-import { resolve } from 'node:path';
+import { dirname, resolve } from 'node:path';
+import { fileURLToPath } from 'node:url';
 import CsvParser from './csv-parser.js';
 
 type ToCsv<T, RemovedKeys extends string, NewKeys extends string> = {
@@ -109,7 +110,7 @@ function transformValue<A extends Areas>(
 }
 
 export async function getData<T, A extends Areas = Areas>(area: A, options?: BaseOptions<A>) {
-  const filePath = resolve(__dirname, `../data/${area}.csv`);
+  const filePath = resolve(dirname(fileURLToPath(import.meta.url)), `../data/${area}.csv`);
   const transformer = options?.transform;
 
   const result = await CsvParser.parse<T>(filePath, {
