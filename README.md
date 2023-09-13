@@ -4,22 +4,25 @@
 [![npm downloads](https://img.shields.io/npm/dm/idn-area-data.svg)](https://www.npmjs.com/package/idn-area-data)
 [![GitHub license](https://img.shields.io/github/license/fityannugroho/idn-area-data.svg)](LICENSE)
 
-Provides the administrative areas data of Indonesia, from the province, regency, district, to village levels based on the latest official sources. It also provides island data since version 1.3.0.
+Provides the administrative areas data of Indonesia, from the province, regency, district, to village levels based on the latest official sources. It also provides island data since version 1.3.0, and the **new PAPUA provinces data** since version 2.0.0.
 
-> **New PAPUA provinces data** is available in version 2.0.0
+> [!WARNING]
+> Since version 3.0.0, **idn-area-data** is published as ECMAScript Module (ESM).
 
 <h2>Table of Contents</h2>
 
 - [Prerequisite](#prerequisite)
 - [Installation](#installation)
 - [Usage](#usage)
+  - [ESM](#esm)
+  - [CommonJS](#commonjs)
 - [Methods](#methods)
-  - [`provinces()`](#provinces)
-  - [`regencies()`](#regencies)
-  - [`districts()`](#districts)
-  - [`villages()`](#villages)
-  - [`islands()`](#islands)
-  - [`getData()`](#getdata)
+  - [`getProvinces()`](#getprovinces)
+  - [`getRegencies(?options)`](#getregenciesoptions)
+  - [`getDistricts(?options)`](#getdistrictsoptions)
+  - [`getVillages(?options)`](#getvillagesoptions)
+  - [`getIslands(?options)`](#getislandsoptions)
+  - [`getData(area, ?options)`](#getdataarea-options)
 - [Try it now](#try-it-now)
 - [Motivation](#motivation)
 - [Data](#data)
@@ -33,8 +36,8 @@ Provides the administrative areas data of Indonesia, from the province, regency,
 
 ## Prerequisite
 
-- [Node.js](https://nodejs.org) (version 16 or higher)
-- [npm](https://www.npmjs.com) or [yarn](https://yarnpkg.com)
+- [Node.js](https://nodejs.org) (version 18 or higher)
+- [npm 9](https://www.npmjs.com) or [yarn](https://yarnpkg.com)
 
 ## Installation
 
@@ -50,25 +53,59 @@ yarn add idn-area-data
 
 ## Usage
 
-Import the package into your project :
+Import the package into your project as shown below.
+
+> [!NOTE]
+> The following code examples use [IIFE](https://developer.mozilla.org/en-US/docs/Glossary/IIFE) to run the asynchronous function. You also can use the [Promise `.then()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/then) instead.
+
+### ESM
+
+Import specific function only :
 
 ```js
-// CommonJS
-const IdnArea = require('idn-area-data');
-// or using ES6
-import IdnArea from 'idn-area-data';
+import { getProvinces } from 'idn-area-data';
+
+(async () => {
+  const provinces = await getProvinces();
+})();
+```
+
+Import the entire module :
+
+```js
+import * as IdnArea from 'idn-area-data';
+
+(async () => {
+  const provinces = await IdnArea.getProvinces();
+})();
+```
+
+### CommonJS
+
+Since version 3.0.0, **idn-area-data** is published as ECMAScript Module (ESM). So that, for CommonJS user, you need to import it using [dynamic import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/import) like this :
+
+```js
+(async () => {
+  const {getProvinces} = await import('idn-area-data');
+  const provinces = await getProvinces();
+})();
 ```
 
 Then, you can get the data you need using these methods below.
 
 ## Methods
 
-### `provinces()`
+### `getProvinces()`
 
-Get all provinces data.
+Asynchronous function to get all provinces data.
 
 ```js
-const provinces = await IdnArea.provinces();
+import { getProvinces } from 'idn-area-data';
+
+(async () => {
+  const provinces = await getProvinces();
+  console.log(provinces);
+})();
 
 /*
 [
@@ -76,16 +113,22 @@ const provinces = await IdnArea.provinces();
     code: '11',
     name: 'ACEH',
   },
+  ...
 ]
 */
 ```
 
-### `regencies()`
+### `getRegencies(?options)`
 
-Get all regencies data.
+Asynchronous function to get all regencies data
 
 ```js
-const regencies = await IdnArea.regencies();
+import { getRegencies } from 'idn-area-data';
+
+(async () => {
+  const regencies = await getRegencies();
+  console.log(regencies);
+})();
 
 /*
 [
@@ -94,6 +137,7 @@ const regencies = await IdnArea.regencies();
     name: 'KABUPATEN ACEH SELATAN',
     province_code: '11',
   },
+  ...
 ]
 */
 ```
@@ -101,8 +145,7 @@ const regencies = await IdnArea.regencies();
 If **`options.transform`** argument is `true`, the property naming will be changed from `snake_case` into **`camelCase`**.
 
 ```js
-const regencies = await IdnArea.regencies({ transform: true });
-
+const regencies = await getRegencies({ transform: true });
 /*
 [
   {
@@ -110,16 +153,22 @@ const regencies = await IdnArea.regencies({ transform: true });
     name: 'KABUPATEN ACEH SELATAN',
     provinceCode: '11',
   },
+  ...
 ]
 */
 ```
 
-### `districts()`
+### `getDistricts(?options)`
 
-Get all districts data.
+Asynchronous function to get all districts data.
 
 ```js
-const districts = await IdnArea.districts();
+import { getDistricts } from 'idn-area-data';
+
+(async () => {
+  const districts = await getDistricts();
+  console.log(districts);
+})();
 
 /*
 [
@@ -128,6 +177,7 @@ const districts = await IdnArea.districts();
     name: 'BAKONGAN',
     regency_code: '1101',
   },
+  ...
 ]
 */
 ```
@@ -135,8 +185,7 @@ const districts = await IdnArea.districts();
 If **`options.transform`** argument is `true`, the property naming will be changed from `snake_case` into **`camelCase`**.
 
 ```js
-const districts = await IdnArea.districts({ transform: true });
-
+const districts = await getDistricts({ transform: true });
 /*
 [
   {
@@ -144,16 +193,22 @@ const districts = await IdnArea.districts({ transform: true });
     name: 'BAKONGAN',
     regencyCode: '1101',
   },
+  ...
 ]
 */
 ```
 
-### `villages()`
+### `getVillages(?options)`
 
-Get all villages data.
+Asynchronous function to get all villages data.
 
 ```js
-const villages = await IdnArea.villages();
+import { getVillages } from 'idn-area-data';
+
+(async () => {
+  const villages = await getVillages();
+  console.log(villages);
+})();
 
 /*
 [
@@ -162,6 +217,7 @@ const villages = await IdnArea.villages();
     district_code: '110101',
     name: 'KEUDE BAKONGAN',
   },
+  ...
 ]
 */
 ```
@@ -169,8 +225,7 @@ const villages = await IdnArea.villages();
 If **`options.transform`** argument is `true`, the property naming will be changed from `snake_case` into **`camelCase`**.
 
 ```js
-const villages = await IdnArea.villages({ transform: true });
-
+const villages = await getVillages({ transform: true });
 /*
 [
   {
@@ -178,16 +233,22 @@ const villages = await IdnArea.villages({ transform: true });
     districtCode: '110101',
     name: 'KEUDE BAKONGAN',
   },
+  ...
 ]
 */
 ```
 
-### `islands()`
+### `getIslands(?options)`
 
-Get all islands data.
+Asynchronous function to get all islands data.
 
 ```js
-const islands = await IdnArea.islands();
+import { getIslands } from 'idn-area-data';
+
+(async () => {
+  const islands = await getIslands();
+  console.log(islands);
+})();
 
 /*
 [
@@ -199,15 +260,18 @@ const islands = await IdnArea.islands();
     is_populated: '0',
     regency_code: '1101',
   },
+  ...
 ]
 */
 ```
 
 If **`options.transform`** argument is `true`, the property naming will be changed from `snake_case` into **`camelCase`** and the data type will be converted (for `boolean` and `number`).
 
-```js
-const islands = await IdnArea.islands({ transform: true });
+> [!IMPORTANT]
+> The `regencyCode` will be **`null`** if the island doesn't belong to any regency and the `transform` option is enabled.
 
+```js
+const islands = await getIslands({ transform: true });
 /*
 [
   {
@@ -216,30 +280,80 @@ const islands = await IdnArea.islands({ transform: true });
     name: 'Pulau Batukapal',
     isOutermostSmall: false,
     isPopulated: false,
-    regencyCode: '1101',
+    regencyCode: '1101', <-- It will be `null` if the island doesn't belong to any regency
   },
+  ...
 ]
 */
 ```
 
-> The `regencyCode` will be **`null`** if the island doesn't belong to any regency and the `transform` option is enabled.
+### `getData(area, ?options)`
 
-### `getData()`
+If you need to **customize the attribute names or values of the data** yourself, you can use this asyncronous function and provide the data transformer configuration in `options.transform`.
 
-You also can use `getData()` function to get the data by providing the `area` parameter.
+To customize the attribute names, define the pair between the old attribute and the new attribute in `options.transform.headers`. The old attributes is equals to the CSV headers of each [data](#data).
 
-```js
-const provinces = await IdnArea.getData('provinces');
-const regencies = await IdnArea.getData('regencies');
-const districts = await IdnArea.getData('districts');
-const villages = await IdnArea.getData('villages');
-const islands = await IdnArea.getData('islands');
+To customize the attribute values, set the value transformer functions in `options.transform.values`.
+
+See the example below :
+
+```ts
+// .ts
+import { getData } from 'idn-area-data';
+
+// Define the custom type of the data
+type Provinsi = {
+  kode: number;
+  nama: string;
+};
+
+// Get the data
+(async () => {
+  const data = await getData<Provinsi>('provinces', {
+    transform: {
+      headers: {
+        code: 'kode',
+        name: 'nama',
+      },
+      values: {
+        code: (value) => parseInt(value),
+      },
+    },
+  });
+
+  console.log(data);
+})();
+
+/*
+[
+  {
+    kode: 11,
+    nama: 'ACEH',
+  },
+  ...
+]
+*/
 ```
 
-You also can put the `options` as the second argument :
-
 ```js
-const regencies = await IdnArea.getData('regencies', { transform: true });
+// .js
+import { getData } from 'idn-area-data';
+
+(async () => {
+  const data = await getData('provinces', {
+    transform: {
+      headers: {
+        code: 'kode',
+        name: 'nama',
+      },
+      values: {
+        code: (value) => parseInt(value),
+      },
+    },
+  });
+
+  console.log(data);
+})();
 ```
 
 ## Try it now

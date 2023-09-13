@@ -1,19 +1,59 @@
 {
     "env": {
-        "commonjs": true,
-        "es2021": true,
-        "node": true,
-        "jest": true
+        "node": true
     },
-    "extends": "airbnb-base",
+    "extends": [
+        "airbnb-base",
+        "airbnb-typescript/base",
+        "plugin:@typescript-eslint/strict-type-checked",
+        "plugin:@typescript-eslint/stylistic-type-checked"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "project": "./tsconfig.json",
+        "sourceType": "module",
+        "ecmaVersion": 2022
+    },
     "overrides": [
     ],
-    "parserOptions": {
-        "ecmaVersion": "latest"
-    },
+    "plugins": [
+        "@typescript-eslint/eslint-plugin",
+        "import"
+    ],
+    "root": true,
     "ignorePatterns": [
-        "node_modules"
+        "node_modules",
+        "lib"
     ],
     "rules": {
+        "@typescript-eslint/consistent-type-definitions": [
+            "error",
+            "type"
+        ],
+        "@typescript-eslint/no-unused-vars": "warn",
+        "max-len": [
+            "error",
+            {
+                "code": 100,
+                "ignoreRegExpLiterals": true
+            }
+        ],
+        "no-restricted-syntax": [
+            "error",
+            "ForInStatement",
+            "LabeledStatement",
+            "WithStatement"
+        ],
+        "import/no-extraneous-dependencies": [
+            "error",
+            {
+                "devDependencies": true
+            }
+        ],
+        "import/prefer-default-export": "off",
+        "import/extensions": [
+            "error",
+            "ignorePackages"
+        ]
     }
 }
