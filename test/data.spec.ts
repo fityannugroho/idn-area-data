@@ -70,8 +70,8 @@ validateCsvFile(path.join(__dirname, '../data/districts.csv'), {
 validateCsvFile(path.join(__dirname, '../data/villages.csv'), {
   tag: 'villages',
   header: ['code', 'district_code', 'name'],
-  /* The regex is already tested in https://regex101.com/r/7FKCem/2 */
-  rowRegex: /^(\d{10}),(\d{6}),(?!\s)((?!')[A-Z0-9\-'.\\/() ]+)$/,
+  /* The regex is already tested in https://regex101.com/r/7FKCem/3 */
+  rowRegex: /^(\d{10}),(\d{6}),(?!\s)((?!')[A-Z0-9\-'"’.*\\/() ]+)$/,
 });
 
 validateCsvFile(path.join(__dirname, '../data/islands.csv'), {
