@@ -63,15 +63,15 @@ validateCsvFile(path.join(__dirname, '../data/regencies.csv'), {
 validateCsvFile(path.join(__dirname, '../data/districts.csv'), {
   tag: 'districts',
   header: ['code', 'regency_code', 'name'],
-  /* The regex is already tested in https://regex101.com/r/cBkfxx/3 */
-  rowRegex: /^(\d{6}),(\d{4}),(?!\s)((?!')[a-zA-Z0-9\-'.\\/() ]+)$/,
+  /* The regex is already tested in https://regex101.com/r/cBkfxx/4 */
+  rowRegex: /^(\d{2}\.\d{2}\.\d{2}),(\d{4}),(?!\s)((?!')[a-zA-Z0-9\-'.\\/() ]+)$/,
 });
 
 validateCsvFile(path.join(__dirname, '../data/villages.csv'), {
   tag: 'villages',
   header: ['code', 'district_code', 'name'],
   /* The regex is already tested in https://regex101.com/r/7FKCem/5 */
-  rowRegex: /^(\d{2}\.\d{2}\.\d{2}\.\d{4}),(\d{6}),(?!\s)((?!'|")[a-zA-Z0-9\-'"’.*\\/() ]+)$/,
+  rowRegex: /^(\d{2}\.\d{2}\.\d{2}\.\d{4}),(\d{2}\.\d{2}\.\d{2}),(?!\s)((?!'|")[a-zA-Z0-9\-'"’.*\\/() ]+)$/,
 });
 
 validateCsvFile(path.join(__dirname, '../data/islands.csv'), {

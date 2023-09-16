@@ -83,7 +83,7 @@ describe('getDistricts', () => {
 
       districts.forEach((district) => {
         expect(district).toMatchObject({
-          code: expect.stringMatching(/^\d{6}$/) as string,
+          code: expect.stringMatching(/^\d{2}\.\d{2}\.\d{2}$/) as string,
           name: expect.stringMatching(/^[a-zA-Z0-9\-'.\\/() ]+$/) as string,
           regency_code: expect.stringMatching(regencyCodeRegex) as string,
         });
@@ -98,7 +98,7 @@ describe('getDistricts', () => {
 
       districts.forEach((district) => {
         expect(district).toMatchObject({
-          code: expect.stringMatching(/^\d{6}$/) as string,
+          code: expect.stringMatching(/^\d{2}\.\d{2}\.\d{2}$/) as string,
           name: expect.stringMatching(/^[a-zA-Z0-9\-'.\\/() ]+$/) as string,
           regencyCode: expect.stringMatching(regencyCodeRegex) as string,
         });
