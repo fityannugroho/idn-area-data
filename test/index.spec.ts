@@ -185,7 +185,7 @@ describe('getVillages', () => {
 
       villages.forEach((village) => {
         expect(village).toMatchObject({
-          code: expect.stringMatching(/^\d{10}$/) as string,
+          code: expect.stringMatching(/^\d{2}\.\d{2}\.\d{2}\.\d{4}$/) as string,
           name: expect.stringMatching(/^[a-zA-Z0-9\-'"’.*\\/() ]+$/) as string,
           district_code: expect.stringMatching(districtCodeRegex) as string,
         });
@@ -200,7 +200,7 @@ describe('getVillages', () => {
 
       villages.forEach((village) => {
         expect(village).toMatchObject({
-          code: expect.stringMatching(/^\d{10}$/) as string,
+          code: expect.stringMatching(/^\d{2}\.\d{2}\.\d{2}\.\d{4}$/) as string,
           name: expect.stringMatching(/^[a-zA-Z0-9\-'"’.*\\/() ]+$/) as string,
           districtCode: expect.stringMatching(districtCodeRegex) as string,
         });
