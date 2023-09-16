@@ -174,7 +174,7 @@ import { getDistricts } from 'idn-area-data';
 [
   {
     code: '110101',
-    name: 'BAKONGAN',
+    name: 'Bakongan',
     regency_code: '1101',
   },
   ...
@@ -190,7 +190,7 @@ const districts = await getDistricts({ transform: true });
 [
   {
     code: '110101',
-    name: 'BAKONGAN',
+    name: 'Bakongan',
     regencyCode: '1101',
   },
   ...
@@ -215,7 +215,7 @@ import { getVillages } from 'idn-area-data';
   {
     code: '1101012001',
     district_code: '110101',
-    name: 'KEUDE BAKONGAN',
+    name: 'Keude Bakongan',
   },
   ...
 ]
@@ -231,7 +231,7 @@ const villages = await getVillages({ transform: true });
   {
     code: '1101012001',
     districtCode: '110101',
-    name: 'KEUDE BAKONGAN',
+    name: 'Keude Bakongan',
   },
   ...
 ]
