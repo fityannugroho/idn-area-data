@@ -132,7 +132,7 @@ describe('getIslands', () => {
 
       islands.forEach((island) => {
         expect(island).toMatchObject({
-          code: expect.stringMatching(/^\d{9}$/) as string,
+          code: expect.stringMatching(/^\d{2}\.\d{2}\.4\d{4}$/) as string,
           coordinate: expect.stringMatching(coordinateRegex) as string,
           is_outermost_small: expect.stringMatching(/^(?:true|false|0|1)$/) as string,
           is_populated: expect.stringMatching(/^(?:true|false|0|1)$/) as string,
@@ -150,7 +150,7 @@ describe('getIslands', () => {
 
       islands.forEach((island) => {
         expect(island).toMatchObject({
-          code: expect.stringMatching(/^\d{9}$/) as string,
+          code: expect.stringMatching(/^\d{2}\.\d{2}\.4\d{4}$/) as string,
           coordinate: expect.stringMatching(coordinateRegex) as string,
           isOutermostSmall: expect.any(Boolean) as boolean,
           isPopulated: expect.any(Boolean) as boolean,
