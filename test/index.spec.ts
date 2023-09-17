@@ -38,7 +38,7 @@ describe('getRegencies', () => {
 
       regencies.forEach((regency) => {
         expect(regency).toMatchObject({
-          code: expect.stringMatching(/^\d{4}$/) as string,
+          code: expect.stringMatching(/^\d{2}\.\d{2}$/) as string,
           name: expect.stringMatching(/^(?:KABUPATEN|KOTA)[A-Z ]+$/) as string,
           province_code: expect.stringMatching(provinceCodeRegex) as string,
         });
@@ -53,7 +53,7 @@ describe('getRegencies', () => {
 
       regencies.forEach((regency) => {
         expect(regency).toMatchObject({
-          code: expect.stringMatching(/^\d{4}$/) as string,
+          code: expect.stringMatching(/^\d{2}\.\d{2}$/) as string,
           name: expect.stringMatching(/^(?:KABUPATEN|KOTA)[A-Z ]+$/) as string,
           provinceCode: expect.stringMatching(provinceCodeRegex) as string,
         });
