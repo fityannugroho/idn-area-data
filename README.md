@@ -12,6 +12,7 @@ Provides the administrative areas data of Indonesia, from the province, regency,
 <h2>Table of Contents</h2>
 
 - [Prerequisite](#prerequisite)
+- [Upgrading](#upgrading)
 - [Installation](#installation)
 - [Usage](#usage)
   - [ESM](#esm)
@@ -38,6 +39,10 @@ Provides the administrative areas data of Indonesia, from the province, regency,
 
 - [Node.js](https://nodejs.org) (version 18 or higher)
 - [npm 9](https://www.npmjs.com) or [yarn](https://yarnpkg.com)
+
+## Upgrading
+
+If you are upgrading from version 2 to version 3, please read the [upgrade guide](docs/upgrading/upgrade-to-v3.md).
 
 ## Installation
 

@@ -78,12 +78,12 @@ The `regency_code` also changes following the new format of regency's `code`.
 Several methods have been renamed, see in the table below.
 
 | Old Method | New Method |
-| --------------- | --------------- |
-| `provinces()`   | [`getProvinces()`](/README.md#getprovinces)  |
-| `regencies(?options)`   | [`getRegencies(?options)`](/README.md#getregenciesoptions)  |
-| `districts(?options)`   | [`getDistricts(?options)`](/README.md#getdistrictsoptions)  |
-| `villages(?options)`    | [`getVillages(?options)`](/README.md#getvillagesoptions)   |
-| `islands(?options)`     | [`getIslands(?options)`](/README.md#getislandsoptions)    |
+| ---------- | ---------- |
+| `provinces()` | [`getProvinces()`](/README.md#getprovinces) |
+| `regencies(?options)` | [`getRegencies(?options)`](/README.md#getregenciesoptions) |
+| `districts(?options)` | [`getDistricts(?options)`](/README.md#getdistrictsoptions) |
+| `villages(?options)` | [`getVillages(?options)`](/README.md#getvillagesoptions) |
+| `islands(?options)` | [`getIslands(?options)`](/README.md#getislandsoptions) |
 
 `baseOptions` now is the second parameter of [`getData(area, ?baseOptions)`](/README.md#getdataarea-options) method which is different with `options` parameter that used by other methods. See the differences below.
 
@@ -97,4 +97,77 @@ Several methods have been renamed, see in the table below.
   - `baseOptions.transform.headers` (object) - Define the pair of old headers and new headers. Default: `undefined`.
   - `baseOptions.transform.values` (object) - Define the value transformer function for each header. Default: `undefined`.
 
-> See the [documentation](/README.md#methods) for more details.
+> [!IMPORTANT]
+> The data returned by each method also changes according to the [data changes](#data-changes) described above. See the [documentation](/README.md#methods) for more details.
+
+## Tips
+
+### Get data with old format
+
+You can use the [`getData()`](/README.md#getdataarea-options) method to get the data in the same format as the previous version (version 2).
+
+Below is the example of how to get the islands data in the same format as version 2 using `getData()` method in version 3.
+
+```ts
+// .ts
+import { getData, Island, IslandCsv } from 'idn-area-data';
+
+(async () => {
+  // Equivalent to `islands()` in version 2
+  const islands1 = await getData<IslandCsv>('islands', {
+    transform: {
+      values: {
+        code: (value) => value.replaceAll('.', ''),
+        regency_code: (value) => value.replaceAll('.', ''),
+      },
+    }
+  });
+
+  console.log(islands1);
+  /*
+  [
+    {
+      code: '110140001',
+      coordinate: '03°19'03.44" N 097°07'41.73" E',
+      name: 'Pulau Batukapal',
+      is_outermost_small: '0',
+      is_populated: '0',
+      regency_code: '1101',
+    },
+    ...
+  ]
+  */
+
+  // Equivalent to `islands({ transform: true })` in version 2
+  const islands2 = await getData<Island>('islands', {
+    transform: {
+      headers: {
+        regency_code: 'regencyCode',
+        is_populated: 'isPopulated',
+        is_outermost_small: 'isOutermostSmall',
+      },
+      values: {
+        code: (value) => value.replaceAll('.', ''),
+        is_populated: (value) => !!parseInt(value),
+        is_outermost_small: (value) => !!parseInt(value),
+        regency_code: (value) => (value === '' ? null : value.replaceAll('.', '')),
+      },
+    }
+  });
+
+  console.log(islands2);
+  /*
+  [
+    {
+      code: '110140001',
+      coordinate: '03°19'03.44" N 097°07'41.73" E',
+      name: 'Pulau Batukapal',
+      isOutermostSmall: false,
+      isPopulated: false,
+      regencyCode: '1101', <-- It will be `null` if the island doesn't belong to any regency
+    },
+    ...
+  ]
+  */
+})();
+```
