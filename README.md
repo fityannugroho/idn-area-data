@@ -133,7 +133,7 @@ import { getRegencies } from 'idn-area-data';
 /*
 [
   {
-    code: '1101',
+    code: '11.01',
     name: 'KABUPATEN ACEH SELATAN',
     province_code: '11',
   },
@@ -149,7 +149,7 @@ const regencies = await getRegencies({ transform: true });
 /*
 [
   {
-    code: '1101',
+    code: '11.01',
     name: 'KABUPATEN ACEH SELATAN',
     provinceCode: '11',
   },
@@ -173,9 +173,9 @@ import { getDistricts } from 'idn-area-data';
 /*
 [
   {
-    code: '110101',
+    code: '11.01.01',
     name: 'Bakongan',
-    regency_code: '1101',
+    regency_code: '11.01',
   },
   ...
 ]
@@ -189,9 +189,9 @@ const districts = await getDistricts({ transform: true });
 /*
 [
   {
-    code: '110101',
+    code: '11.01.01',
     name: 'Bakongan',
-    regencyCode: '1101',
+    regencyCode: '11.01',
   },
   ...
 ]
@@ -213,8 +213,8 @@ import { getVillages } from 'idn-area-data';
 /*
 [
   {
-    code: '1101012001',
-    district_code: '110101',
+    code: '11.01.01.2001',
+    district_code: '11.01.01',
     name: 'Keude Bakongan',
   },
   ...
@@ -229,8 +229,8 @@ const villages = await getVillages({ transform: true });
 /*
 [
   {
-    code: '1101012001',
-    districtCode: '110101',
+    code: '11.01.01.2001',
+    districtCode: '11.01.01',
     name: 'Keude Bakongan',
   },
   ...
@@ -253,12 +253,12 @@ import { getIslands } from 'idn-area-data';
 /*
 [
   {
-    code: '110140001',
+    code: '11.01.40001',
     coordinate: '03°19'03.44" N 097°07'41.73" E',
     name: 'Pulau Batukapal',
     is_outermost_small: '0',
     is_populated: '0',
-    regency_code: '1101',
+    regency_code: '11.01',
   },
   ...
 ]
@@ -275,12 +275,12 @@ const islands = await getIslands({ transform: true });
 /*
 [
   {
-    code: '110140001',
+    code: '11.01.40001',
     coordinate: '03°19'03.44" N 097°07'41.73" E',
     name: 'Pulau Batukapal',
     isOutermostSmall: false,
     isPopulated: false,
-    regencyCode: '1101', <-- It will be `null` if the island doesn't belong to any regency
+    regencyCode: '11.01', <-- It will be `null` if the island doesn't belong to any regency
   },
   ...
 ]
