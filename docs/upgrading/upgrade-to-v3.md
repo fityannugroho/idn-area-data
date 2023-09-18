@@ -26,9 +26,18 @@ import * as IdnArea from 'idn-area-data';
 
 ## Data Changes
 
+In general, the data changes are only in the `code`, `name`, and `parent_code` fields. The `code` and `parent_code` fields are now written with the dot (`.`) just like the original code (see [issue #45](https://github.com/fityannugroho/idn-area-data/issues/45)). The district's and village's `name` now is written in original case instead of uppercase (see [issue #46](https://github.com/fityannugroho/idn-area-data/issues/46)). For more details, see the changes below.
+
+### Regencies
+
+The regency's `code` now is written with the dot (`.`) just like the original code. For example: `1101` changes to `11.01`.
+
 ### Districts
 
-The district name now is written in original case instead of **uppercase**. For example:
+The district's `code` now is written with the dot (`.`) just like the original code. For example: `1101010` changes to `11.01.01`.
+The `regency_code` also changes following the new format of regency's `code`.
+
+The district's `name` now is written in original case instead of uppercase. For example:
 
 - `BAKONGAN` changes to `Bakongan`
 - `KLUET UTARA` changes to `Kluet Utara`
@@ -36,12 +45,14 @@ The district name now is written in original case instead of **uppercase**. For 
 
 ### Villages
 
-The village name now is written in original case instead of **uppercase**. For example:
+The village's `code` now is written with the dot (`.`) just like the original code. For example: `1101010001` changes to `11.01.01.0001`. The `district_code` also changes following the new format of district's `code`.
+
+The village's `name` now is written in original case instead of uppercase. For example:
 
 - `KEUDE BAKONGAN` changes to `Keude Bakongan`
 - `UJONG XII` changes to `Ujong XII`
 
-Some characters are now allowed in village names, so that the village name can be written as it is instead of using the replacement character `'`. The allowed characters are:
+Some characters are now allowed in village's `name`, so that the village name can be written as it is instead of using the replacement character `'`. The allowed characters are:
 
 - `"` quotation mark (U+0022)
 
@@ -54,6 +65,11 @@ Some characters are now allowed in village names, so that the village name can b
 - `*` asterisk (U+002A)
 
   For example: `Teuw*` changed from `TEUW`
+
+### Islands
+
+The island's `code` now is written with the dot (`.`) just like the original code. For example: `110140001` changes to `11.01.40001`.
+The `regency_code` also changes following the new format of regency's `code`.
 
 > See the [data](/data) for more details.
 
