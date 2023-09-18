@@ -38,7 +38,7 @@ describe('getRegencies', () => {
 
       regencies.forEach((regency) => {
         expect(regency).toMatchObject({
-          code: expect.stringMatching(/^\d{4}$/) as string,
+          code: expect.stringMatching(/^\d{2}\.\d{2}$/) as string,
           name: expect.stringMatching(/^(?:KABUPATEN|KOTA)[A-Z ]+$/) as string,
           province_code: expect.stringMatching(provinceCodeRegex) as string,
         });
@@ -53,7 +53,7 @@ describe('getRegencies', () => {
 
       regencies.forEach((regency) => {
         expect(regency).toMatchObject({
-          code: expect.stringMatching(/^\d{4}$/) as string,
+          code: expect.stringMatching(/^\d{2}\.\d{2}$/) as string,
           name: expect.stringMatching(/^(?:KABUPATEN|KOTA)[A-Z ]+$/) as string,
           provinceCode: expect.stringMatching(provinceCodeRegex) as string,
         });
@@ -83,7 +83,7 @@ describe('getDistricts', () => {
 
       districts.forEach((district) => {
         expect(district).toMatchObject({
-          code: expect.stringMatching(/^\d{6}$/) as string,
+          code: expect.stringMatching(/^\d{2}\.\d{2}\.\d{2}$/) as string,
           name: expect.stringMatching(/^[a-zA-Z0-9\-'.\\/() ]+$/) as string,
           regency_code: expect.stringMatching(regencyCodeRegex) as string,
         });
@@ -98,7 +98,7 @@ describe('getDistricts', () => {
 
       districts.forEach((district) => {
         expect(district).toMatchObject({
-          code: expect.stringMatching(/^\d{6}$/) as string,
+          code: expect.stringMatching(/^\d{2}\.\d{2}\.\d{2}$/) as string,
           name: expect.stringMatching(/^[a-zA-Z0-9\-'.\\/() ]+$/) as string,
           regencyCode: expect.stringMatching(regencyCodeRegex) as string,
         });
@@ -132,7 +132,7 @@ describe('getIslands', () => {
 
       islands.forEach((island) => {
         expect(island).toMatchObject({
-          code: expect.stringMatching(/^\d{9}$/) as string,
+          code: expect.stringMatching(/^\d{2}\.\d{2}\.4\d{4}$/) as string,
           coordinate: expect.stringMatching(coordinateRegex) as string,
           is_outermost_small: expect.stringMatching(/^(?:true|false|0|1)$/) as string,
           is_populated: expect.stringMatching(/^(?:true|false|0|1)$/) as string,
@@ -150,7 +150,7 @@ describe('getIslands', () => {
 
       islands.forEach((island) => {
         expect(island).toMatchObject({
-          code: expect.stringMatching(/^\d{9}$/) as string,
+          code: expect.stringMatching(/^\d{2}\.\d{2}\.4\d{4}$/) as string,
           coordinate: expect.stringMatching(coordinateRegex) as string,
           isOutermostSmall: expect.any(Boolean) as boolean,
           isPopulated: expect.any(Boolean) as boolean,
@@ -185,7 +185,7 @@ describe('getVillages', () => {
 
       villages.forEach((village) => {
         expect(village).toMatchObject({
-          code: expect.stringMatching(/^\d{10}$/) as string,
+          code: expect.stringMatching(/^\d{2}\.\d{2}\.\d{2}\.\d{4}$/) as string,
           name: expect.stringMatching(/^[a-zA-Z0-9\-'"’.*\\/() ]+$/) as string,
           district_code: expect.stringMatching(districtCodeRegex) as string,
         });
@@ -200,7 +200,7 @@ describe('getVillages', () => {
 
       villages.forEach((village) => {
         expect(village).toMatchObject({
-          code: expect.stringMatching(/^\d{10}$/) as string,
+          code: expect.stringMatching(/^\d{2}\.\d{2}\.\d{2}\.\d{4}$/) as string,
           name: expect.stringMatching(/^[a-zA-Z0-9\-'"’.*\\/() ]+$/) as string,
           districtCode: expect.stringMatching(districtCodeRegex) as string,
         });
