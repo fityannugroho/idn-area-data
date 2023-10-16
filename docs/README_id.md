@@ -6,7 +6,7 @@
 
 Menyediakan data wilayah administratif di Indonesia, mulai dari tingkat provinsi, kabupaten, kecamatan, hingga desa berdasarkan sumber resmi terkini. Modul ini juga menyediakan data pulau sejak versi 1.3.0, dan **data provinsi PAPUA baru** sejak versi 2.0.0.
 
-> [!PERINGATAN]
+> [!WARNING]
 > Sejak versi 3.0.0, **idn-area-data** diterbitkan sebagai ECMAScript Module (ESM).
 
 <h2>Daftar Isi</h2>
