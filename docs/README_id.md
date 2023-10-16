@@ -60,7 +60,7 @@ yarn add idn-area-data
 
 Impor modul ini ke dalam proyek Anda seperti yang ditunjukkan di bawah ini. 
 
-> [!CATATAN]
+> [!NOTE]
 > Contoh kode berikut menggunakan [IIFE](https://developer.mozilla.org/en-US/docs/Glossary/IIFE) untuk menjalankan fungsi asinkron. Anda juga dapat menggunakan [Promise `.then()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/then).
 
 ### ESM
