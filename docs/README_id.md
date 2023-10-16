@@ -272,7 +272,7 @@ import { getIslands } from 'idn-area-data';
 
 Jika nilai dari **`options.transform`** adalah `true`, maka nama properti akan diubah dari `snake_case` menjadi **`camelCase`** dan tipe data akan dikonversi (untuk `boolean` dan `number`).
 
-> [!PENTING]
+> [!IMPORTANT]
 > `regencyCode` akan bernilai **`null`** jika pulau bukan merupakan bagian dari kabupaten manapun dan opsi `transform` diaktifkan.
 
 ```js
