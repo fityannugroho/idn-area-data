@@ -1,4 +1,4 @@
-<h1 align="">Data Wilayah Indonesia (<i>Indonesian Area Data</i>)</h1>
+<h1 align="">Data Wilayah Indonesia</h1>
 
 [![npm version](https://img.shields.io/npm/v/idn-area-data.svg)](https://www.npmjs.com/package/idn-area-data)
 [![npm downloads](https://img.shields.io/npm/dm/idn-area-data.svg)](https://www.npmjs.com/package/idn-area-data)
