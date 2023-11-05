@@ -9,32 +9,6 @@ Provides the administrative areas data of Indonesia, from the province, regency,
 > [!WARNING]
 > Since version 3.0.0, **idn-area-data** is published as ECMAScript Module (ESM).
 
-<h2>Table of Contents</h2>
-
-- [Prerequisite](#prerequisite)
-- [Upgrading](#upgrading)
-- [Installation](#installation)
-- [Usage](#usage)
-  - [ESM](#esm)
-  - [CommonJS](#commonjs)
-- [Methods](#methods)
-  - [`getProvinces()`](#getprovinces)
-  - [`getRegencies(?options)`](#getregenciesoptions)
-  - [`getDistricts(?options)`](#getdistrictsoptions)
-  - [`getVillages(?options)`](#getvillagesoptions)
-  - [`getIslands(?options)`](#getislandsoptions)
-  - [`getData(area, ?options)`](#getdataarea-options)
-- [Try it now](#try-it-now)
-- [Motivation](#motivation)
-- [Data](#data)
-- [Problem Reporting](#problem-reporting)
-  - [Reporting a Bug](#reporting-a-bug)
-  - [Requesting a New Feature](#requesting-a-new-feature)
-  - [Asking a Question](#asking-a-question)
-- [License](#license)
-
----
-
 ## Prerequisite
 
 - [Node.js](https://nodejs.org) (version 18 or higher)
@@ -61,7 +35,7 @@ yarn add idn-area-data
 Import the package into your project as shown below.
 
 > [!NOTE]
-> The following code examples use [IIFE](https://developer.mozilla.org/en-US/docs/Glossary/IIFE) to run the asynchronous function. You also can use the [Promise `.then()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/then) instead.
+> The following code examples use [top level await](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await#top_level_await) to run the asynchronous function. You also can use [IIFE](https://developer.mozilla.org/en-US/docs/Glossary/IIFE), [`.then()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/then), or run it inside anonther `async` function instead.
 
 ### ESM
 
@@ -70,9 +44,7 @@ Import specific function only :
 ```js
 import { getProvinces } from 'idn-area-data';
 
-(async () => {
-  const provinces = await getProvinces();
-})();
+const provinces = await getProvinces();
 ```
 
 Import the entire module :
@@ -80,9 +52,7 @@ Import the entire module :
 ```js
 import * as IdnArea from 'idn-area-data';
 
-(async () => {
-  const provinces = await IdnArea.getProvinces();
-})();
+const provinces = await IdnArea.getProvinces();
 ```
 
 ### CommonJS
@@ -90,10 +60,8 @@ import * as IdnArea from 'idn-area-data';
 Since version 3.0.0, **idn-area-data** is published as ECMAScript Module (ESM). So that, for CommonJS user, you need to import it using [dynamic import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/import) like this :
 
 ```js
-(async () => {
-  const {getProvinces} = await import('idn-area-data');
-  const provinces = await getProvinces();
-})();
+const {getProvinces} = await import('idn-area-data');
+const provinces = await getProvinces();
 ```
 
 Then, you can get the data you need using these methods below.
@@ -107,11 +75,8 @@ Asynchronous function to get all provinces data.
 ```js
 import { getProvinces } from 'idn-area-data';
 
-(async () => {
-  const provinces = await getProvinces();
-  console.log(provinces);
-})();
-
+const provinces = await getProvinces();
+console.log(provinces);
 /*
 [
   {
@@ -130,11 +95,8 @@ Asynchronous function to get all regencies data
 ```js
 import { getRegencies } from 'idn-area-data';
 
-(async () => {
-  const regencies = await getRegencies();
-  console.log(regencies);
-})();
-
+const regencies = await getRegencies();
+console.log(regencies);
 /*
 [
   {
@@ -170,11 +132,8 @@ Asynchronous function to get all districts data.
 ```js
 import { getDistricts } from 'idn-area-data';
 
-(async () => {
-  const districts = await getDistricts();
-  console.log(districts);
-})();
-
+const districts = await getDistricts();
+console.log(districts);
 /*
 [
   {
@@ -210,11 +169,8 @@ Asynchronous function to get all villages data.
 ```js
 import { getVillages } from 'idn-area-data';
 
-(async () => {
-  const villages = await getVillages();
-  console.log(villages);
-})();
-
+const villages = await getVillages();
+console.log(villages);
 /*
 [
   {
@@ -250,11 +206,8 @@ Asynchronous function to get all islands data.
 ```js
 import { getIslands } from 'idn-area-data';
 
-(async () => {
-  const islands = await getIslands();
-  console.log(islands);
-})();
-
+const islands = await getIslands();
+console.log(islands);
 /*
 [
   {
@@ -313,22 +266,19 @@ type Provinsi = {
 };
 
 // Get the data
-(async () => {
-  const data = await getData<Provinsi>('provinces', {
-    transform: {
-      headers: {
-        code: 'kode',
-        name: 'nama',
-      },
-      values: {
-        code: (value) => parseInt(value),
-      },
+const data = await getData<Provinsi>('provinces', {
+  transform: {
+    headers: {
+      code: 'kode',
+      name: 'nama',
     },
-  });
+    values: {
+      code: (value) => parseInt(value),
+    },
+  },
+});
 
-  console.log(data);
-})();
-
+console.log(data);
 /*
 [
   {
@@ -344,21 +294,17 @@ type Provinsi = {
 // .js
 import { getData } from 'idn-area-data';
 
-(async () => {
-  const data = await getData('provinces', {
-    transform: {
-      headers: {
-        code: 'kode',
-        name: 'nama',
-      },
-      values: {
-        code: (value) => parseInt(value),
-      },
+const data = await getData('provinces', {
+  transform: {
+    headers: {
+      code: 'kode',
+      name: 'nama',
     },
-  });
-
-  console.log(data);
-})();
+    values: {
+      code: (value) => parseInt(value),
+    },
+  },
+});
 ```
 
 ## Try it now
@@ -408,3 +354,9 @@ If you have a question, you can search for answers in the GitHub Discussions Q&A
 - All data that included in this package and repository are made available under the [Open Database License](data/LICENSE.md).
 
 These licenses apply to the current and previous versions, and apply to future versions until changed.
+
+## Support This Project
+
+**Give a ⭐️** if this project helped you!
+
+Also please consider supporting this project by **becoming a sponsor**. Your donation will help us to maintain and develop this project and provide you with better support.
