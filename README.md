@@ -57,7 +57,7 @@ const provinces = await IdnArea.getProvinces();
 Since version 3.0.0, **idn-area-data** is published as ECMAScript Module (ESM). So that, for CommonJS user, you need to import it using [dynamic import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/import) like this :
 
 ```js
-const {getProvinces} = await import('idn-area-data');
+const { getProvinces } = await import('idn-area-data');
 const provinces = await getProvinces();
 ```
 
