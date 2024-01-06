@@ -6593,36 +6593,6 @@ code,regency_code,name
 91.71.03,91.71,Abepura
 91.71.04,91.71,Muara Tami
 91.71.05,91.71,Heram
-92.01.01,92.01,Makbon
-92.01.04,92.01,Beraur
-92.01.05,92.01,Salawati
-92.01.06,92.01,Seget
-92.01.07,92.01,Aimas
-92.01.08,92.01,Klamono
-92.01.10,92.01,Sayosa
-92.01.12,92.01,Segun
-92.01.13,92.01,Mayamuk
-92.01.14,92.01,Salawati Selatan
-92.01.17,92.01,Klabot
-92.01.18,92.01,Klawak
-92.01.20,92.01,Maudus
-92.01.39,92.01,Mariat
-92.01.40,92.01,Klayili
-92.01.41,92.01,Klaso
-92.01.42,92.01,Moisegen
-92.01.43,92.01,Sorong
-92.01.44,92.01,Bagun
-92.01.45,92.01,Wemak
-92.01.46,92.01,Sunook
-92.01.47,92.01,Buk
-92.01.48,92.01,Saengkeduk
-92.01.49,92.01,Malabotom
-92.01.50,92.01,Konhir
-92.01.51,92.01,Klasafet
-92.01.52,92.01,Hobard
-92.01.53,92.01,Salawati Tengah
-92.01.54,92.01,Botain
-92.01.55,92.01,Sayosa Timur
 92.02.03,92.02,Warmare
 92.02.04,92.02,Prafi
 92.02.05,92.02,Masni
@@ -6649,45 +6619,6 @@ code,regency_code,name
 92.03.15,92.03,Kayauni
 92.03.16,92.03,Furwagi
 92.03.17,92.03,Tomage
-92.04.01,92.04,Teminabuan
-92.04.04,92.04,Inanwatan
-92.04.06,92.04,Sawiat
-92.04.09,92.04,Kokoda
-92.04.10,92.04,Moswaren
-92.04.11,92.04,Seremuk
-92.04.12,92.04,Wayer
-92.04.14,92.04,Kais
-92.04.15,92.04,Konda
-92.04.20,92.04,Matemani
-92.04.21,92.04,Kokoda Utara
-92.04.22,92.04,Saifi
-92.04.24,92.04,Fokour
-92.04.25,92.04,Salkma
-92.04.26,92.04,Kais Darat
-92.05.01,92.05,Misool (Misool Utara)
-92.05.02,92.05,Waigeo Utara
-92.05.03,92.05,Waigeo Selatan
-92.05.04,92.05,Salawati Utara
-92.05.05,92.05,Kepulauan Ayau
-92.05.06,92.05,Misool Timur
-92.05.07,92.05,Waigeo Barat
-92.05.08,92.05,Waigeo Timur
-92.05.09,92.05,Teluk Mayalibit
-92.05.10,92.05,Kofiau
-92.05.11,92.05,Meos Mansar
-92.05.13,92.05,Misool Selatan
-92.05.14,92.05,Warwarbomi
-92.05.15,92.05,Waigeo Barat Kepulauan
-92.05.16,92.05,Misool Barat
-92.05.17,92.05,Kepulauan Sembilan
-92.05.18,92.05,Kota Waisai
-92.05.19,92.05,Tiplol Mayalibit
-92.05.20,92.05,Batanta Utara
-92.05.21,92.05,Salawati Barat
-92.05.22,92.05,Salawati Tengah
-92.05.23,92.05,Supnin
-92.05.24,92.05,Ayau
-92.05.25,92.05,Batanta Selatan
 92.06.01,92.06,Bintuni
 92.06.02,92.06,Merdey
 92.06.03,92.06,Babo
@@ -6732,59 +6663,6 @@ code,regency_code,name
 92.08.05,92.08,Kambrau
 92.08.06,92.08,Teluk Arguni Bawah
 92.08.07,92.08,Yamor
-92.09.01,92.09,Fef
-92.09.02,92.09,Miyah
-92.09.03,92.09,Yembun
-92.09.04,92.09,Kwoor
-92.09.05,92.09,Sausapor
-92.09.06,92.09,Abun
-92.09.07,92.09,Syujak
-92.09.08,92.09,Moraid
-92.09.09,92.09,Kebar
-92.09.10,92.09,Amberbaken
-92.09.11,92.09,Senopi
-92.09.12,92.09,Mubrani
-92.09.13,92.09,Bikar
-92.09.14,92.09,Bamusbama
-92.09.15,92.09,Ases
-92.09.16,92.09,Miyah Selatan
-92.09.17,92.09,Ireres
-92.09.18,92.09,Tobouw
-92.09.19,92.09,Wilhem Roumbouts
-92.09.20,92.09,Tinggouw
-92.09.21,92.09,Kwesefo
-92.09.22,92.09,Mawabuan
-92.09.23,92.09,Kebar Timur
-92.09.24,92.09,Kebar Selatan
-92.09.25,92.09,Manekar
-92.09.26,92.09,Mpur
-92.09.27,92.09,Amberbaken Barat
-92.09.28,92.09,Kasi
-92.09.29,92.09,Selemkai
-92.10.01,92.10,Aifat
-92.10.02,92.10,Aifat Utara
-92.10.03,92.10,Aifat Timur
-92.10.04,92.10,Aifat Selatan
-92.10.05,92.10,Aitinyo Barat
-92.10.06,92.10,Aitinyo
-92.10.07,92.10,Aitinyo Utara
-92.10.08,92.10,Ayamaru
-92.10.09,92.10,Ayamaru Utara
-92.10.10,92.10,Ayamaru Timur
-92.10.11,92.10,Mare
-92.10.12,92.10,Aifat Timur Tengah
-92.10.13,92.10,Aifat Timur Jauh
-92.10.14,92.10,Aifat Timur Selatan
-92.10.15,92.10,Ayamaru Selatan
-92.10.16,92.10,Ayamaru Jaya
-92.10.17,92.10,Ayamaru Selatan Jaya
-92.10.18,92.10,Ayamaru Timur Selatan
-92.10.19,92.10,Ayamaru Utara Timur
-92.10.20,92.10,Ayamaru Tengah
-92.10.21,92.10,Ayamaru Barat
-92.10.22,92.10,Aitinyo Tengah
-92.10.23,92.10,Aitinyo Raya
-92.10.24,92.10,Mare Selatan
 92.11.01,92.11,Ransiki
 92.11.02,92.11,Oransbari
 92.11.03,92.11,Neney
@@ -6801,16 +6679,6 @@ code,regency_code,name
 92.12.08,92.12,Testega
 92.12.09,92.12,Minyambaouw
 92.12.10,92.12,Hingk
-92.71.01,92.71,Sorong
-92.71.02,92.71,Sorong Timur
-92.71.03,92.71,Sorong Barat
-92.71.04,92.71,Sorong Kepulauan
-92.71.05,92.71,Sorong Utara
-92.71.06,92.71,Sorong Manoi
-92.71.07,92.71,Sorong Kota
-92.71.08,92.71,Klaurung
-92.71.09,92.71,Malaimsimsa
-92.71.10,92.71,Maladum Mes
 93.01.01,93.01,Merauke
 93.01.02,93.01,Muting
 93.01.03,93.01,Okaba
@@ -7276,3 +7144,135 @@ code,regency_code,name
 95.08.30,95.08,Nenggeagin
 95.08.31,95.08,Krepkuri
 95.08.32,95.08,Pasir Putih
+96.01.01,96.01,Makbon
+96.01.02,96.01,Beraur
+96.01.03,96.01,Salawati
+96.01.04,96.01,Seget
+96.01.05,96.01,Aimas
+96.01.06,96.01,Klamono
+96.01.07,96.01,Sayosa
+96.01.08,96.01,Segun
+96.01.09,96.01,Mayamuk
+96.01.10,96.01,Salawati Selatan
+96.01.11,96.01,Klabot
+96.01.12,96.01,Klawak
+96.01.13,96.01,Maudus
+96.01.14,96.01,Mariat
+96.01.15,96.01,Klayili
+96.01.16,96.01,Klaso
+96.01.17,96.01,Moisegen
+96.01.18,96.01,Sorong
+96.01.19,96.01,Bagun
+96.01.20,96.01,Wemak
+96.01.21,96.01,Sunook
+96.01.22,96.01,Buk
+96.01.23,96.01,Saengkeduk
+96.01.24,96.01,Malabotom
+96.01.25,96.01,Konhir
+96.01.26,96.01,Klasafet
+96.01.27,96.01,Hobard
+96.01.28,96.01,Salawati Tengah
+96.01.29,96.01,Botain
+96.01.30,96.01,Sayosa Timur
+96.02.01,96.02,Teminabuan
+96.02.02,96.02,Inanwatan
+96.02.03,96.02,Sawiat
+96.02.04,96.02,Kokoda
+96.02.05,96.02,Moswaren
+96.02.06,96.02,Seremuk
+96.02.07,96.02,Wayer
+96.02.08,96.02,Kais
+96.02.09,96.02,Konda
+96.02.10,96.02,Matemani
+96.02.11,96.02,Kokoda Utara
+96.02.12,96.02,Saifi
+96.02.13,96.02,Fokour
+96.02.14,96.02,Salkma
+96.02.15,96.02,Kais Darat
+96.03.01,96.03,Misool (Misool Utara)
+96.03.02,96.03,Waigeo Utara
+96.03.03,96.03,Waigeo Selatan
+96.03.04,96.03,Salawati Utara
+96.03.05,96.03,Kepulauan Ayau
+96.03.06,96.03,Misool Timur
+96.03.07,96.03,Waigeo Barat
+96.03.08,96.03,Waigeo Timur
+96.03.09,96.03,Teluk Mayalibit
+96.03.10,96.03,Kofiau
+96.03.11,96.03,Meos Mansar
+96.03.12,96.03,Misool Selatan
+96.03.13,96.03,Warwarbomi
+96.03.14,96.03,Waigeo Barat Kepulauan
+96.03.15,96.03,Misool Barat
+96.03.16,96.03,Kepulauan Sembilan
+96.03.17,96.03,Kota Waisai
+96.03.18,96.03,Tiplol Mayalibit
+96.03.19,96.03,Batanta Utara
+96.03.20,96.03,Salawati Barat
+96.03.21,96.03,Salawati Tengah
+96.03.22,96.03,Supnin
+96.03.23,96.03,Ayau
+96.03.24,96.03,Batanta Selatan
+96.04.01,96.04,Fef
+96.04.02,96.04,Miyah
+96.04.03,96.04,Yembun
+96.04.04,96.04,Kwoor
+96.04.05,96.04,Sausapor
+96.04.06,96.04,Abun
+96.04.07,96.04,Syujak
+96.04.08,96.04,Moraid
+96.04.09,96.04,Kebar
+96.04.10,96.04,Amberbaken
+96.04.11,96.04,Senopi
+96.04.12,96.04,Mubrani
+96.04.13,96.04,Bikar
+96.04.14,96.04,Bamusbama
+96.04.15,96.04,Ases
+96.04.16,96.04,Miyah Selatan
+96.04.17,96.04,Ireres
+96.04.18,96.04,Tobouw
+96.04.19,96.04,Wilhem Roumbouts
+96.04.20,96.04,Tinggouw
+96.04.21,96.04,Kwesefo
+96.04.22,96.04,Mawabuan
+96.04.23,96.04,Kebar Timur
+96.04.24,96.04,Kebar Selatan
+96.04.25,96.04,Manekar
+96.04.26,96.04,Mpur
+96.04.27,96.04,Amberbaken Barat
+96.04.28,96.04,Kasi
+96.04.29,96.04,Selemkai
+96.05.01,96.05,Aifat
+96.05.02,96.05,Aifat Utara
+96.05.03,96.05,Aifat Timur
+96.05.04,96.05,Aifat Selatan
+96.05.05,96.05,Aitinyo Barat
+96.05.06,96.05,Aitinyo
+96.05.07,96.05,Aitinyo Utara
+96.05.08,96.05,Ayamaru
+96.05.09,96.05,Ayamaru Utara
+96.05.10,96.05,Ayamaru Timur
+96.05.11,96.05,Mare
+96.05.12,96.05,Aifat Timur Tengah
+96.05.13,96.05,Aifat Timur Jauh
+96.05.14,96.05,Aifat Timur Selatan
+96.05.15,96.05,Ayamaru Selatan
+96.05.16,96.05,Ayamaru Jaya
+96.05.17,96.05,Ayamaru Selatan Jaya
+96.05.18,96.05,Ayamaru Timur Selatan
+96.05.19,96.05,Ayamaru Utara Timur
+96.05.20,96.05,Ayamaru Tengah
+96.05.21,96.05,Ayamaru Barat
+96.05.22,96.05,Aitinyo Tengah
+96.05.23,96.05,Aitinyo Raya
+96.05.24,96.05,Mare Selatan
+96.71.01,96.71,Sorong
+96.71.02,96.71,Sorong Timur
+96.71.03,96.71,Sorong Barat
+96.71.04,96.71,Sorong Kepulauan
+96.71.05,96.71,Sorong Utara
+96.71.06,96.71,Sorong Manoi
+96.71.07,96.71,Sorong Kota
+96.71.08,96.71,Klaurung
+96.71.09,96.71,Malaimsimsa
+96.71.10,96.71,Maladum Mes
