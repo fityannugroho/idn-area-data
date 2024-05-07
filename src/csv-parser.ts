@@ -1,8 +1,11 @@
 import { createReadStream } from 'node:fs';
 import Papa from 'papaparse';
 
-export type ParserConfig = Omit<Papa.ParseLocalConfig, 'complete' | 'error' | 'transform'> & {
-  transform?(value: string, field: string | number): unknown
+export type ParserConfig = Omit<
+  Papa.ParseLocalConfig,
+  'complete' | 'error' | 'transform'
+> & {
+  transform?(value: string, field: string | number): unknown;
 };
 
 export default class CsvParser {
@@ -23,7 +26,9 @@ export default class CsvParser {
    * @param config The configuration for the parser.
    */
   static async parse<T = unknown>(path: string, config?: ParserConfig) {
-    const encoding = config?.encoding ? config.encoding as BufferEncoding : 'utf8';
+    const encoding = config?.encoding
+      ? (config.encoding as BufferEncoding)
+      : 'utf8';
     const sourceFile = createReadStream(path, encoding);
 
     return new Promise<Papa.ParseResult<T>>((resolve, reject) => {

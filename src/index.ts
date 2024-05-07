@@ -44,17 +44,29 @@ export type Island = {
   regencyCode: string | null;
 };
 
-export type IslandCsv = ToCsv<Island,
-'isOutermostSmall' | 'isPopulated' | 'regencyCode',
-'is_outermost_small' | 'is_populated' | 'regency_code'>;
+export type IslandCsv = ToCsv<
+  Island,
+  'isOutermostSmall' | 'isPopulated' | 'regencyCode',
+  'is_outermost_small' | 'is_populated' | 'regency_code'
+>;
 
-export type Areas = 'provinces' | 'regencies' | 'districts' | 'villages' | 'islands';
+export type Areas =
+  | 'provinces'
+  | 'regencies'
+  | 'districts'
+  | 'villages'
+  | 'islands';
 
-export type AreaHeaders<A extends Areas> = A extends 'provinces' ? keyof Province
-  : A extends 'regencies' ? keyof RegencyCsv
-    : A extends 'districts' ? keyof DistrictCsv
-      : A extends 'villages' ? keyof VillageCsv
-        : A extends 'islands' ? keyof IslandCsv
+export type AreaHeaders<A extends Areas> = A extends 'provinces'
+  ? keyof Province
+  : A extends 'regencies'
+    ? keyof RegencyCsv
+    : A extends 'districts'
+      ? keyof DistrictCsv
+      : A extends 'villages'
+        ? keyof VillageCsv
+        : A extends 'islands'
+          ? keyof IslandCsv
           : never;
 
 export type HeaderTransformer = {
@@ -78,7 +90,10 @@ export type BaseOptions<A extends Areas, Tr = Transformer<A>> = {
   transform?: Tr;
 };
 
-export type Options<A extends Areas, Tr extends boolean = false> = BaseOptions<A, Tr>;
+export type Options<A extends Areas, Tr extends boolean = false> = BaseOptions<
+  A,
+  Tr
+>;
 
 function transformValue<A extends Areas>(
   value: string,
@@ -104,13 +119,17 @@ function transformValue<A extends Areas>(
   }
 
   const transformFunction = transformer.values?.[headerKey as AreaHeaders<A>];
-  return transformFunction
-    ? transformFunction(value)
-    : value;
+  return transformFunction ? transformFunction(value) : value;
 }
 
-export async function getData<T, A extends Areas = Areas>(area: A, options?: BaseOptions<A>) {
-  const filePath = resolve(dirname(fileURLToPath(import.meta.url)), `../data/${area}.csv`);
+export async function getData<T, A extends Areas = Areas>(
+  area: A,
+  options?: BaseOptions<A>,
+) {
+  const filePath = resolve(
+    dirname(fileURLToPath(import.meta.url)),
+    `../data/${area}.csv`,
+  );
   const transformer = options?.transform;
 
   const result = await CsvParser.parse<T>(filePath, {
@@ -136,61 +155,69 @@ export function getProvinces() {
   return getData<Province>('provinces');
 }
 
-export function getRegencies<
-  Tr extends boolean = false,
->(options?: Options<'regencies', Tr>) {
+export function getRegencies<Tr extends boolean = false>(
+  options?: Options<'regencies', Tr>,
+) {
   return getData<Tr extends false ? RegencyCsv : Regency>('regencies', {
     ...options,
-    transform: options?.transform ? {
-      headers: {
-        province_code: 'provinceCode',
-      },
-    } : undefined,
+    transform: options?.transform
+      ? {
+          headers: {
+            province_code: 'provinceCode',
+          },
+        }
+      : undefined,
   });
 }
 
-export function getDistricts<
-  Tr extends boolean = false,
->(options?: Options<'districts', Tr>) {
+export function getDistricts<Tr extends boolean = false>(
+  options?: Options<'districts', Tr>,
+) {
   return getData<Tr extends false ? DistrictCsv : District>('districts', {
     ...options,
-    transform: options?.transform ? {
-      headers: {
-        regency_code: 'regencyCode',
-      },
-    } : undefined,
+    transform: options?.transform
+      ? {
+          headers: {
+            regency_code: 'regencyCode',
+          },
+        }
+      : undefined,
   });
 }
 
-export function getIslands<
-  Tr extends boolean = false,
->(options?: Options<'islands', Tr>) {
+export function getIslands<Tr extends boolean = false>(
+  options?: Options<'islands', Tr>,
+) {
   return getData<Tr extends false ? IslandCsv : Island>('islands', {
     ...options,
-    transform: options?.transform ? {
-      headers: {
-        is_outermost_small: 'isOutermostSmall',
-        is_populated: 'isPopulated',
-        regency_code: 'regencyCode',
-      },
-      values: {
-        is_populated: (value) => !!parseInt(value, 10),
-        is_outermost_small: (value) => !!parseInt(value, 10),
-        regency_code: (value) => (value === '' ? null : value),
-      },
-    } : undefined,
+    transform: options?.transform
+      ? {
+          headers: {
+            is_outermost_small: 'isOutermostSmall',
+            is_populated: 'isPopulated',
+            regency_code: 'regencyCode',
+          },
+          values: {
+            is_populated: (value) => !!parseInt(value, 10),
+            is_outermost_small: (value) => !!parseInt(value, 10),
+            regency_code: (value) => (value === '' ? null : value),
+          },
+        }
+      : undefined,
   });
 }
 
-export function getVillages<
-  Tr extends boolean = false,
->(options?: Options<'villages', Tr>) {
+export function getVillages<Tr extends boolean = false>(
+  options?: Options<'villages', Tr>,
+) {
   return getData<Tr extends false ? VillageCsv : Village>('villages', {
     ...options,
-    transform: options?.transform ? {
-      headers: {
-        district_code: 'districtCode',
-      },
-    } : undefined,
+    transform: options?.transform
+      ? {
+          headers: {
+            district_code: 'districtCode',
+          },
+        }
+      : undefined,
   });
 }

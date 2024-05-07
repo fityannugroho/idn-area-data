@@ -1,9 +1,7 @@
 {
   "compilerOptions": {
     "target": "ES2022",
-    "lib": [
-      "ES2022",
-    ],
+    "lib": ["ES2022"],
     "declaration": true,
     "declarationMap": true,
     "sourceMap": true,
@@ -15,14 +13,9 @@
     "skipLibCheck": true,
     "baseUrl": "./",
     "paths": {
-      "~/*": [
-        "src/*"
-      ],
+      "~/*": ["src/*"]
     },
-    "strict": true,
+    "strict": true
   },
-  "exclude": [
-    "node_modules",
-    "lib"
-  ]
+  "exclude": ["node_modules", "lib"]
 }

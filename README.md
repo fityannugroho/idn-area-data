@@ -316,15 +316,15 @@ This package is a solution that addresses the limitations of other existing pack
 
 1. Up-to-date and Government-Sourced Data
 
-    This package ensures that you have access to the most current Indonesian area data. We rely on official government sources, guaranteeing that the information provided is reliable and up-to-date.
+   This package ensures that you have access to the most current Indonesian area data. We rely on official government sources, guaranteeing that the information provided is reliable and up-to-date.
 
 1. Seamless Database Integration
 
-    This package offers data in a format that seamlessly integrates with various databases. Unlike other sources that provide data solely in SQL query or JSON, this package store the data sources in CSV and use JavaScript to parse it into an array. You can easily insert the data into any database by using database integration tools like [Prisma](https://www.prisma.io), [Sequelize](https://sequelize.org), [node-postgres](https://node-postgres.com), [mongodb](https://github.com/mongodb/node-mongodb-native), etc. This approach ensures compatibility with a wide range of databases.
+   This package offers data in a format that seamlessly integrates with various databases. Unlike other sources that provide data solely in SQL query or JSON, this package store the data sources in CSV and use JavaScript to parse it into an array. You can easily insert the data into any database by using database integration tools like [Prisma](https://www.prisma.io), [Sequelize](https://sequelize.org), [node-postgres](https://node-postgres.com), [mongodb](https://github.com/mongodb/node-mongodb-native), etc. This approach ensures compatibility with a wide range of databases.
 
 1. Easy Integration and Minimum Package Size
 
-    You just need to install this package as a dependency into your project, just like any other library or module. This package has minimal dependencies on other packages, with the majority of its size being attributed to the data source itself.
+   You just need to install this package as a dependency into your project, just like any other library or module. This package has minimal dependencies on other packages, with the majority of its size being attributed to the data source itself.
 
 ## Data
 
@@ -337,12 +337,15 @@ The data we used is based on official data from the government and stored in sep
 We have different channels for each problem, please use them by following these conditions :
 
 ### Reporting a Bug
+
 To report a bug, please open a new issue following the guide [here](CONTRIBUTING.md#submitting-an-issue).
 
 ### Requesting a New Feature
+
 If you have a new feature in mind, please open a new issue following the guide [here](CONTRIBUTING.md#submitting-an-issue).
 
 ### Asking a Question
+
 If you have a question, you can search for answers in the GitHub Discussions Q&A category [here](https://github.com/fityannugroho/idn-area-data/discussions/categories/q-a). If you don't find a relevant discussion already, you can open a new discussion.
 
 ## License

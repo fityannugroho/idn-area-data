@@ -21,22 +21,22 @@ What kind of change does this PR introduce?
 - [ ] Build related changes
 - [ ] CI related changes
 - [ ] Data change
-- [ ] *..... (describe the other type)*
+- [ ] _..... (describe the other type)_
 
 ## What is the current behavior?
 
 > Please describe the current behavior that you are modifying, or link to a relevant issue.
 
-Issue Number: *..... (put `N/A` if there are no relevant issue)*
+Issue Number: _..... (put `N/A` if there are no relevant issue)_
 
-*..... (explain here)*
+_..... (explain here)_
 
 ## What is the new behavior?
 
-*..... (explain here)*
+_..... (explain here)_
 
 ## Other information
 
 > For PR that includes `data change`, you MUST put **the official link to the related government regulations,** so we can review and make sure the data change is legally valid.
 
-*..... (explain here, or put `None`)*
+_..... (explain here, or put `None`)_
