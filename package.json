@@ -40,18 +40,18 @@
     "node": ">=18"
   },
   "devDependencies": {
-    "@types/node": "^20.10.6",
+    "@types/node": "^20.12.10",
     "@types/papaparse": "^5.3.14",
     "@typescript-eslint/eslint-plugin": "^6.13.2",
     "@typescript-eslint/parser": "^6.13.2",
-    "@vitest/coverage-v8": "^1.0.1",
+    "@vitest/coverage-v8": "^1.6.0",
     "eslint": "^8.55.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-airbnb-typescript": "^17.1.0",
     "eslint-plugin-import": "^2.29.1",
-    "tsup": "^8.0.1",
-    "typescript": "^5.3.3",
-    "vitest": "^1.0.1"
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5",
+    "vitest": "^1.6.0"
   },
   "dependencies": {
     "papaparse": "^5.4.1"
