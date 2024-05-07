@@ -102,6 +102,7 @@ Closes #123
 Before you submit an issue, please search the issue tracker, maybe an issue for your problem already exists and the discussion might inform you of workarounds readily available.
 
 You can report the issues by filling out the [new issue form](https://github.com/fityannugroho/idn-area-data/issues/new/choose). Please select the right form template:
+
 - **Bug Report**: if you found a bug in the source code.
 - **Feature Request**: if you want a new feature or enhancement.
 
@@ -115,47 +116,47 @@ Before you submit your Pull Request (PR) consider the following guidelines:
 
 1. Clone the repository
 
-    Use [`git clone`](https://www.git-scm.com/docs/git-clone) command, to clone this repository using HTTPS or SSH.
+   Use [`git clone`](https://www.git-scm.com/docs/git-clone) command, to clone this repository using HTTPS or SSH.
 
 1. Install the dependencies
 
-    Use `npm install` command, to install all the dependencies.
+   Use `npm install` command, to install all the dependencies.
 
-2. Make your changes in a new git branch:
+1. Make your changes in a new git branch:
 
-    ```shell
-    git checkout -b my-fix-branch master
-    ```
+   ```shell
+   git checkout -b my-fix-branch master
+   ```
 
-3. Create your patch, **including appropriate test cases**.
+1. Create your patch, **including appropriate test cases**.
 
-4. Make sure you follow our [Code Styles](#code-styles) and [Commit Message Guidelines](#commit-message-guidelines).
+1. Make sure you follow our [Code Styles](#code-styles) and [Commit Message Guidelines](#commit-message-guidelines).
 
-5. Run the test suite with this command below and ensure that all tests pass.
+1. Run the test suite with this command below and ensure that all tests pass.
 
-    ```shell
-    npm run test
-    ```
+   ```shell
+   npm run test
+   ```
 
-6. Commit your changes using a descriptive commit message that follows our [commit message conventions](#commit-message-guidelines). Adherence to these conventions is necessary because release notes are automatically generated from these messages.
+1. Commit your changes using a descriptive commit message that follows our [commit message conventions](#commit-message-guidelines). Adherence to these conventions is necessary because release notes are automatically generated from these messages.
 
-7. Push your branch to GitHub:
+1. Push your branch to GitHub:
 
-    ```shell
-    git push origin my-fix-branch
-    ```
+   ```shell
+   git push origin my-fix-branch
+   ```
 
-8.  In GitHub, send a pull request to `idn-area-data:main`.
+1. In GitHub, send a pull request to `idn-area-data:main`.
 
-9.  If we suggest changes then:
+1. If we suggest changes then:
 
-  - Make the required updates.
-  - Re-run the test suite to ensure tests are still passing.
-  - Rebase your branch and force push to your GitHub repository (this will update your Pull Request):
+- Make the required updates.
+- Re-run the test suite to ensure tests are still passing.
+- Rebase your branch and force push to your GitHub repository (this will update your Pull Request):
 
-    ```shell
-    git rebase master -i
-    git push -f
-    ```
+  ```shell
+  git rebase master -i
+  git push -f
+  ```
 
 That's it! Thank you for your contribution!

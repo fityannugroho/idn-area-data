@@ -77,13 +77,13 @@ The `regency_code` also changes following the new format of regency's `code`.
 
 Several methods have been renamed, see in the table below.
 
-| Old Method | New Method |
-| ---------- | ---------- |
-| `provinces()` | [`getProvinces()`](/README.md#getprovinces) |
+| Old Method            | New Method                                                 |
+| --------------------- | ---------------------------------------------------------- |
+| `provinces()`         | [`getProvinces()`](/README.md#getprovinces)                |
 | `regencies(?options)` | [`getRegencies(?options)`](/README.md#getregenciesoptions) |
 | `districts(?options)` | [`getDistricts(?options)`](/README.md#getdistrictsoptions) |
-| `villages(?options)` | [`getVillages(?options)`](/README.md#getvillagesoptions) |
-| `islands(?options)` | [`getIslands(?options)`](/README.md#getislandsoptions) |
+| `villages(?options)`  | [`getVillages(?options)`](/README.md#getvillagesoptions)   |
+| `islands(?options)`   | [`getIslands(?options)`](/README.md#getislandsoptions)     |
 
 `baseOptions` now is the second parameter of [`getData(area, ?baseOptions)`](/README.md#getdataarea-options) method which is different with `options` parameter that used by other methods. See the differences below.
 
@@ -120,7 +120,7 @@ import { getData, Island, IslandCsv } from 'idn-area-data';
         code: (value) => value.replaceAll('.', ''),
         regency_code: (value) => value.replaceAll('.', ''),
       },
-    }
+    },
   });
 
   console.log(islands1);
@@ -150,9 +150,10 @@ import { getData, Island, IslandCsv } from 'idn-area-data';
         code: (value) => value.replaceAll('.', ''),
         is_populated: (value) => !!parseInt(value),
         is_outermost_small: (value) => !!parseInt(value),
-        regency_code: (value) => (value === '' ? null : value.replaceAll('.', '')),
+        regency_code: (value) =>
+          value === '' ? null : value.replaceAll('.', ''),
       },
-    }
+    },
   });
 
   console.log(islands2);

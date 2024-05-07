@@ -1,8 +1,12 @@
+import { beforeAll, describe, expect, test } from 'vitest';
 import {
-  beforeAll, describe, expect, test,
-} from 'vitest';
-import {
-  IslandCsv, getData, getDistricts, getIslands, getProvinces, getRegencies, getVillages,
+  IslandCsv,
+  getData,
+  getDistricts,
+  getIslands,
+  getProvinces,
+  getRegencies,
+  getVillages,
 } from '~/index.js';
 
 describe('getProvinces', () => {
@@ -26,7 +30,9 @@ describe('getRegencies', () => {
     let provinceCodeRegex: RegExp;
 
     beforeAll(async () => {
-      const provinceCodes = (await getProvinces()).map((province) => province.code);
+      const provinceCodes = (await getProvinces()).map(
+        (province) => province.code,
+      );
       provinceCodeRegex = new RegExp(`^(?:${provinceCodes.join('|')})$`);
     });
 
@@ -61,7 +67,9 @@ describe('getRegencies', () => {
     });
 
     test('default (false)', async () => {
-      expect(await getRegencies()).toEqual(await getRegencies({ transform: false }));
+      expect(await getRegencies()).toEqual(
+        await getRegencies({ transform: false }),
+      );
     });
   });
 });
@@ -71,7 +79,9 @@ describe('getDistricts', () => {
     let regencyCodeRegex: RegExp;
 
     beforeAll(async () => {
-      const regencyCodes = (await getRegencies()).map((regency) => regency.code);
+      const regencyCodes = (await getRegencies()).map(
+        (regency) => regency.code,
+      );
       regencyCodeRegex = new RegExp(`^(?:${regencyCodes.join('|')})$`);
     });
 
@@ -106,7 +116,9 @@ describe('getDistricts', () => {
     });
 
     test('default (false)', async () => {
-      expect(await getDistricts()).toEqual(await getDistricts({ transform: false }));
+      expect(await getDistricts()).toEqual(
+        await getDistricts({ transform: false }),
+      );
     });
   });
 });
@@ -116,11 +128,14 @@ describe('getIslands', () => {
     /**
      * The regex is already tested in https://regex101.com/r/GQe8WT
      */
-    const coordinateRegex = /^([0-8][0-9]|90)°([0-5][0-9]|60)'(([0-5][0-9].[0-9]{2})|60.00)"\s(N|S)\s(0\d{2}|1([0-7][0-9]|80))°([0-5][0-9]|60)'(([0-5][0-9].[0-9]{2})|60.00)"\s(E|W)$/;
+    const coordinateRegex =
+      /^([0-8][0-9]|90)°([0-5][0-9]|60)'(([0-5][0-9].[0-9]{2})|60.00)"\s(N|S)\s(0\d{2}|1([0-7][0-9]|80))°([0-5][0-9]|60)'(([0-5][0-9].[0-9]{2})|60.00)"\s(E|W)$/;
     let regencyCodeRegex: RegExp;
 
     beforeAll(async () => {
-      const regencyCodes = (await getRegencies()).map((regency) => regency.code);
+      const regencyCodes = (await getRegencies()).map(
+        (regency) => regency.code,
+      );
       regencyCodeRegex = new RegExp(`^(?:${regencyCodes.join('|')}|)$`);
     });
 
@@ -134,7 +149,9 @@ describe('getIslands', () => {
         expect(island).toMatchObject({
           code: expect.stringMatching(/^\d{2}\.\d{2}\.4\d{4}$/) as string,
           coordinate: expect.stringMatching(coordinateRegex) as string,
-          is_outermost_small: expect.stringMatching(/^(?:true|false|0|1)$/) as string,
+          is_outermost_small: expect.stringMatching(
+            /^(?:true|false|0|1)$/,
+          ) as string,
           is_populated: expect.stringMatching(/^(?:true|false|0|1)$/) as string,
           name: expect.stringMatching(/^[a-zA-Z0-9\-'/ ]+$/) as string,
           regency_code: expect.stringMatching(regencyCodeRegex) as string,
@@ -155,15 +172,18 @@ describe('getIslands', () => {
           isOutermostSmall: expect.any(Boolean) as boolean,
           isPopulated: expect.any(Boolean) as boolean,
           name: expect.stringMatching(/^[a-zA-Z0-9\-'/ ]+$/) as string,
-          regencyCode: typeof island.regencyCode === 'string'
-            ? expect.stringMatching(regencyCodeRegex) as string
-            : null,
+          regencyCode:
+            typeof island.regencyCode === 'string'
+              ? (expect.stringMatching(regencyCodeRegex) as string)
+              : null,
         });
       });
     });
 
     test('default (false)', async () => {
-      expect(await getIslands()).toEqual(await getIslands({ transform: false }));
+      expect(await getIslands()).toEqual(
+        await getIslands({ transform: false }),
+      );
     });
   });
 });
@@ -173,7 +193,9 @@ describe('getVillages', () => {
     let districtCodeRegex: RegExp;
 
     beforeAll(async () => {
-      const districtCodes = (await getDistricts()).map((district) => district.code);
+      const districtCodes = (await getDistricts()).map(
+        (district) => district.code,
+      );
       districtCodeRegex = new RegExp(`^(?:${districtCodes.join('|')})$`);
     });
 
@@ -208,7 +230,9 @@ describe('getVillages', () => {
     });
 
     test('default (false)', async () => {
-      expect(await getVillages()).toEqual(await getVillages({ transform: false }));
+      expect(await getVillages()).toEqual(
+        await getVillages({ transform: false }),
+      );
     });
   });
 });
