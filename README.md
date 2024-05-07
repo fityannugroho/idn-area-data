@@ -5,6 +5,7 @@ Provides the administrative areas data of Indonesia (province, regency, district
 [![npm version](https://img.shields.io/npm/v/idn-area-data.svg)](https://www.npmjs.com/package/idn-area-data)
 [![npm downloads](https://img.shields.io/npm/dm/idn-area-data.svg)](https://www.npmjs.com/package/idn-area-data)
 [![GitHub license](https://img.shields.io/github/license/fityannugroho/idn-area-data.svg)](LICENSE)
+[![install size](https://packagephobia.com/badge?p=idn-area-data)](https://packagephobia.com/result?p=idn-area-data)
 
 ## Prerequisite
 
