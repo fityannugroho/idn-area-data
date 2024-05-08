@@ -9,6 +9,9 @@
     "data",
     "lib"
   ],
+  "workspaces": [
+    "./examples/*"
+  ],
   "scripts": {
     "test": "vitest run",
     "test:watch": "vitest",
