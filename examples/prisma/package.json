@@ -1,0 +1,27 @@
+{
+  "name": "idn-area-data-with-prisma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "prisma:generate": "prisma generate",
+    "db:migrate": "prisma migrate dev",
+    "db:rollback": "prisma migrate reset",
+    "db:seed": "prisma db seed",
+    "start": "tsx index.ts"
+  },
+  "prisma": {
+    "schema": "schema.prisma",
+    "seed": "tsx seed.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.13.0"
+  },
+  "devDependencies": {
+    "idn-area-data": "^3.1.1",
+    "prisma": "^5.13.0",
+    "tsx": "^4.9.3",
+    "typescript": "^5.4.5"
+  }
+}
