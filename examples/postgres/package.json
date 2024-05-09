@@ -1,0 +1,22 @@
+{
+  "name": "idn-area-data-usage-postgres",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "db:migrate": "tsx db/migration.ts",
+    "db:seed": "tsx db/seeder.ts",
+    "start": "tsx index.ts"
+  },
+  "devDependencies": {
+    "idn-area-data": "^3.1.1",
+    "tsx": "^4.9.3",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "postgres": "^3.4.4",
+    "zod": "^3.23.8"
+  }
+}
