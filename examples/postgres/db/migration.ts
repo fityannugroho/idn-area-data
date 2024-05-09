@@ -40,7 +40,7 @@ await sql`
 
 await sql`
   CREATE TABLE IF NOT EXISTS islands (
-    code VARCHAR(12),
+    code VARCHAR(11),
     regency_code VARCHAR(5) DEFAULT NULL,
     name VARCHAR(255) NOT NULL,
     coordinate VARCHAR(255) NOT NULL,

@@ -41,7 +41,7 @@ await pool.query(`
 
 await pool.query(`
   CREATE TABLE IF NOT EXISTS islands (
-    code VARCHAR(12),
+    code VARCHAR(11),
     regency_code VARCHAR(5),
     name VARCHAR(255) NOT NULL,
     coordinate VARCHAR(255) NOT NULL,
