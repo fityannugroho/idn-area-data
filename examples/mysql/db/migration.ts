@@ -31,7 +31,7 @@ await pool.query(`
 
 await pool.query(`
   CREATE TABLE IF NOT EXISTS villages (
-    code VARCHAR(10),
+    code VARCHAR(13),
     district_code VARCHAR(8) NOT NULL,
     name VARCHAR(255) NOT NULL,
     PRIMARY KEY (code),
