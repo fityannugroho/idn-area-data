@@ -1,0 +1,64 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Province {
+  code      String    @id @db.VarChar(2)
+  name      String
+  regencies Regency[]
+
+  @@map("provinces")
+}
+
+model Regency {
+  code         String     @id @db.VarChar(5)
+  provinceCode String     @map("province_code") @db.VarChar(2)
+  name         String
+  province     Province   @relation(fields: [provinceCode], references: [code])
+  districts    District[]
+  islands      Island[]
+
+  @@map("regencies")
+}
+
+model District {
+  code        String    @id @db.VarChar(8)
+  regencyCode String    @map("regency_code") @db.VarChar(5)
+  name        String
+  regency     Regency   @relation(fields: [regencyCode], references: [code])
+  villages    Village[]
+
+  @@map("districts")
+}
+
+model Village {
+  code         String   @id @db.VarChar(13)
+  districtCode String   @map("district_code") @db.VarChar(8)
+  name         String
+  district     District @relation(fields: [districtCode], references: [code])
+
+  @@map("villages")
+}
+
+model Island {
+  code             String   @id @db.VarChar(11)
+  regencyCode      String?  @map("regency_code") @db.VarChar(5)
+  name             String
+  coordinate       String
+  isOutermostSmall Boolean  @map("is_outermost_small")
+  isPopulated      Boolean  @map("is_populated")
+  regency          Regency? @relation(fields: [regencyCode], references: [code])
+
+  @@map("islands")
+}
