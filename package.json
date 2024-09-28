@@ -5,13 +5,8 @@
   "type": "module",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
-  "files": [
-    "data",
-    "lib"
-  ],
-  "workspaces": [
-    "./examples/*"
-  ],
+  "files": ["data", "lib"],
+  "workspaces": ["./examples/*"],
   "scripts": {
     "test": "vitest run",
     "test:watch": "vitest",
@@ -25,13 +20,7 @@
     "type": "git",
     "url": "git+https://github.com/fityannugroho/idn-area-data.git"
   },
-  "keywords": [
-    "idn-area",
-    "indonesia",
-    "wilayah",
-    "area",
-    "data"
-  ],
+  "keywords": ["idn-area", "indonesia", "wilayah", "area", "data"],
   "author": "fityannugroho <fityannugroho@gmail.com> (https://github.com/fityannugroho)",
   "license": "MIT",
   "bugs": {
@@ -44,13 +33,9 @@
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.2",
-    "@eslint/js": "^9.2.0",
     "@types/node": "^22.7.4",
     "@types/papaparse": "^5.3.14",
     "@vitest/coverage-v8": "^2.1.1",
-    "eslint": "^8.57.0",
-    "eslint-config-prettier": "^9.1.0",
-    "prettier": "^3.2.5",
     "tsup": "^8.3.0",
     "typescript": "^5.6.2",
     "typescript-eslint": "^7.8.0",
