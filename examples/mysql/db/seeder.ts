@@ -1,9 +1,9 @@
 import {
+  getDistricts,
+  getIslands,
   getProvinces,
   getRegencies,
-  getDistricts,
   getVillages,
-  getIslands,
 } from 'idn-area-data';
 import { pool } from '../utils/db.js';
 

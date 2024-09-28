@@ -32,9 +32,9 @@ function validateCsvFile(filePath: string, options: Options) {
     });
 
     it('should have valid rows format', () => {
-      data.forEach((row) => {
+      for (const row of data) {
         expect(row).toMatch(options.rowRegex);
-      });
+      }
     });
 
     it('should have unique rows ID', () => {
