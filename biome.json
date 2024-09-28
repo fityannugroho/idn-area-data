@@ -1,8 +1,9 @@
 {
   "$schema": "https://biomejs.dev/schemas/1.9.2/schema.json",
-  "files": {
-    "ignore": ["node_modules/**/*", "lib/**/*", "coverage/*/*"],
-    "include": ["src/**/*", "examples/**/*"]
+  "vcs": {
+    "enabled": true,
+    "clientKind": "git",
+    "useIgnoreFile": true
   },
   "formatter": {
     "enabled": true,
@@ -18,7 +19,7 @@
   "linter": {
     "enabled": true,
     "rules": {
-      "recommended": false,
+      "recommended": true,
       "complexity": {
         "noBannedTypes": "error",
         "noExtraBooleanCast": "error",
