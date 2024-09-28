@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "idn-area-data": "^3.1.1",
-    "tsx": "^4.9.3",
+    "tsx": "^4.19.1",
     "typescript": "^5.4.5"
   },
   "dependencies": {
