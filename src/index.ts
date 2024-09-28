@@ -198,8 +198,8 @@ export function getIslands<Tr extends boolean = false>(
             regency_code: 'regencyCode',
           },
           values: {
-            is_populated: (value) => !!parseInt(value, 10),
-            is_outermost_small: (value) => !!parseInt(value, 10),
+            is_populated: (value) => !!Number.parseInt(value, 10),
+            is_outermost_small: (value) => !!Number.parseInt(value, 10),
             regency_code: (value) => (value === '' ? null : value),
           },
         }

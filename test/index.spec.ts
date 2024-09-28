@@ -1,6 +1,6 @@
 import { beforeAll, describe, expect, test } from 'vitest';
 import {
-  IslandCsv,
+  type IslandCsv,
   getData,
   getDistricts,
   getIslands,
@@ -16,12 +16,12 @@ describe('getProvinces', () => {
     expect(provinces).toBeDefined();
     expect(provinces).not.toHaveLength(0);
 
-    provinces.forEach((province) => {
+    for (const province of provinces) {
       expect(province).toMatchObject({
         code: expect.stringMatching(/^\d{2}$/) as string,
         name: expect.stringMatching(/^(?!\s)(?!PROVINSI)[A-Z ]+$/) as string,
       });
-    });
+    }
   });
 });
 
@@ -42,13 +42,13 @@ describe('getRegencies', () => {
       expect(regencies).toBeDefined();
       expect(regencies).not.toHaveLength(0);
 
-      regencies.forEach((regency) => {
+      for (const regency of regencies) {
         expect(regency).toMatchObject({
           code: expect.stringMatching(/^\d{2}\.\d{2}$/) as string,
           name: expect.stringMatching(/^(?:KABUPATEN|KOTA)[A-Z ]+$/) as string,
           province_code: expect.stringMatching(provinceCodeRegex) as string,
         });
-      });
+      }
     });
 
     test('options.transform: true', async () => {
@@ -57,13 +57,13 @@ describe('getRegencies', () => {
       expect(regencies).toBeDefined();
       expect(regencies).not.toHaveLength(0);
 
-      regencies.forEach((regency) => {
+      for (const regency of regencies) {
         expect(regency).toMatchObject({
           code: expect.stringMatching(/^\d{2}\.\d{2}$/) as string,
           name: expect.stringMatching(/^(?:KABUPATEN|KOTA)[A-Z ]+$/) as string,
           provinceCode: expect.stringMatching(provinceCodeRegex) as string,
         });
-      });
+      }
     });
 
     test('default (false)', async () => {
@@ -91,13 +91,13 @@ describe('getDistricts', () => {
       expect(districts).toBeDefined();
       expect(districts).not.toHaveLength(0);
 
-      districts.forEach((district) => {
+      for (const district of districts) {
         expect(district).toMatchObject({
           code: expect.stringMatching(/^\d{2}\.\d{2}\.\d{2}$/) as string,
           name: expect.stringMatching(/^[a-zA-Z0-9\-'.\\/() ]+$/) as string,
           regency_code: expect.stringMatching(regencyCodeRegex) as string,
         });
-      });
+      }
     });
 
     test('options.transform: true', async () => {
@@ -106,13 +106,13 @@ describe('getDistricts', () => {
       expect(districts).toBeDefined();
       expect(districts).not.toHaveLength(0);
 
-      districts.forEach((district) => {
+      for (const district of districts) {
         expect(district).toMatchObject({
           code: expect.stringMatching(/^\d{2}\.\d{2}\.\d{2}$/) as string,
           name: expect.stringMatching(/^[a-zA-Z0-9\-'.\\/() ]+$/) as string,
           regencyCode: expect.stringMatching(regencyCodeRegex) as string,
         });
-      });
+      }
     });
 
     test('default (false)', async () => {
@@ -145,7 +145,7 @@ describe('getIslands', () => {
       expect(islands).toBeDefined();
       expect(islands).not.toHaveLength(0);
 
-      islands.forEach((island) => {
+      for (const island of islands) {
         expect(island).toMatchObject({
           code: expect.stringMatching(/^\d{2}\.\d{2}\.4\d{4}$/) as string,
           coordinate: expect.stringMatching(coordinateRegex) as string,
@@ -156,7 +156,7 @@ describe('getIslands', () => {
           name: expect.stringMatching(/^[a-zA-Z0-9\-'/ ]+$/) as string,
           regency_code: expect.stringMatching(regencyCodeRegex) as string,
         });
-      });
+      }
     });
 
     test('options.transform: true', async () => {
@@ -165,7 +165,7 @@ describe('getIslands', () => {
       expect(islands).toBeDefined();
       expect(islands).not.toHaveLength(0);
 
-      islands.forEach((island) => {
+      for (const island of islands) {
         expect(island).toMatchObject({
           code: expect.stringMatching(/^\d{2}\.\d{2}\.4\d{4}$/) as string,
           coordinate: expect.stringMatching(coordinateRegex) as string,
@@ -177,7 +177,7 @@ describe('getIslands', () => {
               ? (expect.stringMatching(regencyCodeRegex) as string)
               : null,
         });
-      });
+      }
     });
 
     test('default (false)', async () => {
@@ -205,13 +205,13 @@ describe('getVillages', () => {
       expect(villages).toBeDefined();
       expect(villages).not.toHaveLength(0);
 
-      villages.forEach((village) => {
+      for (const village of villages) {
         expect(village).toMatchObject({
           code: expect.stringMatching(/^\d{2}\.\d{2}\.\d{2}\.\d{4}$/) as string,
           name: expect.stringMatching(/^[a-zA-Z0-9\-'"’.*\\/() ]+$/) as string,
           district_code: expect.stringMatching(districtCodeRegex) as string,
         });
-      });
+      }
     });
 
     test('options.transform: true', async () => {
@@ -220,13 +220,13 @@ describe('getVillages', () => {
       expect(villages).toBeDefined();
       expect(villages).not.toHaveLength(0);
 
-      villages.forEach((village) => {
+      for (const village of villages) {
         expect(village).toMatchObject({
           code: expect.stringMatching(/^\d{2}\.\d{2}\.\d{2}\.\d{4}$/) as string,
           name: expect.stringMatching(/^[a-zA-Z0-9\-'"’.*\\/() ]+$/) as string,
           districtCode: expect.stringMatching(districtCodeRegex) as string,
         });
-      });
+      }
     });
 
     test('default (false)', async () => {
@@ -276,8 +276,8 @@ describe('getData', () => {
       const customIslands = await getData<CustomIsland>('islands', {
         transform: {
           values: {
-            is_populated: (value) => !!parseInt(value, 10),
-            is_outermost_small: (value) => !!parseInt(value, 10),
+            is_populated: (value) => !!Number.parseInt(value, 10),
+            is_outermost_small: (value) => !!Number.parseInt(value, 10),
           },
         },
       });
@@ -316,8 +316,8 @@ describe('getData', () => {
             name: 'nama',
           },
           values: {
-            is_populated: (value) => !!parseInt(value, 10),
-            is_outermost_small: (value) => !!parseInt(value, 10),
+            is_populated: (value) => !!Number.parseInt(value, 10),
+            is_outermost_small: (value) => !!Number.parseInt(value, 10),
           },
         },
       });
