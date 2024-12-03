@@ -1,0 +1,42 @@
+CREATE TABLE provinces(
+   code INTEGER  NOT NULL PRIMARY KEY 
+  ,name VARCHAR(26) NOT NULL
+);
+INSERT INTO provinces(code,name) VALUES (11,'ACEH');
+INSERT INTO provinces(code,name) VALUES (12,'SUMATERA UTARA');
+INSERT INTO provinces(code,name) VALUES (13,'SUMATERA BARAT');
+INSERT INTO provinces(code,name) VALUES (14,'RIAU');
+INSERT INTO provinces(code,name) VALUES (15,'JAMBI');
+INSERT INTO provinces(code,name) VALUES (16,'SUMATERA SELATAN');
+INSERT INTO provinces(code,name) VALUES (17,'BENGKULU');
+INSERT INTO provinces(code,name) VALUES (18,'LAMPUNG');
+INSERT INTO provinces(code,name) VALUES (19,'KEPULAUAN BANGKA BELITUNG');
+INSERT INTO provinces(code,name) VALUES (21,'KEPULAUAN RIAU');
+INSERT INTO provinces(code,name) VALUES (31,'DKI JAKARTA');
+INSERT INTO provinces(code,name) VALUES (32,'JAWA BARAT');
+INSERT INTO provinces(code,name) VALUES (33,'JAWA TENGAH');
+INSERT INTO provinces(code,name) VALUES (34,'DAERAH ISTIMEWA YOGYAKARTA');
+INSERT INTO provinces(code,name) VALUES (35,'JAWA TIMUR');
+INSERT INTO provinces(code,name) VALUES (36,'BANTEN');
+INSERT INTO provinces(code,name) VALUES (51,'BALI');
+INSERT INTO provinces(code,name) VALUES (52,'NUSA TENGGARA BARAT');
+INSERT INTO provinces(code,name) VALUES (53,'NUSA TENGGARA TIMUR');
+INSERT INTO provinces(code,name) VALUES (61,'KALIMANTAN BARAT');
+INSERT INTO provinces(code,name) VALUES (62,'KALIMANTAN TENGAH');
+INSERT INTO provinces(code,name) VALUES (63,'KALIMANTAN SELATAN');
+INSERT INTO provinces(code,name) VALUES (64,'KALIMANTAN TIMUR');
+INSERT INTO provinces(code,name) VALUES (65,'KALIMANTAN UTARA');
+INSERT INTO provinces(code,name) VALUES (71,'SULAWESI UTARA');
+INSERT INTO provinces(code,name) VALUES (72,'SULAWESI TENGAH');
+INSERT INTO provinces(code,name) VALUES (73,'SULAWESI SELATAN');
+INSERT INTO provinces(code,name) VALUES (74,'SULAWESI TENGGARA');
+INSERT INTO provinces(code,name) VALUES (75,'GORONTALO');
+INSERT INTO provinces(code,name) VALUES (76,'SULAWESI BARAT');
+INSERT INTO provinces(code,name) VALUES (81,'MALUKU');
+INSERT INTO provinces(code,name) VALUES (82,'MALUKU UTARA');
+INSERT INTO provinces(code,name) VALUES (91,'PAPUA');
+INSERT INTO provinces(code,name) VALUES (92,'PAPUA BARAT');
+INSERT INTO provinces(code,name) VALUES (93,'PAPUA SELATAN');
+INSERT INTO provinces(code,name) VALUES (94,'PAPUA TENGAH');
+INSERT INTO provinces(code,name) VALUES (95,'PAPUA PEGUNUNGAN');
+INSERT INTO provinces(code,name) VALUES (96,'PAPUA BARAT DAYA');
