@@ -4,15 +4,19 @@ This example shows how to use the `idn-area-data` package with MySQL using [`mys
 
 Database migration and seeding are provided (see [`db/migration.ts`](./db/migration.ts) and [`db/seeder.ts`](./db/seeder.ts)).
 
-In the project directory, you can run:
+- Install dependencies:
 
-- Database migration:
+  ```bash
+  npm install
+  ```
+
+- Run database migration:
 
   ```bash
   npm run db:migrate
   ```
 
-- Database seeding:
+- Run database seeding:
 
   ```bash
   npm run db:seed
