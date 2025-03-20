@@ -18,11 +18,15 @@ If you are upgrading from version 2 to version 3, please read the [upgrade guide
 
 ## Installation
 
+You can install this package via [npm](https://www.npmjs.com), [yarn](https://yarnpkg.com), or [pnpm](https://pnpm.io) (pnpm is recommended).
+
+```pnpm
+pnpm add idn-area-data
+```
+
 ```bash
 npm install --save idn-area-data
 ```
-
-Use this for **yarn** user :
 
 ```bash
 yarn add idn-area-data
