@@ -2,15 +2,19 @@
 
 This example shows how to use the `idn-area-data` package with PostgreSQL database using [`Prisma` ORM](https://www.prisma.io/docs).
 
-In the project directory, you can run:
+- Install dependencies:
 
-- Database migration:
+  ```bash
+  npm install
+  ```
+
+- Run database migration:
 
   ```bash
   npm run db:migrate
   ```
 
-- Database seeding:
+- Run database seeding:
 
   ```bash
   npm run db:seed
