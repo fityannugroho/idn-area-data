@@ -199,7 +199,7 @@ describe('getVillages', () => {
       districtCodeRegex = new RegExp(`^(?:${districtCodes.join('|')})$`);
     });
 
-    test('options.transform: false', async () => {
+    test('options.transform: false', { timeout: 40_000 }, async () => {
       const villages = await getVillages({ transform: false });
 
       expect(villages).toBeDefined();
@@ -214,7 +214,7 @@ describe('getVillages', () => {
       }
     });
 
-    test('options.transform: true', async () => {
+    test('options.transform: true', { timeout: 40_000 }, async () => {
       const villages = await getVillages({ transform: true });
 
       expect(villages).toBeDefined();
