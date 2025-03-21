@@ -14,17 +14,16 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # Install pnpm
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
       # Setup Node.js and pnpm
       - uses: actions/setup-node@v4
         with:
           node-version: '18.x'
           registry-url: 'https://registry.npmjs.org'
-
-      # Install pnpm
-      - uses: pnpm/action-setup@v4
-        with:
-          version: 8
-          run_install: false
 
       # Get pnpm store directory for caching
       - name: Get pnpm store directory
