@@ -8,6 +8,9 @@ on:
         description: 'Version to publish (optional)'
         required: false
         type: string
+
+run-name: Publish ${{ inputs.version || github.event.release.tag_name }}
+
 jobs:
   build:
     runs-on: ubuntu-latest
