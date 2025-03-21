@@ -5,11 +5,11 @@ on:
   workflow_dispatch:
     inputs:
       version:
-        description: 'Version to publish (optional)'
-        required: false
+        description: 'Version to publish'
+        required: true
         type: string
 
-run-name: Publish ${{ inputs.version || github.event.release.tag_name }}
+run-name: Publish ${{ github.event.release.tag_name || inputs.version }}
 
 jobs:
   build:
@@ -44,6 +44,6 @@ jobs:
             ${{ runner.os }}-pnpm-store-
 
       - run: pnpm install --frozen-lockfile
-      - run: pnpm publish
+      - run: pnpm publish --tag ${{ github.event.release.tag_name || inputs.version }}
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
