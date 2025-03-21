@@ -31,15 +31,15 @@
     "node": ">=18"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.9.2",
-    "@types/node": "^22.7.4",
-    "@types/papaparse": "^5.3.14",
-    "@vitest/coverage-v8": "^2.1.1",
-    "tsup": "^8.3.0",
-    "typescript": "^5.6.2",
-    "vitest": "^2.1.1"
+    "@biomejs/biome": "1.9.4",
+    "@types/node": "^22.13.10",
+    "@types/papaparse": "^5.3.15",
+    "@vitest/coverage-v8": "^3.0.9",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.2",
+    "vitest": "^3.0.9"
   },
   "dependencies": {
-    "papaparse": "^5.4.1"
+    "papaparse": "^5.5.2"
   }
 }

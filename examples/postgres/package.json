@@ -11,12 +11,12 @@
   },
   "devDependencies": {
     "idn-area-data": "^3.1.1",
-    "tsx": "^4.19.1",
-    "typescript": "^5.4.5"
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
   },
   "dependencies": {
-    "dotenv": "^16.4.5",
-    "postgres": "^3.4.4",
-    "zod": "^3.23.8"
+    "dotenv": "^16.4.7",
+    "postgres": "^3.4.5",
+    "zod": "^3.24.2"
   }
 }
