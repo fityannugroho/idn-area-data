@@ -1,12 +1,12 @@
 import { beforeAll, describe, expect, test } from 'vitest';
 import {
-  type IslandCsv,
   getData,
   getDistricts,
   getIslands,
   getProvinces,
   getRegencies,
   getVillages,
+  type IslandCsv,
 } from '~/index.js';
 
 describe('getProvinces', () => {

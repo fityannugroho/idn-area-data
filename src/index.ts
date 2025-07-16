@@ -106,7 +106,7 @@ function transformValue<A extends Areas>(
   let headerKey: string = header;
 
   // Check if there is a transformation function for the header
-  if (!Object.prototype.hasOwnProperty.call(transformer.values ?? {}, header)) {
+  if (!Object.hasOwn(transformer.values ?? {}, header)) {
     const headerEntries = Object.entries(transformer.headers ?? {});
 
     // If there's no transformation function, check if `tHeader` is the new header name
