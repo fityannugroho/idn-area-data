@@ -8,9 +8,9 @@ code,regency_code,name
 11.01.07,11.01,Sawang
 11.01.08,11.01,Tapaktuan
 11.01.09,11.01,Trumon
-11.01.10,11.01,Pasi Raja
-11.01.11,11.01,Labuhan Haji Timur
-11.01.12,11.01,Labuhan Haji Barat
+11.01.10,11.01,Pasie Raja
+11.01.11,11.01,Labuhanhaji Timur
+11.01.12,11.01,Labuhanhaji Barat
 11.01.13,11.01,Kluet Tengah
 11.01.14,11.01,Kluet Timur
 11.01.15,11.01,Bakongan Timur
@@ -142,7 +142,7 @@ code,regency_code,name
 11.08.11,11.08,Syamtalira Bayu
 11.08.12,11.08,Tanah Luas
 11.08.13,11.08,Tanah Pasir
-11.08.14,11.08,T. Jambo Aye
+11.08.14,11.08,Tanah Jambo Aye
 11.08.15,11.08,Sawang
 11.08.16,11.08,Nisam
 11.08.17,11.08,Cot Girek
@@ -150,10 +150,10 @@ code,regency_code,name
 11.08.19,11.08,Baktiya Barat
 11.08.20,11.08,Paya Bakong
 11.08.21,11.08,Nibong
-11.08.22,11.08,Simpang Kramat
+11.08.22,11.08,Simpang Keuramat
 11.08.23,11.08,Lapang
-11.08.24,11.08,Pirak Timur
-11.08.25,11.08,Geuredong Pase
+11.08.24,11.08,Pirak Timu
+11.08.25,11.08,Geureudong Pase
 11.08.26,11.08,Banda Baro
 11.08.27,11.08,Nisam Antara
 11.09.01,11.09,Simeulue Tengah
@@ -311,13 +311,13 @@ code,regency_code,name
 12.01.20,12.01,Sarudik
 12.02.01,12.02,Tarutung
 12.02.02,12.02,Siatas Barita
-12.02.03,12.02,Adian Koting
+12.02.03,12.02,Adiankoting
 12.02.04,12.02,Sipoholon
 12.02.05,12.02,Pahae Julu
 12.02.06,12.02,Pahae Jae
 12.02.07,12.02,Simangumban
-12.02.08,12.02,Purba Tua
-12.02.09,12.02,Siborong-Borong
+12.02.08,12.02,Purbatua
+12.02.09,12.02,Siborongborong
 12.02.10,12.02,Pagaran
 12.02.11,12.02,Parmonangan
 12.02.12,12.02,Sipahutar
@@ -396,10 +396,10 @@ code,regency_code,name
 12.07.05,12.07,Pancur Batu
 12.07.06,12.07,Namo Rambe
 12.07.07,12.07,Biru-Biru
-12.07.08,12.07,STM Hilir
+12.07.08,12.07,Sinembah Tanjung Muda Hilir
 12.07.09,12.07,Bangun Purba
 12.07.19,12.07,Galang
-12.07.20,12.07,STM Hulu
+12.07.20,12.07,Sinembah Tanjung Muda Hulu
 12.07.21,12.07,Patumbak
 12.07.22,12.07,Deli Tua
 12.07.23,12.07,Sunggal
@@ -428,7 +428,7 @@ code,regency_code,name
 12.08.15,12.08,Haranggaol Horisan
 12.08.16,12.08,Girsang Sipangan Bolon
 12.08.17,12.08,Dolok Batu Nanggar
-12.08.18,12.08,Huta Bayu Raja
+12.08.18,12.08,Hutabayu Raja
 12.08.19,12.08,Jawa Maraja Bah Jambi
 12.08.20,12.08,Dolok Pardamean
 12.08.21,12.08,Pematang Bandar
@@ -436,7 +436,7 @@ code,regency_code,name
 12.08.23,12.08,Bandar
 12.08.24,12.08,Bandar Masilam
 12.08.25,12.08,Silimakuta
-12.08.26,12.08,Dolok Silou
+12.08.26,12.08,Dolok Silao
 12.08.27,12.08,Silou Kahean
 12.08.28,12.08,Tapian Dolok
 12.08.29,12.08,Raya
@@ -777,7 +777,7 @@ code,regency_code,name
 13.03.04,13.03,Sijunjung
 13.03.05,13.03,IV Nagari
 13.03.06,13.03,Kamang Baru
-13.03.07,13.03,Lubuak Tarok
+13.03.07,13.03,Lubuk Tarok
 13.03.08,13.03,Koto VII
 13.03.09,13.03,Sumpur Kudus
 13.03.10,13.03,Kupitan
@@ -795,23 +795,23 @@ code,regency_code,name
 13.04.12,13.04,Tanjuang Baru
 13.04.13,13.04,Lintau Buo Utara
 13.04.14,13.04,Batipuah Selatan
-13.05.01,13.05,Lubuk Alung
+13.05.01,13.05,Lubuak Aluang
 13.05.02,13.05,Batang Anai
 13.05.03,13.05,Nan Sabaris
-13.05.04,13.05,2 x 11 Enam Lingkuang
-13.05.05,13.05,VII Koto Sungai Sarik
-13.05.06,13.05,V Koto Kampung Dalam
-13.05.07,13.05,Sungai Garingging
+13.05.04,13.05,2 x 11 Anam Lingkuang
+13.05.05,13.05,VII Koto
+13.05.06,13.05,V Koto
+13.05.07,13.05,Sungai Garinggiang
 13.05.08,13.05,Sungai Limau
-13.05.09,13.05,IV Koto Aur Malintang
+13.05.09,13.05,IV Koto Aua Malintang
 13.05.10,13.05,Ulakan Tapakih
 13.05.11,13.05,Sintuak Toboh Gadang
-13.05.12,13.05,Padang Sago
+13.05.12,13.05,VII Koto Padang Sago
 13.05.13,13.05,Batang Gasan
 13.05.14,13.05,V Koto Timur
 13.05.15,13.05,2 x 11 Kayu Tanam
-13.05.16,13.05,Patamuan
-13.05.17,13.05,Enam Lingkung
+13.05.16,13.05,Koto Patamuan
+13.05.17,13.05,Anam Lingkuang
 13.06.01,13.06,Tanjung Mutiara
 13.06.02,13.06,Lubuk Basung
 13.06.03,13.06,Tanjung Raya
@@ -949,9 +949,9 @@ code,regency_code,name
 14.02.03,14.02,Kelayang
 14.02.04,14.02,Pasir Penyu
 14.02.05,14.02,Peranap
-14.02.06,14.02,Siberida
+14.02.06,14.02,Seberida
 14.02.07,14.02,Batang Cenaku
-14.02.08,14.02,Batang Gangsal
+14.02.08,14.02,Batang Gansal
 14.02.09,14.02,Lirik
 14.02.10,14.02,Kuala Cenaku
 14.02.11,14.02,Sungai Lala
@@ -1076,7 +1076,7 @@ code,regency_code,name
 14.71.01,14.71,Sukajadi
 14.71.02,14.71,Pekanbaru Kota
 14.71.03,14.71,Sail
-14.71.04,14.71,Lima Puluh
+14.71.04,14.71,Limapuluh
 14.71.05,14.71,Senapelan
 14.71.06,14.71,Rumbai Barat
 14.71.07,14.71,Bukit Raya
@@ -1109,7 +1109,7 @@ code,regency_code,name
 15.01.17,15.01,Depati Tujuh
 15.01.18,15.01,Siulak Mukai
 15.01.19,15.01,Kayu Aro Barat
-15.01.20,15.01,Bukitkerman
+15.01.20,15.01,Bukit Kerman
 15.01.21,15.01,Air Hangat Barat
 15.01.22,15.01,Tanah Cogok
 15.01.23,15.01,Danau Kerinci Barat
@@ -1295,7 +1295,7 @@ code,regency_code,name
 16.04.01,16.04,Tanjungsakti Pumu
 16.04.06,16.04,Jarai
 16.04.07,16.04,Kota Agung
-16.04.08,16.04,Pulaupinang
+16.04.08,16.04,Pulau Pinang
 16.04.09,16.04,Merapi Barat
 16.04.10,16.04,Lahat
 16.04.12,16.04,Pajar Bulan
@@ -1342,7 +1342,7 @@ code,regency_code,name
 16.06.10,16.06,Plakat Tinggi
 16.06.11,16.06,Lalan
 16.06.12,16.06,Tungkal Jaya
-16.06.13,16.06,Lawang Wetan
+16.06.13,16.06,Lawan Wetan
 16.06.14,16.06,Babat Supat
 16.06.15,16.06,Jirak Jaya
 16.07.01,16.07,Banyuasin I
@@ -1566,7 +1566,7 @@ code,regency_code,name
 17.06.10,17.06,Penarik
 17.06.11,17.06,XIV Koto
 17.06.12,17.06,V Koto
-17.06.13,17.06,Air Majunto
+17.06.13,17.06,Air Manjunto
 17.06.14,17.06,Air Dikit
 17.06.15,17.06,Sungai Rumbai
 17.07.01,17.07,Lebong Utara
@@ -1642,7 +1642,7 @@ code,regency_code,name
 18.02.14,18.02,Bumi Ratu Nuban
 18.02.15,18.02,Bekri
 18.02.16,18.02,Seputih Agung
-18.02.17,18.02,Way Pangubuan
+18.02.17,18.02,Way Pengubuan
 18.02.18,18.02,Bandar Mataram
 18.02.19,18.02,Pubian
 18.02.20,18.02,Selagai Lingga
@@ -1846,7 +1846,7 @@ code,regency_code,name
 19.01.06,19.01,Bakam
 19.01.07,19.01,Riau Silip
 19.01.08,19.01,Puding Besar
-19.02.01,19.02,Tanjung Pandan
+19.02.01,19.02,Tanjungpandan
 19.02.02,19.02,Membalong
 19.02.03,19.02,Selat Nasik
 19.02.04,19.02,Sijuk
@@ -1890,7 +1890,7 @@ code,regency_code,name
 21.01.07,21.01,Bintan Utara
 21.01.08,21.01,Teluk Bintan
 21.01.09,21.01,Tambelan
-21.01.10,21.01,Telok Sebong
+21.01.10,21.01,Teluk Sebong
 21.01.12,21.01,Toapaya
 21.01.13,21.01,Mantang
 21.01.14,21.01,Bintan Pesisir
@@ -2010,7 +2010,7 @@ code,regency_code,name
 31.75.09,31.75,Ciracas
 31.75.10,31.75,Cipayung
 32.01.01,32.01,Cibinong
-32.01.02,32.01,Gunung Putri
+32.01.02,32.01,Gunungputri
 32.01.03,32.01,Citeureup
 32.01.04,32.01,Sukaraja
 32.01.05,32.01,Babakan Madang
@@ -2019,16 +2019,16 @@ code,regency_code,name
 32.01.08,32.01,Cariu
 32.01.09,32.01,Sukamakmur
 32.01.10,32.01,Parung
-32.01.11,32.01,Gunung Sindur
+32.01.11,32.01,Gunungsindur
 32.01.12,32.01,Kemang
-32.01.13,32.01,Bojong Gede
+32.01.13,32.01,Bojonggede
 32.01.14,32.01,Leuwiliang
 32.01.15,32.01,Ciampea
 32.01.16,32.01,Cibungbulang
 32.01.17,32.01,Pamijahan
 32.01.18,32.01,Rumpin
 32.01.19,32.01,Jasinga
-32.01.20,32.01,Parung Panjang
+32.01.20,32.01,Parungpanjang
 32.01.21,32.01,Nanggung
 32.01.22,32.01,Cigudeg
 32.01.23,32.01,Tenjo
@@ -2042,7 +2042,7 @@ code,regency_code,name
 32.01.31,32.01,Tamansari
 32.01.32,32.01,Klapanunggal
 32.01.33,32.01,Ciseeng
-32.01.34,32.01,Ranca Bungur
+32.01.34,32.01,Rancabungur
 32.01.35,32.01,Sukajaya
 32.01.36,32.01,Tanjungsari
 32.01.37,32.01,Tajurhalang
@@ -2101,7 +2101,7 @@ code,regency_code,name
 32.03.03,32.03,Cibeber
 32.03.04,32.03,Cilaku
 32.03.05,32.03,Ciranjang
-32.03.06,32.03,Bojongpicung
+32.03.06,32.03,Bonjogpicung
 32.03.07,32.03,Karangtengah
 32.03.08,32.03,Mande
 32.03.09,32.03,Sukaluyu
@@ -2113,9 +2113,9 @@ code,regency_code,name
 32.03.15,32.03,Campaka
 32.03.16,32.03,Takokak
 32.03.17,32.03,Kadupandak
-32.03.18,32.03,Pagelaran
+32.03.18,32.03,Pagelarang
 32.03.19,32.03,Tanggeung
-32.03.20,32.03,Cibinong
+32.03.20,32.03,Cubinong
 32.03.21,32.03,Sindangbarang
 32.03.22,32.03,Agrabinta
 32.03.23,32.03,Cidaun
@@ -2221,9 +2221,9 @@ code,regency_code,name
 32.06.18,32.06,Salopa
 32.06.19,32.06,Jatiwaras
 32.06.20,32.06,Cineam
-32.06.21,32.06,Karangjaya
+32.06.21,32.06,Karang Jaya
 32.06.22,32.06,Manonjaya
-32.06.23,32.06,Gunungtanjung
+32.06.23,32.06,Gunung Tanjung
 32.06.24,32.06,Singaparna
 32.06.25,32.06,Mangunreja
 32.06.26,32.06,Sukarame
@@ -2295,7 +2295,7 @@ code,regency_code,name
 32.08.26,32.08,Hantara
 32.08.27,32.08,Kalimanggis
 32.08.28,32.08,Cibeureum
-32.08.29,32.08,Karang Kancana
+32.08.29,32.08,Karangkancana
 32.08.30,32.08,Maleber
 32.08.31,32.08,Sindangagung
 32.08.32,32.08,Cigandamekar
@@ -2320,7 +2320,7 @@ code,regency_code,name
 32.09.19,32.09,Weru
 32.09.20,32.09,Kedawung
 32.09.21,32.09,Gunung Jati
-32.09.22,32.09,Kapetakan
+32.09.22,32.09,Kepetakan
 32.09.23,32.09,Klangenan
 32.09.24,32.09,Arjawinangun
 32.09.25,32.09,Panguragan
@@ -2570,7 +2570,7 @@ code,regency_code,name
 32.73.07,32.73,Sukajadi
 32.73.08,32.73,Cidadap
 32.73.09,32.73,Bandung Wetan
-32.73.10,32.73,Astana Anyar
+32.73.10,32.73,Astanaanyar
 32.73.11,32.73,Regol
 32.73.12,32.73,Batununggal
 32.73.13,32.73,Lengkong
@@ -3569,7 +3569,7 @@ code,regency_code,name
 35.13.13,35.13,Besuk
 35.13.14,35.13,Kraksaan
 35.13.15,35.13,Krejengan
-35.13.16,35.13,Pejarakan
+35.13.16,35.13,Pajarakan
 35.13.17,35.13,Maron
 35.13.18,35.13,Gending
 35.13.19,35.13,Dringu
@@ -3742,7 +3742,7 @@ code,regency_code,name
 35.22.09,35.22,Kepohbaru
 35.22.10,35.22,Baureno
 35.22.11,35.22,Kanor
-35.22.12,35.22,Sumberejo
+35.22.12,35.22,Sumberrejo
 35.22.13,35.22,Balen
 35.22.14,35.22,Kapas
 35.22.15,35.22,Bojonegoro
@@ -3890,7 +3890,7 @@ code,regency_code,name
 35.29.19,35.29,Gapura
 35.29.20,35.29,Gayam
 35.29.21,35.29,Nonggunong
-35.29.22,35.29,Ra'as
+35.29.22,35.29,"Ra""as"
 35.29.23,35.29,Masalembu
 35.29.24,35.29,Arjasa
 35.29.25,35.29,Sapeken
@@ -4013,12 +4013,12 @@ code,regency_code,name
 36.02.20,36.02,Cilograng
 36.02.21,36.02,Wanasalam
 36.02.22,36.02,Sobang
-36.02.23,36.02,Curug bitung
+36.02.23,36.02,Curugbitung
 36.02.24,36.02,Kalanganyar
 36.02.25,36.02,Lebakgedong
 36.02.26,36.02,Cihara
 36.02.27,36.02,Cirinten
-36.02.28,36.02,Cigemlong
+36.02.28,36.02,Cigemblong
 36.03.01,36.03,Balaraja
 36.03.02,36.03,Jayanti
 36.03.03,36.03,Tigaraksa
@@ -4278,7 +4278,7 @@ code,regency_code,name
 52.71.02,52.71,Mataram
 52.71.03,52.71,Cakranegara
 52.71.04,52.71,Sekarbela
-52.71.05,52.71,Selaprang
+52.71.05,52.71,Selaparang
 52.71.06,52.71,Sandubaya
 52.72.01,52.72,Rasanae Barat
 52.72.02,52.72,Rasanae Timur
@@ -4393,7 +4393,7 @@ code,regency_code,name
 53.05.14,53.05,Pantar Timur
 53.05.15,53.05,Lembur
 53.05.16,53.05,Pantar Tengah
-53.05.17,53.05,Pantar Baru Laut
+53.05.17,53.05,Pantar Barat Laut
 53.05.18,53.05,Abad Selatan
 53.06.01,53.06,Wulanggitang
 53.06.02,53.06,Titehena
@@ -5420,6 +5420,7 @@ code,regency_code,name
 72.01.21,72.01,Luwuk Utara
 72.01.22,72.01,Mantoh
 72.01.23,72.01,Nambo
+72.01.24,72.01,Toili Jaya
 72.02.01,72.02,Poso Kota
 72.02.02,72.02,Poso Pesisir
 72.02.03,72.02,Lage
@@ -5436,7 +5437,7 @@ code,regency_code,name
 72.02.22,72.02,Poso Kota Utara
 72.02.23,72.02,Lore Barat
 72.02.24,72.02,Lore Timur
-72.02.25,72.02,Lore Piore
+72.02.25,72.02,Lore Peore
 72.02.26,72.02,Pamona Tenggara
 72.02.27,72.02,Pamona Utara
 72.03.04,72.03,Rio Pakava
@@ -5463,7 +5464,7 @@ code,regency_code,name
 72.04.06,72.04,Lampasio
 72.04.07,72.04,Baolan
 72.04.08,72.04,Galang
-72.04.09,72.04,Toli-Toli Utara
+72.04.09,72.04,Tolitoli Utara
 72.04.10,72.04,Dako Pemean
 72.05.01,72.05,Momunu
 72.05.02,72.05,Lakea
@@ -5485,6 +5486,7 @@ code,regency_code,name
 72.06.12,72.06,Wita Ponda
 72.06.15,72.06,Bungku Pesisir
 72.06.18,72.06,Bungku Timur
+72.06.20,72.06,Sombori Kepulauan
 72.07.03,72.07,Totikum
 72.07.04,72.07,Tinangkung
 72.07.05,72.07,Liang
@@ -5701,7 +5703,7 @@ code,regency_code,name
 73.10.07,73.10,Labakkang
 73.10.08,73.10,Marang
 73.10.09,73.10,Segeri
-73.10.10,73.10,Minasa Tene
+73.10.10,73.10,Minasate'ne
 73.10.11,73.10,Mandalle
 73.10.12,73.10,Tondong Tallasa
 73.10.13,73.10,Liukang Tupabbiring Utara
@@ -5713,11 +5715,11 @@ code,regency_code,name
 73.11.06,73.11,Pujananting
 73.11.07,73.11,Balusu
 73.12.01,73.12,Marioriwawo
-73.12.02,73.12,Liliraja
+73.12.02,73.12,Liliriaja
 73.12.03,73.12,Lilirilau
 73.12.04,73.12,Lalabata
 73.12.05,73.12,Marioriawa
-73.12.06,73.12,Donri Donri
+73.12.06,73.12,Donri-Donri
 73.12.07,73.12,Ganra
 73.12.08,73.12,Citta
 73.13.01,73.13,Sabangparu
@@ -5791,23 +5793,23 @@ code,regency_code,name
 73.17.20,73.17,Bajo Barat
 73.17.21,73.17,Ponrang Selatan
 73.17.22,73.17,Basse Sangtempe Utara
-73.18.01,73.18,Saluputi
+73.18.01,73.18,Salupputti
 73.18.02,73.18,Bittuang
 73.18.03,73.18,Bonggakaradeng
 73.18.05,73.18,Makale
 73.18.09,73.18,Simbuang
 73.18.11,73.18,Rantetayo
 73.18.12,73.18,Mengkendek
-73.18.13,73.18,Sangalla
+73.18.13,73.18,Sangalla'
 73.18.19,73.18,Gandangbatu Sillanan
 73.18.20,73.18,Rembon
 73.18.27,73.18,Makale Utara
 73.18.28,73.18,Mappak
 73.18.29,73.18,Makale Selatan
 73.18.31,73.18,Masanda
-73.18.33,73.18,Sangalla Selatan
-73.18.34,73.18,Sangalla Utara
-73.18.35,73.18,Malimbong Balepe
+73.18.33,73.18,Sangalla' Selatan
+73.18.34,73.18,Sangalla' Utara
+73.18.35,73.18,Malimbong Balepe'
 73.18.37,73.18,Rano
 73.18.38,73.18,Kurra
 73.22.01,73.22,Malangke
@@ -6205,7 +6207,7 @@ code,regency_code,name
 76.02.12,76.02,Simboro
 76.02.13,76.02,Tapalang Barat
 76.02.15,76.02,Bonehau
-76.02.16,76.02,Kep. Bala Balakang
+76.02.16,76.02,Kepulauan Bala Balakang
 76.03.01,76.03,Mambi
 76.03.02,76.03,Aralle
 76.03.03,76.03,Mamasa
@@ -6316,6 +6318,7 @@ code,regency_code,name
 81.05.13,81.05,Kian Darat
 81.05.14,81.05,Siritaun Wida Timur
 81.05.15,81.05,Teluk Waru
+81.05.16,81.05,Ukar Sengan
 81.06.01,81.06,Kairatu
 81.06.02,81.06,Seram Barat
 81.06.03,81.06,Taniwel
@@ -6339,7 +6342,7 @@ code,regency_code,name
 81.07.10,81.07,Aru Selatan Utara
 81.08.01,81.08,Moa
 81.08.02,81.08,Damer
-81.08.03,81.08,Mdona Hyera
+81.08.03,81.08,Kepulauan Luang Sermata
 81.08.04,81.08,Babar Barat
 81.08.05,81.08,Pulau-pulau Babar Timur
 81.08.06,81.08,Wetar Selatan
@@ -6602,6 +6605,11 @@ code,regency_code,name
 92.02.15,92.02,Manokwari Selatan
 92.02.17,92.02,Tanah Rubuh
 92.02.21,92.02,Sidey
+92.02.31,92.02,Aimasi
+92.02.32,92.02,Mokwam
+92.02.33,92.02,Masni Utara
+92.02.34,92.02,Wasirawi
+92.02.35,92.02,Moruj Mega
 92.03.01,92.03,Fak-Fak
 92.03.02,92.03,Fak-Fak Barat
 92.03.03,92.03,Fak-Fak Timur
@@ -6753,7 +6761,7 @@ code,regency_code,name
 93.04.15,93.04,Kopay
 93.04.16,93.04,Safan
 93.04.17,93.04,Sirets
-93.04.18,93.04,Ayip
+93.04.18,93.04,Ayib
 93.04.19,93.04,Betcbamu
 93.04.20,93.04,Joutu
 93.04.21,93.04,Aswi
@@ -7193,7 +7201,7 @@ code,regency_code,name
 96.03.02,96.03,Waigeo Utara
 96.03.03,96.03,Waigeo Selatan
 96.03.04,96.03,Salawati Utara
-96.03.05,96.03,Kepulauan Ayau
+96.03.05,96.03,Ayau
 96.03.06,96.03,Misool Timur
 96.03.07,96.03,Waigeo Barat
 96.03.08,96.03,Waigeo Timur
@@ -7211,7 +7219,7 @@ code,regency_code,name
 96.03.20,96.03,Salawati Barat
 96.03.21,96.03,Salawati Tengah
 96.03.22,96.03,Supnin
-96.03.23,96.03,Ayau
+96.03.23,96.03,Kepulauan Ayau
 96.03.24,96.03,Batanta Selatan
 96.04.01,96.04,Fef
 96.04.02,96.04,Miyah
