@@ -8,7 +8,7 @@ import {
   getVillages,
   type IslandCsv,
 } from '~/index.js';
-import { buildRangeRegex, buildMultiLevelPattern } from './fixtures/utils.js';
+import { buildMultiLevelPattern, buildRangeRegex } from './fixtures/utils.js';
 
 describe('getProvinces', () => {
   test('return valid province objects', async () => {
@@ -46,7 +46,9 @@ describe('getRegencies', () => {
       for (const regency of regencies) {
         expect(regency).toMatchObject({
           code: expect.stringMatching(/^\d{2}\.\d{2}$/) as string,
-          name: expect.stringMatching(/^(?:(?:KABUPATEN|KOTA)(?:\s[A-Z]+(?:-[A-Z]+)*)+|(?:Kabupaten|Kota)(?:\s[A-Za-z0-9\-'.\/()]+)+)$/) as string,
+          name: expect.stringMatching(
+            /^(?:(?:KABUPATEN|KOTA)(?:\s[A-Z]+(?:-[A-Z]+)*)+|(?:Kabupaten|Kota)(?:\s[A-Za-z0-9\-'./()]+)+)$/,
+          ) as string,
           province_code: expect.stringMatching(provinceCodeRegex) as string,
         });
       }
@@ -61,7 +63,9 @@ describe('getRegencies', () => {
       for (const regency of regencies) {
         expect(regency).toMatchObject({
           code: expect.stringMatching(/^\d{2}\.\d{2}$/) as string,
-          name: expect.stringMatching(/^(?:(?:KABUPATEN|KOTA)(?:\s[A-Z]+(?:-[A-Z]+)*)+|(?:Kabupaten|Kota)(?:\s[A-Za-z0-9\-'.\/()]+)+)$/) as string,
+          name: expect.stringMatching(
+            /^(?:(?:KABUPATEN|KOTA)(?:\s[A-Z]+(?:-[A-Z]+)*)+|(?:Kabupaten|Kota)(?:\s[A-Za-z0-9\-'./()]+)+)$/,
+          ) as string,
           provinceCode: expect.stringMatching(provinceCodeRegex) as string,
         });
       }
@@ -137,7 +141,9 @@ describe('getIslands', () => {
       const regencyCodes = (await getRegencies()).map(
         (regency) => regency.code,
       );
-      regencyCodeRegex = new RegExp(`^(?:${buildMultiLevelPattern(regencyCodes)}|)$`);
+      regencyCodeRegex = new RegExp(
+        `^(?:${buildMultiLevelPattern(regencyCodes)}|)$`,
+      );
     });
 
     test('options.transform: false', async () => {

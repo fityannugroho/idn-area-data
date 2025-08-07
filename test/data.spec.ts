@@ -57,7 +57,8 @@ validateCsvFile(path.join(__dirname, '../data/regencies.csv'), {
   tag: 'regencies',
   header: ['code', 'province_code', 'name'],
   /* The regex is already tested in https://regex101.com/r/4iefT0/5 */
-  rowRegex: /^(\d{2}\.\d{2}),(\d{2}),(?:(?:KABUPATEN|KOTA)(?:\s[A-Z]+(?:-[A-Z]+)*)+|(?:Kabupaten|Kota)(?:\s[A-Za-z0-9\-'.\/()]+)+)$/,
+  rowRegex:
+    /^(\d{2}\.\d{2}),(\d{2}),(?:(?:KABUPATEN|KOTA)(?:\s[A-Z]+(?:-[A-Z]+)*)+|(?:Kabupaten|Kota)(?:\s[A-Za-z0-9\-'./()]+)+)$/,
 });
 
 validateCsvFile(path.join(__dirname, '../data/districts.csv'), {
@@ -65,7 +66,7 @@ validateCsvFile(path.join(__dirname, '../data/districts.csv'), {
   header: ['code', 'regency_code', 'name'],
   /* The regex is already tested in https://regex101.com/r/cBkfxx/5 */
   rowRegex:
-    /^(\d{2}\.\d{2}\.\d{2}),(\d{2}\.\d{2}),(?:"(?:""|[A-Za-z0-9 \-'.\/(),])*"|(?!\s)(?!')[A-Za-z0-9 \-'.\/()]+)$/,
+    /^(\d{2}\.\d{2}\.\d{2}),(\d{2}\.\d{2}),(?:"(?:""|[A-Za-z0-9 \-'./(),])*"|(?!\s)(?!')[A-Za-z0-9 \-'./()]+)$/,
 });
 
 validateCsvFile(path.join(__dirname, '../data/villages.csv'), {
@@ -73,7 +74,7 @@ validateCsvFile(path.join(__dirname, '../data/villages.csv'), {
   header: ['code', 'district_code', 'name'],
   /* The regex is already tested in https://regex101.com/r/7FKCem/6 */
   rowRegex:
-    /^(\d{2}\.\d{2}\.\d{2}\.\d{4}),(\d{2}\.\d{2}\.\d{2}),(?:"(?:""|[A-Za-z0-9 \-'’\.\*\/(),])*"|(?!\s)(?!['"])[A-Za-z0-9 \-'’\.\*\/()]+)$/,
+    /^(\d{2}\.\d{2}\.\d{2}\.\d{4}),(\d{2}\.\d{2}\.\d{2}),(?:"(?:""|[A-Za-z0-9 \-'’.*/(),])*"|(?!\s)(?!['"])[A-Za-z0-9 \-'’.*/()]+)$/,
 });
 
 validateCsvFile(path.join(__dirname, '../data/islands.csv'), {

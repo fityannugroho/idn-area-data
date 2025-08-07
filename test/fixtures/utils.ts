@@ -1,4 +1,3 @@
-
 /**
  * Build a compact regex pattern (without ^$) for a list of codes,
  * each code being either:
@@ -9,20 +8,21 @@
  */
 export function buildMultiLevelPattern(codes: string[], sep = '.'): string {
   // Base case: no code contains the separator → it's a set of two-digit codes
-  if (!codes.some(c => c.includes(sep))) {
+  if (!codes.some((c) => c.includes(sep))) {
     // parse tens & ones
     const groups = new Map<number, number[]>();
     for (const c of codes) {
       const tens = +c[0];
       const ones = +c[1];
       if (!groups.has(tens)) groups.set(tens, []);
-      groups.get(tens)!.push(ones);
+      groups.get(tens)?.push(ones);
     }
     // compress each group into ranges
     const parts: string[] = [];
     for (const [tens, arr] of groups) {
       const sorted = Array.from(new Set(arr)).sort((a, b) => a - b);
-      let start = sorted[0], end = sorted[0];
+      let start = sorted[0],
+        end = sorted[0];
       for (let i = 1; i < sorted.length; i++) {
         const n = sorted[i];
         if (n === end + 1) {
@@ -44,11 +44,11 @@ export function buildMultiLevelPattern(codes: string[], sep = '.'): string {
     const pref = code.substring(0, idx);
     const suf = code.substring(idx + sep.length);
     if (!prefixMap.has(pref)) prefixMap.set(pref, []);
-    prefixMap.get(pref)!.push(suf);
+    prefixMap.get(pref)?.push(suf);
   }
 
   // Escape the separator for regex
-  const escSep = sep.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+  const escSep = sep.replace(/[-/\\^$*+?.()|[\]{}]/g, '\\$&');
 
   // For each prefix, recurse on its suffixes, then combine
   const parts: string[] = [];
