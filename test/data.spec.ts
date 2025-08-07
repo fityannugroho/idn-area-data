@@ -49,16 +49,17 @@ function validateCsvFile(filePath: string, options: Options) {
 validateCsvFile(path.join(__dirname, '../data/provinces.csv'), {
   tag: 'provinces',
   header: ['code', 'name'],
-  /* The regex is already tested in https://regex101.com/r/hw8PEP/7 */
-  rowRegex: /^(\d{2}),(?!\s)((?!PROVINSI)[A-Z][A-Za-z ]+)$/,
+  /* The regex is already tested in https://regex101.com/r/hw8PEP/8 */
+  rowRegex:
+    /^(\d{2}),((?![Pp][Rr][Oo][Vv][Ii][Nn][Ss][Ii]\b)[A-Z][a-z]+(?: [A-Z][a-z]+)*)$/,
 });
 
 validateCsvFile(path.join(__dirname, '../data/regencies.csv'), {
   tag: 'regencies',
   header: ['code', 'province_code', 'name'],
-  /* The regex is already tested in https://regex101.com/r/4iefT0/5 */
+  /* The regex is already tested in https://regex101.com/r/4iefT0/6 */
   rowRegex:
-    /^(\d{2}\.\d{2}),(\d{2}),(?:(?:KABUPATEN|KOTA)(?:\s[A-Z]+(?:-[A-Z]+)*)+|(?:Kabupaten|Kota)(?:\s[A-Za-z0-9\-'./()]+)+)$/,
+    /^(\d{2}\.\d{2}),(\d{2}),((?:Kabupaten|Kota)(?: [A-Za-z]+(?:-[A-Za-z]+)*)+)$/,
 });
 
 validateCsvFile(path.join(__dirname, '../data/districts.csv'), {
