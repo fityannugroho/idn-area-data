@@ -8,6 +8,7 @@ import {
   getVillages,
   type IslandCsv,
 } from '~/index.js';
+import { buildRangeRegex, buildMultiLevelPattern } from './fixtures/utils.js';
 
 describe('getProvinces', () => {
   test('return valid province objects', async () => {
@@ -33,7 +34,7 @@ describe('getRegencies', () => {
       const provinceCodes = (await getProvinces()).map(
         (province) => province.code,
       );
-      provinceCodeRegex = new RegExp(`^(?:${provinceCodes.join('|')})$`);
+      provinceCodeRegex = buildRangeRegex(provinceCodes);
     });
 
     test('options.transform: false', async () => {
@@ -82,7 +83,7 @@ describe('getDistricts', () => {
       const regencyCodes = (await getRegencies()).map(
         (regency) => regency.code,
       );
-      regencyCodeRegex = new RegExp(`^(?:${regencyCodes.join('|')})$`);
+      regencyCodeRegex = buildRangeRegex(regencyCodes);
     });
 
     test('options.transform: false', async () => {
@@ -136,7 +137,7 @@ describe('getIslands', () => {
       const regencyCodes = (await getRegencies()).map(
         (regency) => regency.code,
       );
-      regencyCodeRegex = new RegExp(`^(?:${regencyCodes.join('|')}|)$`);
+      regencyCodeRegex = new RegExp(`^(?:${buildMultiLevelPattern(regencyCodes)}|)$`);
     });
 
     test('options.transform: false', async () => {
@@ -196,7 +197,7 @@ describe('getVillages', () => {
       const districtCodes = (await getDistricts()).map(
         (district) => district.code,
       );
-      districtCodeRegex = new RegExp(`^(?:${districtCodes.join('|')})$`);
+      districtCodeRegex = buildRangeRegex(districtCodes);
     });
 
     test('options.transform: false', { timeout: 40_000 }, async () => {
