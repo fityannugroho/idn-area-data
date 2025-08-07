@@ -27,7 +27,7 @@
   |---|---|
   | `12.07.28.1007,12.07.28,Lubuk Pakam I II` | `12.07.28.1007,12.07.28,"Lubuk Pakam I,II"` |
 
-- **Spaces in district and village names are now normalized**, making names consistent and easier to read.
+- **Spaces in names are now normalized**, making names consistent and easier to read.
 
   For example:
 
