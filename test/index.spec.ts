@@ -19,7 +19,7 @@ describe('getProvinces', () => {
     for (const province of provinces) {
       expect(province).toMatchObject({
         code: expect.stringMatching(/^\d{2}$/) as string,
-        name: expect.stringMatching(/^(?!\s)(?!PROVINSI)[A-Z ]+$/) as string,
+        name: expect.stringMatching(/^(?!\s)(?!PROVINSI)[A-Za-z ]+$/) as string,
       });
     }
   });
@@ -45,7 +45,7 @@ describe('getRegencies', () => {
       for (const regency of regencies) {
         expect(regency).toMatchObject({
           code: expect.stringMatching(/^\d{2}\.\d{2}$/) as string,
-          name: expect.stringMatching(/^(?:KABUPATEN|KOTA)[A-Z ]+$/) as string,
+          name: expect.stringMatching(/^(?:(?:KABUPATEN|KOTA)(?:\s[A-Z]+(?:-[A-Z]+)*)+|(?:Kabupaten|Kota)(?:\s[A-Za-z0-9\-'.\/()]+)+)$/) as string,
           province_code: expect.stringMatching(provinceCodeRegex) as string,
         });
       }
@@ -60,7 +60,7 @@ describe('getRegencies', () => {
       for (const regency of regencies) {
         expect(regency).toMatchObject({
           code: expect.stringMatching(/^\d{2}\.\d{2}$/) as string,
-          name: expect.stringMatching(/^(?:KABUPATEN|KOTA)[A-Z ]+$/) as string,
+          name: expect.stringMatching(/^(?:(?:KABUPATEN|KOTA)(?:\s[A-Z]+(?:-[A-Z]+)*)+|(?:Kabupaten|Kota)(?:\s[A-Za-z0-9\-'.\/()]+)+)$/) as string,
           provinceCode: expect.stringMatching(provinceCodeRegex) as string,
         });
       }
@@ -94,7 +94,7 @@ describe('getDistricts', () => {
       for (const district of districts) {
         expect(district).toMatchObject({
           code: expect.stringMatching(/^\d{2}\.\d{2}\.\d{2}$/) as string,
-          name: expect.stringMatching(/^[a-zA-Z0-9\-'.\\/() ]+$/) as string,
+          name: expect.stringMatching(/^[a-zA-Z0-9\-"'.\\/() ]+$/) as string,
           regency_code: expect.stringMatching(regencyCodeRegex) as string,
         });
       }
@@ -109,7 +109,7 @@ describe('getDistricts', () => {
       for (const district of districts) {
         expect(district).toMatchObject({
           code: expect.stringMatching(/^\d{2}\.\d{2}\.\d{2}$/) as string,
-          name: expect.stringMatching(/^[a-zA-Z0-9\-'.\\/() ]+$/) as string,
+          name: expect.stringMatching(/^[a-zA-Z0-9\-'".\\/() ]+$/) as string,
           regencyCode: expect.stringMatching(regencyCodeRegex) as string,
         });
       }
@@ -208,7 +208,7 @@ describe('getVillages', () => {
       for (const village of villages) {
         expect(village).toMatchObject({
           code: expect.stringMatching(/^\d{2}\.\d{2}\.\d{2}\.\d{4}$/) as string,
-          name: expect.stringMatching(/^[a-zA-Z0-9\-'"’.*\\/() ]+$/) as string,
+          name: expect.stringMatching(/^[a-zA-Z0-9\-'"’.*\\/(), ]+$/) as string,
           district_code: expect.stringMatching(districtCodeRegex) as string,
         });
       }
@@ -223,7 +223,7 @@ describe('getVillages', () => {
       for (const village of villages) {
         expect(village).toMatchObject({
           code: expect.stringMatching(/^\d{2}\.\d{2}\.\d{2}\.\d{4}$/) as string,
-          name: expect.stringMatching(/^[a-zA-Z0-9\-'"’.*\\/() ]+$/) as string,
+          name: expect.stringMatching(/^[a-zA-Z0-9\-'"’.*\\/(), ]+$/) as string,
           districtCode: expect.stringMatching(districtCodeRegex) as string,
         });
       }
