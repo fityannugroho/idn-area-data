@@ -323,7 +323,7 @@ code,district_code,name
 11.02.02.2034,11.02.02,Kertimbang
 11.02.02.2035,11.02.02,Ndauh Nitenggo
 11.02.03.2001,11.02.03,Bambel Gabungan
-11.02.03.2002,11.02.03,Kisam
+11.02.03.2002,11.02.03,Kuta Buluh
 11.02.03.2005,11.02.03,Lawe Hijo
 11.02.03.2006,11.02.03,Pinding
 11.02.03.2009,11.02.03,Terutung Megara Asli
@@ -8265,7 +8265,7 @@ code,district_code,name
 12.07.27.2009,12.07.27,Paya Gambar
 12.07.27.2010,12.07.27,Mesjid
 12.07.27.2011,12.07.27,Sugiharjo
-12.07.28.1007,12.07.28,Lubuk Pakam I II
+12.07.28.1007,12.07.28,"Lubuk Pakam I,II"
 12.07.28.1008,12.07.28,Lubuk Pakam III
 12.07.28.1009,12.07.28,Paluh Kemiri
 12.07.28.1010,12.07.28,Cemara
@@ -9450,7 +9450,7 @@ code,district_code,name
 12.12.24.2007,12.12.24,Jonggi Manulus
 12.12.24.2008,12.12.24,Lumban Huala
 12.12.24.2009,12.12.24,Dolok Nauli
-12.12.24.2010,12.12.24,Bius Gu Barat
+12.12.24.2010,12.12.24,Lumban Sirait Gu
 12.12.24.2011,12.12.24,Lumban Manurung
 12.13.01.1011,12.13.01,Kota Siantar
 12.13.01.1014,12.13.01,Kayu Jati
@@ -12206,9 +12206,9 @@ code,district_code,name
 12.71.14.1005,12.71.14,Tembung
 12.71.14.1006,12.71.14,Bandar Selamat
 12.71.14.1007,12.71.14,Bantan Timur
-12.71.15.1001,12.71.15,A u r
+12.71.15.1001,12.71.15,Aur
 12.71.15.1002,12.71.15,Hamdan
-12.71.15.1003,12.71.15,J a t i
+12.71.15.1003,12.71.15,Jati
 12.71.15.1004,12.71.15,Sukaraja
 12.71.15.1005,12.71.15,Sei Mati
 12.71.15.1006,12.71.15,Kampung Baru
@@ -14128,7 +14128,7 @@ code,district_code,name
 14.02.01.1006,14.02.01,Pasar Kota
 14.02.01.1007,14.02.01,Kampung Besar Kota
 14.02.01.1008,14.02.01,Sekip Hulu
-14.02.01.1011,14.02.01,Kmp Besar Seberang
+14.02.01.1011,14.02.01,Kampung Besar Seberang
 14.02.01.1018,14.02.01,Sekip Hilir
 14.02.01.2001,14.02.01,Sungai Guntung Tengah
 14.02.01.2002,14.02.01,Sungai Guntung Hilir
@@ -14175,7 +14175,7 @@ code,district_code,name
 14.02.03.2029,14.02.03,Sungai Kuning Benio
 14.02.03.2030,14.02.03,Bukit Selanjut
 14.02.03.2031,14.02.03,Dusun Tua Pelang
-14.02.04.1007,14.02.04,Air Molek
+14.02.04.1007,14.02.04,Air Molek I
 14.02.04.1020,14.02.04,Kembang Harum
 14.02.04.1031,14.02.04,Tanjung Gading
 14.02.04.1032,14.02.04,Sekar Mawar
@@ -14232,7 +14232,7 @@ code,district_code,name
 14.02.07.2022,14.02.07,Batu Papan
 14.02.07.2023,14.02.07,Sanglap
 14.02.08.2001,14.02.08,Siambul
-14.02.08.2002,14.02.08,Rantai Langsat
+14.02.08.2002,14.02.08,Rantau Langsat
 14.02.08.2003,14.02.08,Sungai Akar
 14.02.08.2004,14.02.08,Usul
 14.02.08.2005,14.02.08,Seberida
@@ -14250,7 +14250,7 @@ code,district_code,name
 14.02.09.2007,14.02.09,Rejosari
 14.02.09.2008,14.02.09,Lambang Sari V
 14.02.09.2009,14.02.09,Lambang Sari IV
-14.02.09.2010,14.02.09,Lambang Sari I II III
+14.02.09.2010,14.02.09,"Lambang Sari I, II, III"
 14.02.09.2011,14.02.09,Wonosari
 14.02.09.2012,14.02.09,Seko Lubuk Tigo
 14.02.09.2013,14.02.09,Banjar Balam
@@ -14289,7 +14289,7 @@ code,district_code,name
 14.02.12.2007,14.02.12,Tasik Juang
 14.02.12.2008,14.02.12,Pontian Mekar
 14.02.12.2009,14.02.12,Air Putih
-14.02.13.2001,14.02.13,Tujuh Buah Tangga
+14.02.13.2001,14.02.13,Talang Tujuh Buah Tangga
 14.02.13.2002,14.02.13,Talang Durian Cacar
 14.02.13.2003,14.02.13,Talang Selantai
 14.02.13.2004,14.02.13,Talang Perigi
@@ -14872,7 +14872,7 @@ code,district_code,name
 14.06.04.2010,14.06.04,Suka Maju
 14.06.04.2011,14.06.04,Lubuk Soting
 14.06.04.2012,14.06.04,Tingkok
-14.06.05.1001,14.06.05,Kepenuhan Tengah
+14.06.05.1001,14.06.05,KepenuhanTengah
 14.06.05.2003,14.06.05,Kepenuhan Barat
 14.06.05.2004,14.06.05,Kepenuhan Hilir
 14.06.05.2005,14.06.05,Kepenuhan Timur
@@ -15775,7 +15775,7 @@ code,district_code,name
 15.01.04.2031,15.01.04,Hiang Sakti
 15.01.04.2033,15.01.04,Koto Sekilan Ambai
 15.01.04.2034,15.01.04,Penawar Tinggi
-15.01.05.2002,15.01.05,Baru Semurup
+15.01.05.2002,15.01.05,Koto Baru Semurup
 15.01.05.2004,15.01.05,Koto Dua Lama
 15.01.05.2012,15.01.05,Koto Di Air
 15.01.05.2013,15.01.05,Pasar Semurup
@@ -16070,10 +16070,10 @@ code,district_code,name
 15.02.04.2025,15.02.04,Benteng
 15.02.04.2026,15.02.04,Gelanggang
 15.02.05.1002,15.02.05,Dusun Baru
-15.02.05.1003,15.02.05,Pasar R. Panjang
+15.02.05.1003,15.02.05,Pasar Rantau Panjang
 15.02.05.1005,15.02.05,Kampung Baruh
 15.02.05.1020,15.02.05,Mampun
-15.02.05.1036,15.02.05,Ps.Baru Rantau
+15.02.05.1036,15.02.05,Pasar Baru Rantau Panjang
 15.02.05.2007,15.02.05,Kandang
 15.02.05.2008,15.02.05,Koto Rayo
 15.02.05.2011,15.02.05,Tanjung Ilir
@@ -16141,7 +16141,7 @@ code,district_code,name
 15.02.12.2003,15.02.12,Pulau Baru
 15.02.12.2004,15.02.12,Nibung
 15.02.12.2005,15.02.12,Titian Teras
-15.02.12.2006,15.02.12,Kedarasan Panjang
+15.02.12.2006,15.02.12,Kederasan Panjang
 15.02.12.2007,15.02.12,Rantau Alai
 15.02.12.2008,15.02.12,Tambang Besi
 15.02.12.2009,15.02.12,Pelangki
@@ -16150,7 +16150,7 @@ code,district_code,name
 15.02.13.2002,15.02.13,Limbur Merangin
 15.02.13.2003,15.02.13,Karang Anyar
 15.02.13.2004,15.02.13,Pinang Merah
-15.02.13.2005,15.02.13,Simpang L. Merangin
+15.02.13.2005,15.02.13,Simpang Limbur Merangin
 15.02.13.2006,15.02.13,Mampun Baru
 15.02.13.2007,15.02.13,Papit
 15.02.13.2008,15.02.13,PulauTujuh
@@ -17161,7 +17161,7 @@ code,district_code,name
 15.09.09.2003,15.09.09,Mengupeh
 15.09.09.2004,15.09.09,Rantau Api
 15.09.09.2005,15.09.09,Lubuk Mandarsah
-15.09.09.2006,15.09.09,Lubuk Mandrasah Ulu
+15.09.09.2006,15.09.09,Lubuk Mandarsah Ulu
 15.09.10.2001,15.09.10,Pinang Belai
 15.09.10.2002,15.09.10,Sekutur Jaya
 15.09.10.2003,15.09.10,Bukit Pemuatan
@@ -17934,6 +17934,7 @@ code,district_code,name
 16.03.11.2006,16.03.11,Muara Gula Lama
 16.03.11.2007,16.03.11,Guci
 16.03.11.2008,16.03.11,Ulak Bandung
+16.03.11.2009,16.03.11,Ujan Mas Ulu
 16.03.14.2005,16.03.14,Aur
 16.03.14.2006,16.03.14,Beringin
 16.03.14.2007,16.03.14,Kota Baru
@@ -18889,7 +18890,7 @@ code,district_code,name
 16.07.01.2008,16.07.01,Perambahan
 16.07.01.2011,16.07.01,Pematang Palas
 16.07.01.2012,16.07.01,Tirto Sari
-16.07.01.2014,16.07.01,Pulauborang
+16.07.01.2014,16.07.01,Pulau Borang
 16.07.01.2025,16.07.01,Perambahan Baru
 16.07.01.2028,16.07.01,Duren Ijo
 16.07.02.2001,16.07.02,Sungsang I
@@ -18973,7 +18974,7 @@ code,district_code,name
 16.07.06.2013,16.07.06,Menten
 16.07.06.2014,16.07.06,Pangkalan Gelebak
 16.07.06.2015,16.07.06,Sungai Dua
-16.07.06.2016,16.07.06,Sungaipinang
+16.07.06.2016,16.07.06,Sungai Pinang
 16.07.06.2017,16.07.06,Sungai Kedukan
 16.07.06.2019,16.07.06,Durian Gadis
 16.07.06.2020,16.07.06,Pulau Parang
@@ -19037,7 +19038,7 @@ code,district_code,name
 16.07.10.2005,16.07.10,Pangkalan Benteng
 16.07.10.2007,16.07.10,Gasing
 16.07.10.2019,16.07.10,Talang Buluh
-16.07.10.2020,16.07.10,Sungai Rengat Murni
+16.07.10.2020,16.07.10,Sungai Rengit Murni
 16.07.10.2021,16.07.10,Kenten Laut
 16.07.11.2001,16.07.11,Muara Abab
 16.07.11.2002,16.07.11,Tanjung Pasir
@@ -20295,7 +20296,7 @@ code,district_code,name
 16.13.05.2003,16.13.05,Biaro Lama
 16.13.05.2005,16.13.05,Rantau Kadam
 16.13.05.2006,16.13.05,Kerta Sari
-16.13.05.2007,16.13.05,Karang Dapo II
+16.13.05.2007,16.13.05,Karang Dapo I
 16.13.05.2008,16.13.05,Setia Marga
 16.13.05.2009,16.13.05,Bina Karya
 16.13.06.1009,16.13.06,Karang Jaya
@@ -21517,7 +21518,7 @@ code,district_code,name
 17.06.01.2009,17.06.01,Tanjung Alai
 17.06.01.2013,17.06.01,Sumber Makmur
 17.06.01.2018,17.06.01,Ranah Karya
-17.06.02.1009,17.06.02,Pasar Muko-Muko
+17.06.02.1009,17.06.02,Pasar Mukomuko
 17.06.02.1017,17.06.02,Koto Jaya
 17.06.02.1018,17.06.02,Bandar Ratu
 17.06.02.2007,17.06.02,Pasar Sebelah
@@ -21623,7 +21624,7 @@ code,district_code,name
 17.06.11.2002,17.06.11,Rawa Mulya
 17.06.11.2003,17.06.11,Rawa Bangun
 17.06.11.2004,17.06.11,Tanjung Mulya
-17.06.11.2005,17.06.11,Pauh Tarenja
+17.06.11.2005,17.06.11,Pauh Terenja
 17.06.11.2006,17.06.11,Dusun Baru Pelokan
 17.06.11.2007,17.06.11,Lubuk Sanai II
 17.06.11.2009,17.06.11,Lubuk Sanai III
@@ -25836,10 +25837,10 @@ code,district_code,name
 32.01.01.1012,32.01.01,Pabuaran
 32.01.01.1013,32.01.01,Pabuaran Mekar
 32.01.02.2001,32.01.02,Wanaherang
-32.01.02.2002,32.01.02,Bojong Kulur
+32.01.02.2002,32.01.02,Bojongkulur
 32.01.02.2003,32.01.02,Ciangsana
-32.01.02.2004,32.01.02,Gunung Putri
-32.01.02.2005,32.01.02,Bojong Nangka
+32.01.02.2004,32.01.02,Gunungputri
+32.01.02.2005,32.01.02,Bojongnangka
 32.01.02.2006,32.01.02,Tlajung Udik
 32.01.02.2007,32.01.02,Cicadas
 32.01.02.2008,32.01.02,Cikeas Udik
@@ -25859,7 +25860,7 @@ code,district_code,name
 32.01.03.2012,32.01.03,Sukahati
 32.01.03.2013,32.01.03,Hambalang
 32.01.03.2014,32.01.03,Pasir Mukti
-32.01.04.2001,32.01.04,Gununggeulis
+32.01.04.2001,32.01.04,Gunung Geulis
 32.01.04.2002,32.01.04,Cilebut Timur
 32.01.04.2003,32.01.04,Cilebut Barat
 32.01.04.2004,32.01.04,Cibanon
@@ -25867,13 +25868,13 @@ code,district_code,name
 32.01.04.2006,32.01.04,Sukatani
 32.01.04.2007,32.01.04,Sukaraja
 32.01.04.2008,32.01.04,Cikeas
-32.01.04.2009,32.01.04,Pasir Jambu
+32.01.04.2009,32.01.04,Pasirjambu
 32.01.04.2010,32.01.04,Cimandala
 32.01.04.2011,32.01.04,Cijujung
 32.01.04.2012,32.01.04,Cadasngampar
 32.01.04.2013,32.01.04,Pasirlaja
 32.01.05.2001,32.01.05,Cijayanti
-32.01.05.2002,32.01.05,Sumurbatu
+32.01.05.2002,32.01.05,Sumur Batu
 32.01.05.2003,32.01.05,Sentul
 32.01.05.2004,32.01.05,Karang Tengah
 32.01.05.2005,32.01.05,Cipambuan
@@ -25929,13 +25930,13 @@ code,district_code,name
 32.01.09.2010,32.01.09,Sukamakmur
 32.01.10.2001,32.01.10,Parung
 32.01.10.2002,32.01.10,Iwul
-32.01.10.2003,32.01.10,Bojongsempu
+32.01.10.2003,32.01.10,Bojong Sempu
 32.01.10.2004,32.01.10,Waru
 32.01.10.2005,32.01.10,Cogreg
 32.01.10.2006,32.01.10,Pamegarsari
-32.01.10.2007,32.01.10,Warujaya
-32.01.10.2008,32.01.10,Bojongindah
-32.01.10.2009,32.01.10,Jabonmekar
+32.01.10.2007,32.01.10,Waru Jaya
+32.01.10.2008,32.01.10,Bojong Indah
+32.01.10.2009,32.01.10,Jabon Mekar
 32.01.11.2001,32.01.11,Cidokom
 32.01.11.2002,32.01.11,Padurenan
 32.01.11.2003,32.01.11,Pengasinan
@@ -25960,8 +25961,8 @@ code,district_code,name
 32.01.13.2002,32.01.13,Cimanggis
 32.01.13.2003,32.01.13,Susukan
 32.01.13.2004,32.01.13,Ragajaya
-32.01.13.2005,32.01.13,Kedungwaringin
-32.01.13.2006,32.01.13,Waringinjaya
+32.01.13.2005,32.01.13,Kedung Waringin
+32.01.13.2006,32.01.13,Waringin Jaya
 32.01.13.2008,32.01.13,Rawapanjang
 32.01.13.2009,32.01.13,Bojonggede
 32.01.14.2001,32.01.14,Leuwiliang
@@ -25977,14 +25978,14 @@ code,district_code,name
 32.01.14.2011,32.01.14,Karehkel
 32.01.15.2001,32.01.15,Ciampea
 32.01.15.2002,32.01.15,Cinangka
-32.01.15.2003,32.01.15,Cihideungudik
+32.01.15.2003,32.01.15,Cihideung Udik
 32.01.15.2004,32.01.15,Bojongjengkol
 32.01.15.2005,32.01.15,Tegalwaru
 32.01.15.2006,32.01.15,Cibuntu
 32.01.15.2007,32.01.15,Cicadas
 32.01.15.2008,32.01.15,Cibadak
 32.01.15.2009,32.01.15,Bojongrangkas
-32.01.15.2010,32.01.15,Cihideunghilir
+32.01.15.2010,32.01.15,Cihideung Ilir
 32.01.15.2011,32.01.15,Cibanteng
 32.01.15.2012,32.01.15,Benteng
 32.01.15.2013,32.01.15,Ciampea Udik
@@ -26005,18 +26006,18 @@ code,district_code,name
 32.01.16.2015,32.01.16,Girimulya
 32.01.17.2001,32.01.17,Purwabakti
 32.01.17.2002,32.01.17,Cibunian
-32.01.17.2003,32.01.17,Cibitungwetan
-32.01.17.2004,32.01.17,Gunungmenyan
-32.01.17.2005,32.01.17,Gunungbunder II
+32.01.17.2003,32.01.17,Cibitung Wetan
+32.01.17.2004,32.01.17,Gunung Menyan
+32.01.17.2005,32.01.17,Gunung Bunder II
 32.01.17.2006,32.01.17,Pasarean
 32.01.17.2007,32.01.17,Cimayang
 32.01.17.2008,32.01.17,Pamijahan
 32.01.17.2009,32.01.17,Cibening
-32.01.17.2010,32.01.17,Gunungbunder I
+32.01.17.2010,32.01.17,Gunung Bunder I
 32.01.17.2011,32.01.17,Cibitung Kulon
 32.01.17.2012,32.01.17,Gunung Picung
 32.01.17.2013,32.01.17,Ciasihan
-32.01.17.2014,32.01.17,Gunungsari
+32.01.17.2014,32.01.17,Gunung Sari
 32.01.17.2015,32.01.17,Ciasmara
 32.01.18.2001,32.01.18,Rumpin
 32.01.18.2002,32.01.18,Leuwibatu
@@ -26024,7 +26025,7 @@ code,district_code,name
 32.01.18.2004,32.01.18,Gobang
 32.01.18.2005,32.01.18,Cibodas
 32.01.18.2006,32.01.18,Rabak
-32.01.18.2007,32.01.18,Kampungsawah
+32.01.18.2007,32.01.18,Kampung Sawah
 32.01.18.2008,32.01.18,Cipinang
 32.01.18.2009,32.01.18,Sukasari
 32.01.18.2010,32.01.18,Tamansari
@@ -26044,7 +26045,7 @@ code,district_code,name
 32.01.19.2010,32.01.19,Bagoang
 32.01.19.2011,32.01.19,Pangaur
 32.01.19.2012,32.01.19,Pamagersari
-32.01.19.2013,32.01.19,Jugala Jaya
+32.01.19.2013,32.01.19,Jugalajaya
 32.01.19.2014,32.01.19,Tegalwangi
 32.01.19.2015,32.01.19,Neglasari
 32.01.19.2016,32.01.19,Wirajaya
@@ -26100,11 +26101,11 @@ code,district_code,name
 32.01.24.2004,32.01.24,Jambuluwuk
 32.01.24.2005,32.01.24,Banjarsari
 32.01.24.2006,32.01.24,Telukpinang
-32.01.24.2007,32.01.24,Banjar Waru
+32.01.24.2007,32.01.24,Banjarwaru
 32.01.24.2008,32.01.24,Bendungan
-32.01.24.2009,32.01.24,Pandan Sari
-32.01.24.2010,32.01.24,Bojong Murni
-32.01.24.2011,32.01.24,Banjar Wangi
+32.01.24.2009,32.01.24,Pandansari
+32.01.24.2010,32.01.24,Bojongmurni
+32.01.24.2011,32.01.24,Banjarwangi
 32.01.24.2012,32.01.24,Ciawi
 32.01.24.2013,32.01.24,Bitungsari
 32.01.25.1010,32.01.25,Cisarua
@@ -26129,7 +26130,7 @@ code,district_code,name
 32.01.26.2010,32.01.26,Sukamahi
 32.01.26.2011,32.01.26,Sukaresmi
 32.01.26.2012,32.01.26,Pasir Angin
-32.01.27.2001,32.01.27,Pasir Muncang
+32.01.27.2001,32.01.27,Pasirmuncang
 32.01.27.2002,32.01.27,Cimande Hilir
 32.01.27.2003,32.01.27,Ciderum
 32.01.27.2004,32.01.27,Caringin
@@ -26143,8 +26144,8 @@ code,district_code,name
 32.01.27.2012,32.01.27,Tangkil
 32.01.28.2001,32.01.28,Cijeruk
 32.01.28.2002,32.01.28,Cipelang
-32.01.28.2003,32.01.28,Warung Menteng
-32.01.28.2004,32.01.28,Tajur Halang
+32.01.28.2003,32.01.28,Warungmenteng
+32.01.28.2004,32.01.28,Tajurhalang
 32.01.28.2005,32.01.28,Cipicung
 32.01.28.2006,32.01.28,Cibalung
 32.01.28.2007,32.01.28,Sukaharja
@@ -26158,7 +26159,7 @@ code,district_code,name
 32.01.29.2006,32.01.29,Pagelaran
 32.01.29.2007,32.01.29,Sukamakmur
 32.01.29.2008,32.01.29,Ciapus
-32.01.29.2009,32.01.29,Kota Batu
+32.01.29.2009,32.01.29,Kotabatu
 32.01.29.2010,32.01.29,Laladon
 32.01.29.2011,32.01.29,Ciomas Rahayu
 32.01.30.2001,32.01.30,Sukadamai
@@ -26173,7 +26174,7 @@ code,district_code,name
 32.01.30.2010,32.01.30,Neglasari
 32.01.31.2001,32.01.31,Sukamantri
 32.01.31.2002,32.01.31,Sirnagalih
-32.01.31.2003,32.01.31,Pasireurih
+32.01.31.2003,32.01.31,Pasir Eurih
 32.01.31.2004,32.01.31,Tamansari
 32.01.31.2005,32.01.31,Sukaluyu
 32.01.31.2006,32.01.31,Sukaresmi
@@ -26184,8 +26185,8 @@ code,district_code,name
 32.01.32.2003,32.01.32,Nambo
 32.01.32.2004,32.01.32,Lulut
 32.01.32.2005,32.01.32,Cikahuripan
-32.01.32.2006,32.01.32,Kembang Kuning
-32.01.32.2007,32.01.32,Bantar Jati
+32.01.32.2006,32.01.32,Kembangkuning
+32.01.32.2007,32.01.32,Bantarjati
 32.01.32.2008,32.01.32,Leuwikaret
 32.01.32.2009,32.01.32,Ligarmukti
 32.01.33.2001,32.01.33,Putat Nutug
@@ -26195,7 +26196,7 @@ code,district_code,name
 32.01.33.2005,32.01.33,Cibeuteung Udik
 32.01.33.2006,32.01.33,Karihkil
 32.01.33.2007,32.01.33,Babakan
-32.01.33.2008,32.01.33,Cihoe
+32.01.33.2008,32.01.33,Cihowe
 32.01.33.2009,32.01.33,Cibeuteung Muara
 32.01.33.2010,32.01.33,Kuripan
 32.01.34.2001,32.01.34,Bantarjaya
@@ -26208,7 +26209,7 @@ code,district_code,name
 32.01.35.2001,32.01.35,Cisarua
 32.01.35.2002,32.01.35,Kiarasari
 32.01.35.2003,32.01.35,Sukajaya
-32.01.35.2004,32.01.35,Cipayung
+32.01.35.2004,32.01.35,Sipayung
 32.01.35.2005,32.01.35,Cileuksa
 32.01.35.2006,32.01.35,Kiarapandak
 32.01.35.2007,32.01.35,Harkatjaya
@@ -26220,7 +26221,7 @@ code,district_code,name
 32.01.36.2002,32.01.36,Selawangi
 32.01.36.2003,32.01.36,Tanjungrasa
 32.01.36.2004,32.01.36,Antajaya
-32.01.36.2005,32.01.36,Pasir Tanjung
+32.01.36.2005,32.01.36,Pasirtanjung
 32.01.36.2006,32.01.36,Cibadak
 32.01.36.2007,32.01.36,Sukarasa
 32.01.36.2008,32.01.36,Sirnasari
@@ -26234,7 +26235,7 @@ code,district_code,name
 32.01.37.2006,32.01.37,Tonjong
 32.01.37.2007,32.01.37,Kalisuren
 32.01.38.2001,32.01.38,Cigombong
-32.01.38.2002,32.01.38,Watesjaya
+32.01.38.2002,32.01.38,Wates Jaya
 32.01.38.2003,32.01.38,Ciburuy
 32.01.38.2004,32.01.38,Srogol
 32.01.38.2005,32.01.38,Cisalada
@@ -26244,7 +26245,7 @@ code,district_code,name
 32.01.38.2009,32.01.38,Ciadeg
 32.01.39.2001,32.01.39,Leuwisadeng
 32.01.39.2002,32.01.39,Babakan Sadeng
-32.01.39.2003,32.01.39,Sadeng Kolot
+32.01.39.2003,32.01.39,Sadengkolot
 32.01.39.2004,32.01.39,Wangunjaya
 32.01.39.2005,32.01.39,Kalong I
 32.01.39.2006,32.01.39,Kalong II
@@ -27641,7 +27642,7 @@ code,district_code,name
 32.05.31.2013,32.05.31,Hegarmanah
 32.05.32.2001,32.05.32,Mekarmukti
 32.05.32.2002,32.05.32,Karangwangi
-32.05.32.2003,32.05.32,Jayabaya
+32.05.32.2003,32.05.32,Jagabaya
 32.05.32.2004,32.05.32,Cijayana
 32.05.32.2005,32.05.32,Mekarsari
 32.05.33.2001,32.05.33,Neglasari
@@ -29485,7 +29486,7 @@ code,district_code,name
 32.10.26.2010,32.10.26,Girimukti
 32.10.26.2011,32.10.26,Kramat Jaya
 32.11.01.2001,32.11.01,Cimungkal
-32.11.01.2002,32.11.01,Ganjaresik
+32.11.01.2002,32.11.01,Ganjarresik
 32.11.01.2003,32.11.01,Cilengkrang
 32.11.01.2004,32.11.01,Cikareo Selatan
 32.11.01.2005,32.11.01,Cikareo Utara
@@ -29494,7 +29495,7 @@ code,district_code,name
 32.11.01.2009,32.11.01,Sukajadi
 32.11.01.2010,32.11.01,Cisurat
 32.11.01.2011,32.11.01,Sukapura
-32.11.02.2001,32.11.02,Sirnasari
+32.11.02.2001,32.11.02,Jatinunggal
 32.11.02.2002,32.11.02,Tarikolot
 32.11.02.2003,32.11.02,Pawenang
 32.11.02.2004,32.11.02,Sarimekar
@@ -29565,7 +29566,7 @@ code,district_code,name
 32.11.08.2004,32.11.08,Legok Kaler
 32.11.08.2005,32.11.08,Bongkok
 32.11.08.2006,32.11.08,Padanaan
-32.11.08.2007,32.11.08,Pasirengit
+32.11.08.2007,32.11.08,Pasireungit
 32.11.08.2008,32.11.08,Cijambe
 32.11.08.2009,32.11.08,Haurkuning
 32.11.08.2010,32.11.08,Citepok
@@ -29601,7 +29602,7 @@ code,district_code,name
 32.11.11.2007,32.11.11,Raharja
 32.11.11.2008,32.11.11,Cijambu
 32.11.11.2009,32.11.11,Pasigaran
-32.11.11.2010,32.11.11,Gunung Manik
+32.11.11.2010,32.11.11,Gunungmanik
 32.11.11.2011,32.11.11,Kadakajaya
 32.11.11.2012,32.11.11,Cinanjung
 32.11.12.2001,32.11.12,Sukasari
@@ -29744,7 +29745,7 @@ code,district_code,name
 32.11.25.2001,32.11.25,Ujungjaya
 32.11.25.2002,32.11.25,Palabuan
 32.11.25.2003,32.11.25,Palasari
-32.11.25.2004,32.11.25,Kebon Cau
+32.11.25.2004,32.11.25,Keboncau
 32.11.25.2005,32.11.25,Sakurjaya
 32.11.25.2006,32.11.25,Kudangwangi
 32.11.25.2007,32.11.25,Sukamulya
@@ -30364,7 +30365,7 @@ code,district_code,name
 32.14.04.2001,32.14.04,Plered
 32.14.04.2002,32.14.04,Palinggihan
 32.14.04.2003,32.14.04,Cibogohilir
-32.14.04.2004,32.14.04,Lingarsari
+32.14.04.2004,32.14.04,Linggarsari
 32.14.04.2005,32.14.04,Gandasoli
 32.14.04.2006,32.14.04,Citeko
 32.14.04.2007,32.14.04,Liunggunung
@@ -31499,7 +31500,7 @@ code,district_code,name
 32.73.23.1001,32.73.23,Cipamokolan
 32.73.23.1002,32.73.23,Derwati
 32.73.23.1003,32.73.23,Manjahlega
-32.73.23.1004,32.73.23,Mekarmulya
+32.73.23.1004,32.73.23,Mekar Jaya
 32.73.24.1001,32.73.24,Sukamiskin
 32.73.24.1002,32.73.24,Cisaranten Bina Harapan
 32.73.24.1003,32.73.24,Cisaranten Kulon
@@ -33034,7 +33035,7 @@ code,district_code,name
 33.05.06.2015,33.05.06,Arjowinangun
 33.05.06.2016,33.05.06,Ampih
 33.05.06.2017,33.05.06,Jogopaten
-33.05.06.2018,33.05.06,Kloposawit
+33.05.06.2018,33.05.06,Klapasawit
 33.05.06.2019,33.05.06,Sidomoro
 33.05.06.2020,33.05.06,Tanjungrejo
 33.05.06.2021,33.05.06,Tanjungsari
@@ -33121,7 +33122,7 @@ code,district_code,name
 33.05.10.2014,33.05.10,Lumbu
 33.05.10.2015,33.05.10,Tanjungsari
 33.05.10.2016,33.05.10,Kaliputih
-33.05.10.2017,33.05.10,Tanjungseto
+33.05.10.2017,33.05.10,Tunjungseto
 33.05.10.2018,33.05.10,Pesalakan
 33.05.10.2019,33.05.10,Karangsari
 33.05.11.2001,33.05.11,Bojongsari
@@ -33170,7 +33171,7 @@ code,district_code,name
 33.05.12.2028,33.05.12,Karangsari
 33.05.12.2029,33.05.12,Jemur
 33.05.13.2001,33.05.13,Logede
-33.05.13.2002,33.05.13,Kewayuhan
+33.05.13.2002,33.05.13,Kuwayuhan
 33.05.13.2003,33.05.13,Kedawung
 33.05.13.2004,33.05.13,Pejagoan
 33.05.13.2005,33.05.13,Kebulusan
@@ -33184,7 +33185,7 @@ code,district_code,name
 33.05.13.2013,33.05.13,Watulawang
 33.05.14.2001,33.05.14,Menganti
 33.05.14.2002,33.05.14,Trikarso
-33.05.14.2003,33.05.14,Sidoarjo
+33.05.14.2003,33.05.14,Sidoharjo
 33.05.14.2004,33.05.14,Giwangretno
 33.05.14.2005,33.05.14,Jabres
 33.05.14.2006,33.05.14,Sruweng
@@ -33218,7 +33219,7 @@ code,district_code,name
 33.05.15.2013,33.05.15,Sekarteja
 33.05.15.2014,33.05.15,Kemujan
 33.05.15.2015,33.05.15,Mangunharjo
-33.05.15.2016,33.05.15,Banyuroto
+33.05.15.2016,33.05.15,Banyurata
 33.05.15.2017,33.05.15,Meles
 33.05.15.2018,33.05.15,Caruban
 33.05.15.2019,33.05.15,Bonjok
@@ -33240,7 +33241,7 @@ code,district_code,name
 33.05.16.2012,33.05.16,Gandusari
 33.05.16.2013,33.05.16,Ori
 33.05.16.2014,33.05.16,Serut
-33.05.16.2015,33.05.16,Banjarejo
+33.05.16.2015,33.05.16,Banjareja
 33.05.16.2016,33.05.16,Gumawang
 33.05.16.2017,33.05.16,Wonoyoso
 33.05.16.2018,33.05.16,Gunungmujil
@@ -33271,7 +33272,7 @@ code,district_code,name
 33.05.18.2010,33.05.18,Sempor
 33.05.18.2011,33.05.18,Tunjungseto
 33.05.18.2012,33.05.18,Sampang
-33.05.18.2013,33.05.18,Donorejo
+33.05.18.2013,33.05.18,Donorojo
 33.05.18.2014,33.05.18,Kedungwringin
 33.05.18.2015,33.05.18,Kenteng
 33.05.18.2016,33.05.18,Somagede
@@ -33366,7 +33367,7 @@ code,district_code,name
 33.05.26.2007,33.05.26,Pujotirto
 33.05.26.2008,33.05.26,Wadasmalang
 33.05.26.2009,33.05.26,Tlepok
-33.05.26.2010,33.05.26,Kalisana
+33.05.26.2010,33.05.26,Kalisono
 33.05.26.2011,33.05.26,Langse
 33.05.26.2012,33.05.26,Banioro
 33.05.26.2013,33.05.26,Karangsambung
@@ -37312,7 +37313,7 @@ code,district_code,name
 33.19.02.1006,33.19.02,Wergu Wetan
 33.19.02.1007,33.19.02,Wergu Kulon
 33.19.02.1008,33.19.02,Mlati Kidul
-33.19.02.1009,33.19.02,Mlati Norowito
+33.19.02.1009,33.19.02,Mlatinorowito
 33.19.02.1017,33.19.02,Kerjasan
 33.19.02.1018,33.19.02,Kajeksan
 33.19.02.2002,33.19.02,Janggalan
@@ -38600,7 +38601,7 @@ code,district_code,name
 33.24.15.1004,33.24.15,Trompo
 33.24.15.1005,33.24.15,Ketapang
 33.24.15.1006,33.24.15,Kebondalem
-33.24.15.1007,33.24.15,Kalibuntuwetan
+33.24.15.1007,33.24.15,Kalibuntu Wetan
 33.24.15.1008,33.24.15,Sijeruk
 33.24.15.1009,33.24.15,Tunggulrejo
 33.24.15.1010,33.24.15,Jetis
@@ -39928,7 +39929,7 @@ code,district_code,name
 33.29.13.2003,33.29.13,Kemurang Kulon
 33.29.13.2004,33.29.13,Kemurang Wetan
 33.29.13.2005,33.29.13,Krakahan
-33.29.13.2006,33.29.13,Kupangputat
+33.29.13.2006,33.29.13,Kubangputat
 33.29.13.2007,33.29.13,Luwunggede
 33.29.13.2008,33.29.13,Lemahabang
 33.29.13.2009,33.29.13,Luwungbata
@@ -41631,7 +41632,7 @@ code,district_code,name
 35.04.15.2005,35.04.15,Tanggulturus
 35.04.15.2006,35.04.15,Sedayugunung
 35.04.15.2007,35.04.15,Tanggulkundung
-35.04.15.2008,35.04.15,WatesKroyo
+35.04.15.2008,35.04.15,Wateskroyo
 35.04.15.2009,35.04.15,Siyotobagus
 35.04.15.2010,35.04.15,Tulungrejo
 35.04.16.2001,35.04.16,Ngentrong
@@ -42289,7 +42290,7 @@ code,district_code,name
 35.07.01.2008,35.07.01,Sumberoto
 35.07.01.2009,35.07.01,Mentaraman
 35.07.01.2010,35.07.01,Purwodadi
-35.07.02.2001,35.07.02,Sumbermanjingkulon
+35.07.02.2001,35.07.02,Sumbermanjing Kulon
 35.07.02.2002,35.07.02,Pandanrejo
 35.07.02.2003,35.07.02,Sumberkerto
 35.07.02.2004,35.07.02,Sempol
@@ -42328,7 +42329,7 @@ code,district_code,name
 35.07.05.2003,35.07.05,Srimulyo
 35.07.05.2004,35.07.05,Baturetno
 35.07.05.2005,35.07.05,Bumirejo
-35.07.05.2006,35.07.05,Amandanom
+35.07.05.2006,35.07.05,Amadanom
 35.07.05.2008,35.07.05,Pamotan
 35.07.05.2009,35.07.05,Majangtengah
 35.07.05.2010,35.07.05,Rembun
@@ -42383,8 +42384,8 @@ code,district_code,name
 35.07.09.2002,35.07.09,Kemulan
 35.07.09.2003,35.07.09,Sawahan
 35.07.09.2004,35.07.09,Undaan
-35.07.09.2005,35.07.09,Gedogkulon
-35.07.09.2006,35.07.09,Gedogwetan
+35.07.09.2005,35.07.09,Gedok Kulon
+35.07.09.2006,35.07.09,Gedok Wetan
 35.07.09.2007,35.07.09,Talok
 35.07.09.2009,35.07.09,Tanggung
 35.07.09.2010,35.07.09,Jeru
@@ -42420,7 +42421,7 @@ code,district_code,name
 35.07.12.2001,35.07.12,Ternyang
 35.07.12.2002,35.07.12,Senggreng
 35.07.12.2003,35.07.12,Sambigede
-35.07.12.2004,35.07.12,Ngebrug
+35.07.12.2004,35.07.12,Ngebruk
 35.07.12.2005,35.07.12,Jatiguwi
 35.07.12.2006,35.07.12,Sumberpucung
 35.07.12.2007,35.07.12,Karangkates
@@ -42467,7 +42468,7 @@ code,district_code,name
 35.07.15.2009,35.07.15,Jambearjo
 35.07.15.2010,35.07.15,Tangkilsari
 35.07.15.2011,35.07.15,Sumbersuko
-35.07.15.2012,35.07.15,Tambaksari
+35.07.15.2012,35.07.15,Tambakasri
 35.07.16.2001,35.07.16,Ngingit
 35.07.16.2002,35.07.16,Kidal
 35.07.16.2003,35.07.16,Kambingan
@@ -42482,7 +42483,7 @@ code,district_code,name
 35.07.16.2012,35.07.16,Tulusbesar
 35.07.16.2013,35.07.16,Duwet
 35.07.16.2014,35.07.16,Benjor
-35.07.16.2015,35.07.16,Duwet Kerajan
+35.07.16.2015,35.07.16,Duwet Krajan
 35.07.17.2001,35.07.17,Taji
 35.07.17.2002,35.07.17,Ngadirejo
 35.07.17.2003,35.07.17,Kenongo
@@ -42511,11 +42512,11 @@ code,district_code,name
 35.07.18.2011,35.07.18,Tirtomoyo
 35.07.18.2012,35.07.18,Saptorenggo
 35.07.18.2013,35.07.18,Asrikaton
-35.07.18.2014,35.07.18,Bunutwetan
+35.07.18.2014,35.07.18,Bunut Wetan
 35.07.18.2015,35.07.18,Pakisjajar
 35.07.19.2001,35.07.19,Permanu
 35.07.19.2002,35.07.19,Karangpandan
-35.07.19.2003,35.07.19,Gelanggang
+35.07.19.2003,35.07.19,Glanggang
 35.07.19.2004,35.07.19,Wonokerso
 35.07.19.2005,35.07.19,Karangduren
 35.07.19.2006,35.07.19,Sutojayan
@@ -42574,7 +42575,7 @@ code,district_code,name
 35.07.24.2004,35.07.24,Watugede
 35.07.24.2005,35.07.24,Banjararum
 35.07.24.2006,35.07.24,Tunjungtirto
-35.07.24.2007,35.07.24,Langlang
+35.07.24.2007,35.07.24,Lang-Lang
 35.07.24.2008,35.07.24,Purwoasri
 35.07.24.2009,35.07.24,Klampok
 35.07.24.2010,35.07.24,Gunungrejo
@@ -42596,7 +42597,7 @@ code,district_code,name
 35.07.25.2012,35.07.25,Wonorejo
 35.07.26.2001,35.07.26,Bendosari
 35.07.26.2002,35.07.26,Sukomulyo
-35.07.26.2003,35.07.26,Pujonkidul
+35.07.26.2003,35.07.26,Pujon Kidul
 35.07.26.2004,35.07.26,Pandesari
 35.07.26.2005,35.07.26,Pujon Lor
 35.07.26.2006,35.07.26,Ngroto
@@ -43875,7 +43876,7 @@ code,district_code,name
 35.13.14.1003,35.13.14,Semampir
 35.13.14.1005,35.13.14,Sidomukti
 35.13.14.1007,35.13.14,Kraksaan Wetan
-35.13.14.1008,35.13.14,Kandang Jati Kulon
+35.13.14.1008,35.13.14,Kandangjati Kulon
 35.13.14.1017,35.13.14,Patokan
 35.13.14.2001,35.13.14,Kregenan
 35.13.14.2002,35.13.14,Rondokuning
@@ -43906,7 +43907,7 @@ code,district_code,name
 35.13.15.2014,35.13.15,Widoro
 35.13.15.2015,35.13.15,Gebangan
 35.13.15.2016,35.13.15,Duwuhan
-35.13.15.2017,35.13.15,Soka"an
+35.13.15.2017,35.13.15,"Soka""an"
 35.13.16.2001,35.13.16,Selogudig Kulon
 35.13.16.2002,35.13.16,Selogudig Wetan
 35.13.16.2003,35.13.16,Ketompen
@@ -44026,55 +44027,55 @@ code,district_code,name
 35.13.24.2010,35.13.24,Purut
 35.14.01.2001,35.14.01,Gerbo
 35.14.01.2002,35.14.01,Dawuhansengon
-35.14.01.2003,35.14.01,Lebak Rejo
+35.14.01.2003,35.14.01,Lebakrejo
 35.14.01.2004,35.14.01,Cowek
 35.14.01.2005,35.14.01,Purwodadi
 35.14.01.2006,35.14.01,Parerejo
 35.14.01.2007,35.14.01,Gajahrejo
 35.14.01.2008,35.14.01,Sentul
 35.14.01.2009,35.14.01,Jatisari
-35.14.01.2010,35.14.01,Tambak Sari
-35.14.01.2011,35.14.01,Pucang Sari
+35.14.01.2010,35.14.01,Tambaksari
+35.14.01.2011,35.14.01,Pucangsari
 35.14.01.2012,35.14.01,Semut
 35.14.01.2013,35.14.01,Capang
 35.14.02.2001,35.14.02,Ngadirejo
 35.14.02.2002,35.14.02,Blarang
-35.14.02.2003,35.14.02,Kayu Kebek
-35.14.02.2004,35.14.02,Andono Sari
+35.14.02.2003,35.14.02,Kayukebek
+35.14.02.2004,35.14.02,Andonosari
 35.14.02.2005,35.14.02,Wonosari
 35.14.02.2006,35.14.02,Gendro
 35.14.02.2007,35.14.02,Tlogosari
 35.14.02.2008,35.14.02,Tutur
 35.14.02.2009,35.14.02,Pungging
 35.14.02.2010,35.14.02,Kalipucang
-35.14.02.2011,35.14.02,Sumber Pitu
+35.14.02.2011,35.14.02,Sumberpitu
 35.14.02.2012,35.14.02,Ngembal
 35.14.03.2001,35.14.03,Kemiri
 35.14.03.2002,35.14.03,Janjangwulung
 35.14.03.2003,35.14.03,Palangsari
 35.14.03.2004,35.14.03,Puspo
 35.14.03.2005,35.14.03,Jimbaran
-35.14.03.2006,35.14.03,Pusung Malang
+35.14.03.2006,35.14.03,Pusungmalang
 35.14.03.2007,35.14.03,Keduwung
 35.14.04.2001,35.14.04,Wonorejo
 35.14.04.2002,35.14.04,Banjarimbo
 35.14.04.2003,35.14.04,Welulang
-35.14.04.2004,35.14.04,Watu Lumbung
+35.14.04.2004,35.14.04,Watulumbung
 35.14.04.2005,35.14.04,Panditan
-35.14.04.2006,35.14.04,Bulu Kandang
+35.14.04.2006,35.14.04,Bulukandang
 35.14.04.2007,35.14.04,Lumbang
 35.14.04.2008,35.14.04,Pancur
 35.14.04.2009,35.14.04,Kronto
-35.14.04.2010,35.14.04,Karang Asem
-35.14.04.2011,35.14.04,Cukur Guling
-35.14.04.2012,35.14.04,Karang Jati
+35.14.04.2010,35.14.04,Karangasem
+35.14.04.2011,35.14.04,Cukurguling
+35.14.04.2012,35.14.04,Karangjati
 35.14.05.2001,35.14.05,Ngantungan
 35.14.05.2002,35.14.05,Galih
 35.14.05.2003,35.14.05,Petung
 35.14.05.2004,35.14.05,Klakah
 35.14.05.2005,35.14.05,Sibon
 35.14.05.2006,35.14.05,Mangguan
-35.14.05.2007,35.14.05,Ampel Sari
+35.14.05.2007,35.14.05,Ampelsari
 35.14.05.2008,35.14.05,Tempuran
 35.14.05.2009,35.14.05,Sapulante
 35.14.05.2010,35.14.05,Pohgedang
@@ -44082,49 +44083,49 @@ code,district_code,name
 35.14.05.2012,35.14.05,Rejosalam
 35.14.05.2013,35.14.05,Cengkrong
 35.14.05.2014,35.14.05,Lemahbang
-35.14.05.2015,35.14.05,Tambak Rejo
+35.14.05.2015,35.14.05,Tambakrejo
 35.14.05.2016,35.14.05,Pohgading
 35.14.05.2017,35.14.05,Jogorepuh
 35.14.06.1024,35.14.06,Kejayan
-35.14.06.2001,35.14.06,Oro Oro Puleh
-35.14.06.2002,35.14.06,Kedungpengaron
+35.14.06.2001,35.14.06,Oro-Oro Pule
+35.14.06.2002,35.14.06,Kedung Pengaron
 35.14.06.2003,35.14.06,Benerwojo
 35.14.06.2004,35.14.06,Cobanjoyo
 35.14.06.2005,35.14.06,Kepuh
 35.14.06.2006,35.14.06,Lorokan
 35.14.06.2007,35.14.06,Klangrong
 35.14.06.2008,35.14.06,Linggo
-35.14.06.2009,35.14.06,Ambal Ambil
+35.14.06.2009,35.14.06,Ambal-Ambil
 35.14.06.2010,35.14.06,Kedemungan
 35.14.06.2011,35.14.06,Wrati
-35.14.06.2012,35.14.06,Pacar Keling
+35.14.06.2012,35.14.06,Pacarkeling
 35.14.06.2013,35.14.06,Luwuk
-35.14.06.2014,35.14.06,Sumber Suko
+35.14.06.2014,35.14.06,Sumbersuko
 35.14.06.2015,35.14.06,Sumber Banteng
 35.14.06.2016,35.14.06,Kurung
 35.14.06.2017,35.14.06,Tanggulangin
 35.14.06.2018,35.14.06,Randugong
-35.14.06.2019,35.14.06,Wangkalwetan
+35.14.06.2019,35.14.06,Wangkal Wetan
 35.14.06.2020,35.14.06,Klinter
-35.14.06.2021,35.14.06,Tundosuro/Tundosor o
+35.14.06.2021,35.14.06,Tundosoro
 35.14.06.2022,35.14.06,Ketangirejo
 35.14.06.2023,35.14.06,Patebon
 35.14.06.2025,35.14.06,Sladi
 35.14.07.2001,35.14.07,Karangmenggah
-35.14.07.2002,35.14.07,Karangjatianyar
+35.14.07.2002,35.14.07,Karang Jatianyar
 35.14.07.2003,35.14.07,Pakijangan
 35.14.07.2004,35.14.07,Cobanblimbing
 35.14.07.2005,35.14.07,Wonorejo
 35.14.07.2006,35.14.07,Wonosari
 35.14.07.2007,35.14.07,Tamansari
-35.14.07.2008,35.14.07,Jati Gunting
+35.14.07.2008,35.14.07,Jatigunting
 35.14.07.2009,35.14.07,Rebono
 35.14.07.2010,35.14.07,Karangsono
 35.14.07.2011,35.14.07,Kendangdukuh
 35.14.07.2012,35.14.07,Karangasem
 35.14.07.2013,35.14.07,Kluwut
 35.14.07.2014,35.14.07,Sambisirah
-35.14.07.2015,35.14.07,Lebak Sari
+35.14.07.2015,35.14.07,Lebaksari
 35.14.08.1006,35.14.08,Purwosari
 35.14.08.2001,35.14.08,Sumberrejo
 35.14.08.2002,35.14.08,Sekarmojo
@@ -44136,7 +44137,7 @@ code,district_code,name
 35.14.08.2009,35.14.08,Cendono
 35.14.08.2010,35.14.08,Karangrejo
 35.14.08.2011,35.14.08,Sumbersuko
-35.14.08.2012,35.14.08,Pucang Sari
+35.14.08.2012,35.14.08,Pucangsari
 35.14.08.2013,35.14.08,Kayoman
 35.14.08.2014,35.14.08,Sukodermo
 35.14.08.2015,35.14.08,Bakalan
@@ -44213,7 +44214,7 @@ code,district_code,name
 35.14.13.2003,35.14.13,Kenep
 35.14.13.2004,35.14.13,Sidowayah
 35.14.13.2005,35.14.13,Gajahbendo
-35.14.13.2006,35.14.13,Gunung Gangsir
+35.14.13.2006,35.14.13,Gununggangsir
 35.14.13.2007,35.14.13,Wonokoyo
 35.14.13.2008,35.14.13,Gunungsari
 35.14.13.2009,35.14.13,Cangkringmalang
@@ -44244,8 +44245,8 @@ code,district_code,name
 35.14.15.2007,35.14.15,Sumberglagah
 35.14.15.2008,35.14.15,Krengih
 35.14.15.2009,35.14.15,Rembang
-35.14.15.2010,35.14.15,Oro-Orobulu
-35.14.15.2011,35.14.15,Kedung Banteng
+35.14.15.2010,35.14.15,Orobulu
+35.14.15.2011,35.14.15,Kedungbanteng
 35.14.15.2012,35.14.15,Oro-Oro Ombowetan
 35.14.15.2013,35.14.15,Oro-Oro Ombokulon
 35.14.15.2014,35.14.15,Pekoren
@@ -44269,15 +44270,15 @@ code,district_code,name
 35.14.16.2015,35.14.16,Selotambak
 35.14.16.2016,35.14.16,Curahdukuh
 35.14.16.2017,35.14.16,Rejosari
-35.14.16.2018,35.14.16,Asem Kandang
-35.14.16.2019,35.14.16,Tambak Rejo
+35.14.16.2018,35.14.16,Asemkandang
+35.14.16.2019,35.14.16,Tambakrejo
 35.14.16.2020,35.14.16,Kalirejo
 35.14.16.2021,35.14.16,Semare
 35.14.16.2022,35.14.16,Kraton
 35.14.16.2023,35.14.16,Pulokerto
 35.14.16.2024,35.14.16,Bendungan
 35.14.16.2025,35.14.16,Gerongan
-35.14.17.2001,35.14.17,Susukan Rejo
+35.14.17.2001,35.14.17,Susukanrejo
 35.14.17.2002,35.14.17,Warungdowo
 35.14.17.2003,35.14.17,Pleret
 35.14.17.2004,35.14.17,Parasrejo
@@ -44290,8 +44291,8 @@ code,district_code,name
 35.14.18.2001,35.14.18,Tebas
 35.14.18.2002,35.14.18,Brambang
 35.14.18.2003,35.14.18,Bayeman
-35.14.18.2004,35.14.18,Kebon Candi
-35.14.18.2005,35.14.18,Tenggilis Rejo
+35.14.18.2004,35.14.18,Keboncandi
+35.14.18.2005,35.14.18,Tenggilisrejo
 35.14.18.2006,35.14.18,Wonojati
 35.14.18.2007,35.14.18,Wonosari
 35.14.18.2008,35.14.18,Kersikan
@@ -44303,11 +44304,11 @@ code,district_code,name
 35.14.18.2014,35.14.18,Grogol
 35.14.18.2015,35.14.18,Pekangkungan
 35.14.18.2017,35.14.18,Ranggeh
-35.14.18.2018,35.14.18,Sekar Putih
+35.14.18.2018,35.14.18,Sekarputih
 35.14.18.2019,35.14.18,Bajangan
 35.14.18.2020,35.14.18,Gondangrejo
 35.14.19.2001,35.14.19,Minggir
-35.14.19.2002,35.14.19,Karang Tengah
+35.14.19.2002,35.14.19,Karangtengah
 35.14.19.2003,35.14.19,Kedungrejo
 35.14.19.2004,35.14.19,Umbulan
 35.14.19.2005,35.14.19,Sidepan
@@ -44356,7 +44357,7 @@ code,district_code,name
 35.14.21.2015,35.14.21,Watuprapat
 35.14.22.2001,35.14.22,Rowogempol
 35.14.22.2002,35.14.22,Gejugjati
-35.14.22.2003,35.14.22,Alas Tlogo
+35.14.22.2003,35.14.22,Alastlogo
 35.14.22.2004,35.14.22,Balonganyar
 35.14.22.2005,35.14.22,Branang
 35.14.22.2006,35.14.22,Tampung
@@ -44376,9 +44377,9 @@ code,district_code,name
 35.14.23.2009,35.14.23,Karangpandan
 35.14.23.2010,35.14.23,Sambirejo
 35.14.23.2011,35.14.23,Kedungbako
-35.14.23.2012,35.14.23,Rejoso Lor
-35.14.23.2013,35.14.23,Patuguhan
-35.14.23.2014,35.14.23,Kemantren Rejo
+35.14.23.2012,35.14.23,Rejosolor
+35.14.23.2013,35.14.23,Patuguran
+35.14.23.2014,35.14.23,Kemantrenrejo
 35.14.23.2015,35.14.23,Segoropuro
 35.14.23.2016,35.14.23,Jarangan
 35.14.24.2001,35.14.24,Mororejo
@@ -45502,7 +45503,7 @@ code,district_code,name
 35.18.11.2015,35.18.11,Sambirejo
 35.18.11.2016,35.18.11,Demangan
 35.18.12.1002,35.18.12,Kapas
-35.18.12.1007,35.18.12,Sokomoro
+35.18.12.1007,35.18.12,Sukomoro
 35.18.12.2001,35.18.12,Sumengko
 35.18.12.2003,35.18.12,Blitaran
 35.18.12.2004,35.18.12,Kedungsoko
@@ -45522,7 +45523,7 @@ code,district_code,name
 35.18.13.1007,35.18.13,Mangundikaran
 35.18.13.1008,35.18.13,Kauman
 35.18.13.1009,35.18.13,Kartoharjo
-35.18.13.1010,35.18.13,Cangkriman
+35.18.13.1010,35.18.13,Cangkringan
 35.18.13.1011,35.18.13,Bogo
 35.18.13.1012,35.18.13,Ringinanom
 35.18.13.1013,35.18.13,Begadung
@@ -45585,7 +45586,7 @@ code,district_code,name
 35.18.17.2004,35.18.17,Karangsemi
 35.18.17.2005,35.18.17,Senjayan
 35.18.17.2006,35.18.17,Kedungglugu
-35.18.17.2007,35.18.17,Ja"an
+35.18.17.2007,35.18.17,"Ja""an"
 35.18.17.2008,35.18.17,Sumberagung
 35.18.17.2009,35.18.17,Ketawang
 35.18.17.2010,35.18.17,Ngujung
@@ -46558,7 +46559,7 @@ code,district_code,name
 35.22.15.1010,35.22.15,Ledok Wetan
 35.22.15.1011,35.22.15,Kadipaten
 35.22.15.1012,35.22.15,Ngrowo
-35.22.15.1013,35.22.15,Karang pacar
+35.22.15.1013,35.22.15,Karangpacar
 35.22.15.1014,35.22.15,Banjarejo
 35.22.15.2002,35.22.15,Pacul
 35.22.15.2003,35.22.15,Sukorejo
@@ -46593,7 +46594,7 @@ code,district_code,name
 35.22.17.2006,35.22.17,Rendeng
 35.22.17.2007,35.22.17,Banaran
 35.22.17.2008,35.22.17,Ngujung
-35.22.17.2009,35.22.17,Sumberrejo
+35.22.17.2009,35.22.17,Sumberejo
 35.22.17.2010,35.22.17,Tambakromo
 35.22.17.2011,35.22.17,Tinawun
 35.22.17.2012,35.22.17,Kedungrejo
@@ -46999,7 +47000,7 @@ code,district_code,name
 35.23.17.2016,35.23.17,Kebomlati
 35.23.17.2017,35.23.17,Penidon
 35.23.17.2018,35.23.17,Kedungsoko
-35.23.18.1001,35.23.18,Payuran
+35.23.18.1001,35.23.18,Panyuran
 35.23.18.2002,35.23.18,Tasikmadu
 35.23.18.2003,35.23.18,Tegalbang
 35.23.18.2004,35.23.18,Sumurgung
@@ -47536,7 +47537,7 @@ code,district_code,name
 35.25.01.2015,35.25.01,Jrebeng
 35.25.01.2016,35.25.01,Mojopetung
 35.25.01.2017,35.25.01,Sekargadung
-35.25.01.2018,35.25.01,Ima"an
+35.25.01.2018,35.25.01,"Ima""an"
 35.25.01.2019,35.25.01,Babakbawo
 35.25.01.2020,35.25.01,Babaksari
 35.25.01.2021,35.25.01,Sambogunung
@@ -47898,7 +47899,7 @@ code,district_code,name
 35.26.02.2008,35.26.02,Dakiring
 35.26.02.2009,35.26.02,Petaonan
 35.26.02.2010,35.26.02,Pernajuh
-35.26.02.2011,35.26.02,Saggra Agung
+35.26.02.2011,35.26.02,Sanggra Agung
 35.26.03.1005,35.26.03,Tunjung
 35.26.03.2001,35.26.03,Burneh
 35.26.03.2002,35.26.03,Langkap
@@ -47920,7 +47921,7 @@ code,district_code,name
 35.26.04.2007,35.26.04,Pendabah
 35.26.04.2008,35.26.04,Tajungan
 35.26.04.2009,35.26.04,Kebun
-35.26.04.2010,35.26.04,Tangjungjati
+35.26.04.2010,35.26.04,Tanjung Jati
 35.26.05.2001,35.26.05,Arosbaya
 35.26.05.2002,35.26.05,Tengket
 35.26.05.2003,35.26.05,Lajing
@@ -47958,7 +47959,7 @@ code,district_code,name
 35.26.07.2004,35.26.07,Tobaddung
 35.26.07.2005,35.26.07,Tolbuk
 35.26.07.2006,35.26.07,Moarah
-35.26.07.2007,35.26.07,Ra"as
+35.26.07.2007,35.26.07,Ra'as
 35.26.07.2008,35.26.07,Polongan
 35.26.07.2009,35.26.07,Karang Asem
 35.26.07.2010,35.26.07,Trogan
@@ -47973,7 +47974,7 @@ code,district_code,name
 35.26.07.2019,35.26.07,Tenggun Dajah
 35.26.07.2020,35.26.07,Larangan Sorjan
 35.26.07.2021,35.26.07,Larangan Glintong
-35.26.07.2022,35.26.07,Ko"ol
+35.26.07.2022,35.26.07,Ko'ol
 35.26.08.2001,35.26.08,Sepulu
 35.26.08.2002,35.26.08,Maneron
 35.26.08.2003,35.26.08,Gangseyan
@@ -48009,11 +48010,11 @@ code,district_code,name
 35.26.10.2004,35.26.10,Tramok
 35.26.10.2005,35.26.10,Katol Timur
 35.26.10.2006,35.26.10,Lembung Gunong
-35.26.10.2007,35.26.10,Ampara"an
+35.26.10.2007,35.26.10,Ampara'an
 35.26.10.2008,35.26.10,Kokop
 35.26.10.2009,35.26.10,Tlokoh
 35.26.10.2010,35.26.10,Durjan
-35.26.10.2011,35.26.10,Mano"an
+35.26.10.2011,35.26.10,Mano'an
 35.26.10.2012,35.26.10,Mandung
 35.26.10.2013,35.26.10,Bandang Laok
 35.26.11.2001,35.26.11,Pesanggrahan
@@ -48039,7 +48040,7 @@ code,district_code,name
 35.26.12.2005,35.26.12,Sukolilo Timur
 35.26.12.2006,35.26.12,Sukolilo Barat
 35.26.12.2007,35.26.12,Bringen
-35.26.12.2008,35.26.12,Ba"engas
+35.26.12.2008,35.26.12,Ba'engas
 35.26.12.2009,35.26.12,Bunajih
 35.26.12.2010,35.26.12,Sendang Laok
 35.26.12.2011,35.26.12,Sendang Dajah
@@ -48084,7 +48085,7 @@ code,district_code,name
 35.26.14.2014,35.26.14,Jaddung
 35.26.14.2015,35.26.14,Pacangan
 35.26.14.2016,35.26.14,Bancang
-35.26.14.2017,35.26.14,Ja"ah
+35.26.14.2017,35.26.14,Jaah
 35.26.14.2018,35.26.14,Masaran
 35.26.15.2001,35.26.15,Blega
 35.26.15.2002,35.26.15,Rosep
@@ -48110,9 +48111,9 @@ code,district_code,name
 35.26.16.2003,35.26.16,Kolla
 35.26.16.2004,35.26.16,Neroh
 35.26.16.2005,35.26.16,Langpanggang
-35.26.16.2006,35.26.16,Patenteng
-35.26.16.2007,35.26.16,Srabi Barat
-35.26.16.2008,35.26.16,Srabi Timur
+35.26.16.2006,35.26.16,Patengteng
+35.26.16.2007,35.26.16,Serabi Barat
+35.26.16.2008,35.26.16,Serabi Timur
 35.26.16.2009,35.26.16,Pangpajung
 35.26.16.2010,35.26.16,Karang Anyar
 35.26.16.2011,35.26.16,Alas Kokon
@@ -48120,8 +48121,8 @@ code,district_code,name
 35.26.16.2013,35.26.16,Glisgis
 35.26.16.2014,35.26.16,Brakas Dajah
 35.26.16.2015,35.26.16,Modung
-35.26.16.2016,35.26.16,Suwa"an
-35.26.16.2017,35.26.16,Mangga"an
+35.26.16.2016,35.26.16,Suwaan
+35.26.16.2017,35.26.16,Manggaan
 35.26.17.2001,35.26.17,Bandung
 35.26.17.2002,35.26.17,Konang
 35.26.17.2003,35.26.17,Genteng
@@ -48200,7 +48201,7 @@ code,district_code,name
 35.27.03.2018,35.27.03,Baruh
 35.27.04.2001,35.27.04,Taddan
 35.27.04.2002,35.27.04,Banjar Talela
-35.27.04.2003,35.27.04,Tamba"an
+35.27.04.2003,35.27.04,"Tamba""an"
 35.27.04.2004,35.27.04,Prajjan
 35.27.04.2005,35.27.04,Dharma Camplong
 35.27.04.2006,35.27.04,Batukarang
@@ -48210,8 +48211,8 @@ code,district_code,name
 35.27.04.2010,35.27.04,Banjartabulu
 35.27.04.2011,35.27.04,Anggersek
 35.27.04.2012,35.27.04,Madupat
-35.27.04.2013,35.27.04,Pamola"an
-35.27.04.2014,35.27.04,Plampa"an
+35.27.04.2013,35.27.04,"Pamola""an"
+35.27.04.2014,35.27.04,"Plampa""an"
 35.27.05.2001,35.27.05,Kebun Sareh
 35.27.05.2002,35.27.05,Karangnangger
 35.27.05.2003,35.27.05,Rapa Laok
@@ -48293,7 +48294,7 @@ code,district_code,name
 35.27.09.2017,35.27.09,Masaran
 35.27.09.2018,35.27.09,Banyuates
 35.27.09.2019,35.27.09,Jatra Timur
-35.27.09.2020,35.27.09,Tapa"an
+35.27.09.2020,35.27.09,"Tapa""an"
 35.27.10.2008,35.27.10,Lepelle
 35.27.10.2009,35.27.10,Bapelle
 35.27.10.2010,35.27.10,Sawah Tengah
@@ -48770,7 +48771,7 @@ code,district_code,name
 35.29.18.2012,35.29.18,Lapa Laok
 35.29.18.2013,35.29.18,Lapa Daya
 35.29.18.2014,35.29.18,Bancamara
-35.29.18.2015,35.29.18,Banra"as
+35.29.18.2015,35.29.18,"Banra""as"
 35.29.19.2001,35.29.19,Grujugan
 35.29.19.2002,35.29.19,Longos
 35.29.19.2003,35.29.19,Andulang
@@ -49049,7 +49050,7 @@ code,district_code,name
 35.75.04.1008,35.75.04,Petamanan
 35.75.04.1009,35.75.04,Pekuncen
 35.75.04.1010,35.75.04,Bugul Lor
-35.75.04.1011,35.75.04,Kandang Sapi
+35.75.04.1011,35.75.04,Kandangsapi
 35.75.04.1012,35.75.04,Panggungrejo
 35.75.04.1013,35.75.04,Mandaranrejo
 35.76.01.1003,35.76.01,Mentikan
@@ -49824,7 +49825,6 @@ code,district_code,name
 36.02.16.2015,36.02.16,Cimenga
 36.02.16.2016,36.02.16,Kapunduhan
 36.02.16.2017,36.02.16,Sukasenang
-36.02.16.2018,36.02.16,Cikaratuan
 36.02.17.2001,36.02.17,Anggalan
 36.02.17.2002,36.02.17,Muncangkopong
 36.02.17.2003,36.02.17,Sukaharja
@@ -49958,6 +49958,7 @@ code,district_code,name
 36.02.28.2006,36.02.28,Cikadongdong
 36.02.28.2007,36.02.28,Cikaret
 36.02.28.2008,36.02.28,Wangunjaya
+36.02.28.2009,36.02.28,Cikaratuan
 36.03.01.1001,36.03.01,Balaraja
 36.03.01.2003,36.03.01,Cangkudu
 36.03.01.2005,36.03.01,Talagasari
@@ -52333,7 +52334,7 @@ code,district_code,name
 52.06.01.2018,52.06.01,Nontotera
 52.06.01.2019,52.06.01,Waro
 52.06.02.2001,52.06.02,Tambe
-52.06.02.2002,52.06.02,Rasabau
+52.06.02.2002,52.06.02,Rasabou
 52.06.02.2003,52.06.02,Rato
 52.06.02.2004,52.06.02,Kananga
 52.06.02.2005,52.06.02,Leu
@@ -52378,7 +52379,7 @@ code,district_code,name
 52.06.05.2011,52.06.05,Kambilo
 52.06.05.2012,52.06.05,Maria Utara
 52.06.05.2013,52.06.05,Kombo
-52.06.05.2014,52.06.05,Rianmau
+52.06.05.2014,52.06.05,Riamau
 52.06.06.2001,52.06.06,Sari
 52.06.06.2002,52.06.06,Boke
 52.06.06.2003,52.06.06,Jia
@@ -52387,21 +52388,21 @@ code,district_code,name
 52.06.06.2006,52.06.06,Rasabou
 52.06.06.2007,52.06.06,Sangia
 52.06.06.2008,52.06.06,Na'e
-52.06.06.2009,52.06.06,Rai O'i
+52.06.06.2009,52.06.06,Rai Oi
 52.06.06.2010,52.06.06,Parangina
 52.06.06.2011,52.06.06,Kowo
 52.06.06.2012,52.06.06,Buncu
 52.06.06.2013,52.06.06,Poja
-52.06.06.2014,52.06.06,Bajo Pulo
+52.06.06.2014,52.06.06,Bajo Pulau
 52.06.06.2015,52.06.06,Naru Barat
 52.06.06.2016,52.06.06,Tanah Putih
-52.06.06.2017,52.06.06,Lamera
+52.06.06.2017,52.06.06,Lamere
 52.06.06.2018,52.06.06,Oi Maci
 52.06.07.2001,52.06.07,Ntoke
 52.06.07.2002,52.06.07,Pai
 52.06.07.2003,52.06.07,Nunggi
 52.06.07.2004,52.06.07,Tawali
-52.06.07.2005,52.06.07,Hadirasa
+52.06.07.2005,52.06.07,Hidirasa
 52.06.07.2006,52.06.07,Wora
 52.06.07.2007,52.06.07,Sangiang
 52.06.07.2008,52.06.07,Bala
@@ -52411,7 +52412,7 @@ code,district_code,name
 52.06.07.2012,52.06.07,Ranggasolo
 52.06.07.2013,52.06.07,Kalajena
 52.06.07.2014,52.06.07,Mandala
-52.06.08.2005,52.06.08,Dori Dungga
+52.06.08.2005,52.06.08,Doridungga
 52.06.08.2006,52.06.08,Kala
 52.06.08.2007,52.06.08,O'o
 52.06.08.2008,52.06.08,Mbawa
@@ -52437,7 +52438,7 @@ code,district_code,name
 52.06.11.2003,52.06.11,Rupe
 52.06.11.2004,52.06.11,Kalodu
 52.06.11.2005,52.06.11,Kawuwu
-52.06.11.2006,52.06.11,Doro O"o
+52.06.11.2006,52.06.11,Doro O'o
 52.06.11.2007,52.06.11,Laju
 52.06.11.2008,52.06.11,Kangga
 52.06.11.2009,52.06.11,Karampi
@@ -52472,7 +52473,7 @@ code,district_code,name
 52.06.13.2009,52.06.13,Bolo
 52.06.13.2010,52.06.13,Madawau
 52.06.13.2011,52.06.13,Ncandi
-52.06.14.2001,52.06.14,Labuhan Kenanga
+52.06.14.2001,52.06.14,Labuan Kananga
 52.06.14.2002,52.06.14,Kawinda Nae
 52.06.14.2003,52.06.14,Kawinda Toi
 52.06.14.2004,52.06.14,Oi Panihi
@@ -52482,24 +52483,24 @@ code,district_code,name
 52.06.15.2001,52.06.15,Bajo
 52.06.15.2002,52.06.15,Punti
 52.06.15.2003,52.06.15,Wadukopa
-52.06.15.2004,52.06.15,Kanata
+52.06.15.2004,52.06.15,Kananta
 52.06.15.2005,52.06.15,Sai
 52.06.15.2006,52.06.15,Sampungu
 52.06.15.2007,52.06.15,Lewintana
-52.06.16.2001,52.06.16,Parado Wane
-52.06.16.2002,52.06.16,Parado Rato
+52.06.16.2001,52.06.16,Paradowane
+52.06.16.2002,52.06.16,Paradorato
 52.06.16.2003,52.06.16,Kuta
 52.06.16.2004,52.06.16,Kanca
 52.06.16.2005,52.06.16,Lere
-52.06.17.2001,52.06.17,Kabaro
+52.06.17.2001,52.06.17,Kaboro
 52.06.17.2002,52.06.17,Kuta
 52.06.17.2003,52.06.17,Sambori
 52.06.17.2004,52.06.17,Teta
-52.06.17.2005,52.06.17,Ka'owa
+52.06.17.2005,52.06.17,Kaowa
 52.06.17.2006,52.06.17,Londu
 52.06.18.2001,52.06.18,Panda
 52.06.18.2002,52.06.18,Belo
-52.06.18.2003,52.06.18,Tolongondoa
+52.06.18.2003,52.06.18,Tonggondoa
 52.06.18.2004,52.06.18,Tonggorisa
 52.06.18.2005,52.06.18,Teke
 52.06.18.2006,52.06.18,Ntonggu
@@ -52624,7 +52625,7 @@ code,district_code,name
 52.71.01.1008,52.71.01,Taman Sari
 52.71.01.1009,52.71.01,Banjar
 52.71.01.1010,52.71.01,Kebun Sari
-52.71.01.1011,52.71.01,Pajarakan Karya
+52.71.01.1011,52.71.01,Pejarakan Karya
 52.71.01.1012,52.71.01,Dayan Peken
 52.71.01.1013,52.71.01,Bintaro
 52.71.02.1001,52.71.02,Pagesangan
@@ -52649,7 +52650,7 @@ code,district_code,name
 52.71.04.1001,52.71.04,Karang Pule
 52.71.04.1002,52.71.04,Tanjung Karang
 52.71.04.1003,52.71.04,Jempong Baru
-52.71.04.1004,52.71.04,Tanjung Karang
+52.71.04.1004,52.71.04,Tanjung Karang Permai
 52.71.04.1005,52.71.04,Kekalik Jaya
 52.71.05.1001,52.71.05,Mataram Barat
 52.71.05.1002,52.71.05,Dasan Agung
@@ -52963,10 +52964,10 @@ code,district_code,name
 53.02.07.2013,53.02.07,Haumeni Baki
 53.02.07.2015,53.02.07,Nifukani
 53.02.08.2001,53.02.08,Oinlasi
-53.02.08.2002,53.02.08,Nunle"u
+53.02.08.2002,53.02.08,"Nunle""u"
 53.02.08.2003,53.02.08,Kokoi
 53.02.08.2004,53.02.08,Fenun
-53.02.08.2005,53.02.08,Kuale"u
+53.02.08.2005,53.02.08,"Kuale""u"
 53.02.08.2006,53.02.08,Lanu
 53.02.08.2007,53.02.08,Sunu
 53.02.08.2008,53.02.08,Anin
@@ -53265,7 +53266,7 @@ code,district_code,name
 53.03.11.2002,53.03.11,Akomi
 53.03.11.2003,53.03.11,Bijaepasu
 53.03.11.2004,53.03.11,Neonasi
-53.03.11.2005,53.03.11,N i a n
+53.03.11.2005,53.03.11,Nian
 53.03.11.2006,53.03.11,Tuabatan Barat
 53.03.12.2001,53.03.12,Oelneke
 53.03.12.2002,53.03.12,Oetulu
@@ -53467,7 +53468,7 @@ code,district_code,name
 53.05.02.2019,53.05.02,Pulau Buaya
 53.05.02.2020,53.05.02,Hulnani
 53.05.02.2022,53.05.02,O'a Mate
-53.05.02.2023,53.05.02,Ala"ang
+53.05.02.2023,53.05.02,"Ala""ang"
 53.05.02.2024,53.05.02,Lefokisu
 53.05.02.2025,53.05.02,Bampalola
 53.05.02.2026,53.05.02,Lewalu
@@ -53615,7 +53616,7 @@ code,district_code,name
 53.06.01.2001,53.06.01,Ojandetun
 53.06.01.2002,53.06.01,Hewa
 53.06.01.2003,53.06.01,Waiula
-53.06.01.2007,53.06.01,Nawokote
+53.06.01.2007,53.06.01,Nawakote
 53.06.01.2008,53.06.01,Boru
 53.06.01.2009,53.06.01,Pululera
 53.06.01.2011,53.06.01,Nileknoheng
@@ -53664,22 +53665,22 @@ code,district_code,name
 53.06.04.2005,53.06.04,Riangkemie
 53.06.04.2006,53.06.04,Lewohala
 53.06.04.2007,53.06.04,Halakodanuan
-53.06.04.2008,53.06.04,Mudakaputu
+53.06.04.2008,53.06.04,Mudakeputu
 53.06.05.2006,53.06.05,Lewobunga
-53.06.05.2007,53.06.05,Sinamalaka
+53.06.05.2007,53.06.05,Sina Malaka
 53.06.05.2008,53.06.05,Ratulodong
-53.06.05.2009,53.06.05,Sinarhadigala
+53.06.05.2009,53.06.05,Sinar Hadigala
 53.06.05.2010,53.06.05,Bahinga
 53.06.05.2011,53.06.05,Waibao
 53.06.05.2012,53.06.05,Lamatutu
-53.06.05.2013,53.06.05,Latonliwo
+53.06.05.2013,53.06.05,Laton Liwo
 53.06.05.2015,53.06.05,Kolaka
 53.06.05.2016,53.06.05,Bandona
 53.06.05.2017,53.06.05,Nusa Nipa
-53.06.05.2018,53.06.05,Patisira Walang
-53.06.05.2020,53.06.05,Gekengderan
+53.06.05.2018,53.06.05,Patisirawalang
+53.06.05.2020,53.06.05,Gekeng Deran
 53.06.05.2021,53.06.05,Aransina
-53.06.05.2022,53.06.05,Latonliwo Dua
+53.06.05.2022,53.06.05,Laton Liwo II
 53.06.05.2023,53.06.05,Lamanabi
 53.06.06.1001,53.06.06,Ritaebang
 53.06.06.2002,53.06.06,Tanah Lein
@@ -53696,25 +53697,25 @@ code,district_code,name
 53.06.06.2017,53.06.06,Lewotanah Ole
 53.06.06.2019,53.06.06,Titehena
 53.06.06.2020,53.06.06,Lewonama
-53.06.07.2002,53.06.07,Watanhura
+53.06.07.2002,53.06.07,Watanhura I
 53.06.07.2003,53.06.07,Lebao
 53.06.07.2004,53.06.07,Watohari
-53.06.07.2005,53.06.07,Motonwutun
+53.06.07.2005,53.06.07,Moton Wutun
 53.06.07.2006,53.06.07,Watobuku
 53.06.07.2007,53.06.07,Labelen
 53.06.07.2008,53.06.07,Menanga
 53.06.07.2009,53.06.07,Lohayong I
 53.06.07.2010,53.06.07,Wulublolong
 53.06.07.2011,53.06.07,Liwo
-53.06.07.2012,53.06.07,Tanah Werang
+53.06.07.2012,53.06.07,Tanahwerang
 53.06.07.2013,53.06.07,Lewohedo
 53.06.07.2014,53.06.07,Lohayong II
 53.06.07.2016,53.06.07,Watanhura II
 53.06.07.2017,53.06.07,Lewogeka
 53.06.07.2018,53.06.07,Lamawai
-53.06.07.2019,53.06.07,Kawuta
+53.06.07.2019,53.06.07,Kewuta
 53.06.08.2008,53.06.08,Duanur
-53.06.08.2010,53.06.08,Bukit Seburi I
+53.06.08.2010,53.06.08,Bukit Saburi I
 53.06.08.2011,53.06.08,Waiwadan
 53.06.08.2012,53.06.08,Danibao
 53.06.08.2013,53.06.08,Pajinian
@@ -53722,14 +53723,14 @@ code,district_code,name
 53.06.08.2015,53.06.08,Wureh
 53.06.08.2016,53.06.08,Tonuwotan
 53.06.08.2017,53.06.08,Hurung
-53.06.08.2019,53.06.08,Bungalima
+53.06.08.2019,53.06.08,Bugalima
 53.06.08.2021,53.06.08,Homa
-53.06.08.2024,53.06.08,Bukit Seburi II
+53.06.08.2024,53.06.08,Bukit Saburi II
 53.06.08.2026,53.06.08,Kimakamak
 53.06.08.2030,53.06.08,Watobaya
-53.06.08.2032,53.06.08,Nimun Danibao
+53.06.08.2032,53.06.08,Nimundanibao
 53.06.08.2033,53.06.08,Waitukan
-53.06.08.2035,53.06.08,Wolokibang
+53.06.08.2035,53.06.08,Woloklibang
 53.06.08.2036,53.06.08,Riangpadu
 53.06.09.2001,53.06.09,Wailebe
 53.06.09.2002,53.06.09,Wotanulumado
@@ -53739,14 +53740,14 @@ code,district_code,name
 53.06.09.2006,53.06.09,Klukengnuking
 53.06.09.2007,53.06.09,Pandai
 53.06.09.2008,53.06.09,Bliko
-53.06.09.2009,53.06.09,Samsoge
+53.06.09.2009,53.06.09,Samasoge
 53.06.09.2011,53.06.09,Tobilota
-53.06.09.2012,53.06.09,Tana Tukan
+53.06.09.2012,53.06.09,Tanatukan
 53.06.09.2013,53.06.09,Demondei
 53.06.10.1001,53.06.10,Waiwerang Kota
 53.06.10.1002,53.06.10,Lamatwelu
 53.06.10.2003,53.06.10,Dawataa
-53.06.10.2004,53.06.10,Teromh
+53.06.10.2004,53.06.10,Terong
 53.06.10.2005,53.06.10,Bilal
 53.06.10.2006,53.06.10,Lamahala Jaya
 53.06.10.2007,53.06.10,Waiburak
@@ -53756,9 +53757,9 @@ code,district_code,name
 53.06.10.2011,53.06.10,Kiwangona
 53.06.10.2012,53.06.10,Tapobali
 53.06.10.2013,53.06.10,Lewobunga
-53.06.10.2014,53.06.10,Belota
-53.06.10.2015,53.06.10,Ipi Ebang
-53.06.10.2016,53.06.10,Lamalata
+53.06.10.2014,53.06.10,Bloto
+53.06.10.2015,53.06.10,Ipiebang
+53.06.10.2016,53.06.10,Lamalota
 53.06.10.2017,53.06.10,Puhu
 53.06.10.2018,53.06.10,Kwaelaga Lamawato
 53.06.10.2019,53.06.10,Gelong
@@ -53772,12 +53773,12 @@ code,district_code,name
 53.06.11.2006,53.06.11,Nisakarang
 53.06.11.2007,53.06.11,Muda
 53.06.11.2008,53.06.11,Horinara
-53.06.11.2009,53.06.11,Pepakelu
-53.06.11.2010,53.06.11,Lambunga
+53.06.11.2009,53.06.11,Pepageka
+53.06.11.2010,53.06.11,Lamabunga
 53.06.11.2012,53.06.11,Mangaaleng
 53.06.11.2019,53.06.11,Keluwain
 53.06.12.2001,53.06.12,Watololong
-53.06.12.2002,53.06.12,Tuagoetobi
+53.06.12.2002,53.06.12,Tuwagoetobi
 53.06.12.2003,53.06.12,Weranggere
 53.06.12.2004,53.06.12,Oringbele
 53.06.12.2005,53.06.12,Watoone
@@ -53789,7 +53790,7 @@ code,district_code,name
 53.06.12.2011,53.06.12,Tobitika
 53.06.12.2012,53.06.12,Riangduli
 53.06.12.2013,53.06.12,Waiwuring
-53.06.12.2014,53.06.12,Baobage
+53.06.12.2014,53.06.12,Bao Bage
 53.06.12.2015,53.06.12,Lamaleka
 53.06.12.2016,53.06.12,Balaweling Noten
 53.06.13.2001,53.06.13,Bedalewun
@@ -53810,21 +53811,21 @@ code,district_code,name
 53.06.13.2016,53.06.13,Lamabayung
 53.06.13.2017,53.06.13,Lewat
 53.06.13.2018,53.06.13,Dokeng
-53.06.13.2019,53.06.13,Bayuntaa
+53.06.13.2019,53.06.13,Bajuntaa
 53.06.13.2020,53.06.13,Nobo
-53.06.13.2021,53.06.13,Nelelamawangi Dua
+53.06.13.2021,53.06.13,Nelelamawangi II
 53.06.14.2001,53.06.14,Lamika
 53.06.14.2002,53.06.14,Watotika Ile
 53.06.14.2003,53.06.14,Lewokluok
 53.06.14.2004,53.06.14,Blepanawa
 53.06.14.2005,53.06.14,Kawalelo
 53.06.14.2006,53.06.14,Bama
-53.06.14.2007,53.06.14,Lewomuda
+53.06.14.2007,53.06.14,Lewo Muda
 53.06.15.2001,53.06.15,Ile Padung
 53.06.15.2002,53.06.15,Bantala
 53.06.15.2003,53.06.15,Sinar Hading
-53.06.15.2004,53.06.15,Paingnapang
-53.06.15.2005,53.06.15,Baluk Herin
+53.06.15.2004,53.06.15,Painapang
+53.06.15.2005,53.06.15,Balukhering
 53.06.15.2006,53.06.15,Riangkotek
 53.06.15.2007,53.06.15,Lewobelen
 53.06.16.2001,53.06.16,Riangbaring
@@ -53832,13 +53833,13 @@ code,district_code,name
 53.06.16.2003,53.06.16,Nurabelen
 53.06.16.2004,53.06.16,Nobo
 53.06.16.2005,53.06.16,Lewoawang
-53.06.16.2006,53.06.16,Dulipali
+53.06.16.2006,53.06.16,Duli Pali
 53.06.16.2007,53.06.16,Riang Rita
 53.06.17.2001,53.06.17,Sagu
 53.06.17.2002,53.06.17,Kolimasang
 53.06.17.2003,53.06.17,Kolilanang
-53.06.17.2004,53.06.17,Tikatukan
-53.06.17.2005,53.06.17,Nisa Nulan
+53.06.17.2004,53.06.17,Tikatukang
+53.06.17.2005,53.06.17,Nisanulan
 53.06.17.2006,53.06.17,Lamahoda
 53.06.17.2007,53.06.17,Adonara
 53.06.17.2008,53.06.17,Kolipetung
@@ -53855,8 +53856,8 @@ code,district_code,name
 53.06.18.2011,53.06.18,Hoko Horowura
 53.06.18.2012,53.06.18,Lewopao
 53.06.18.2013,53.06.18,Nubalema Dua
-53.06.19.2001,53.06.19,Kelike
-53.06.19.2002,53.06.19,Kelike Aimatan
+53.06.19.2001,53.06.19,Kalike
+53.06.19.2002,53.06.19,Kalike Aimatan
 53.06.19.2003,53.06.19,Sulengwaseng
 53.06.19.2004,53.06.19,Kenere
 53.06.19.2005,53.06.19,Lemanu
@@ -54356,10 +54357,10 @@ code,district_code,name
 53.09.02.2020,53.09.02,Malanuza
 53.09.02.2025,53.09.02,Were
 53.09.02.2026,53.09.02,Were IV
-53.09.02.2031,53.09.02,Malanuza Satu
-53.09.02.2032,53.09.02,Sarasedu Satu
+53.09.02.2031,53.09.02,Malanuza I
+53.09.02.2032,53.09.02,Sarasedu I
 53.09.02.2036,53.09.02,Ulu Belu
-53.09.02.2037,53.09.02,Ekoroka
+53.09.02.2037,53.09.02,Eko Roka
 53.09.02.2038,53.09.02,Wae Ia
 53.09.02.2039,53.09.02,Dolupore
 53.09.02.2040,53.09.02,Tiwo Toda
@@ -54387,7 +54388,7 @@ code,district_code,name
 53.09.06.2024,53.09.06,Pape
 53.09.06.2025,53.09.06,Bowali
 53.09.06.2026,53.09.06,Ngoranale
-53.09.06.2027,53.09.06,Ubedolumolo Satu
+53.09.06.2027,53.09.06,Ubedolumolo I
 53.09.06.2028,53.09.06,Bela
 53.09.06.2029,53.09.06,Ngadhamana
 53.09.06.2030,53.09.06,Bolonga
@@ -54407,7 +54408,7 @@ code,district_code,name
 53.09.07.2013,53.09.07,Meli Waru
 53.09.07.2014,53.09.07,Ngabheo
 53.09.07.2016,53.09.07,Bogoboa
-53.09.07.2017,53.09.07,Piga Satu
+53.09.07.2017,53.09.07,Piga I
 53.09.07.2018,53.09.07,Tarawali
 53.09.07.2019,53.09.07,Waepana I
 53.09.07.2020,53.09.07,Lokaweka
@@ -54425,8 +54426,8 @@ code,district_code,name
 53.09.09.2018,53.09.09,Lengkosambi Barat
 53.09.09.2019,53.09.09,Sambinasi Barat
 53.09.09.2020,53.09.09,Lengkosambi Utara
-53.09.09.2021,53.09.09,Taen Terong Satu
-53.09.09.2022,53.09.09,Taen Terong Dua
+53.09.09.2021,53.09.09,Taen Terong I
+53.09.09.2022,53.09.09,Taen Terong II
 53.09.09.2023,53.09.09,Kota Raja
 53.09.09.2024,53.09.09,Ite Jaya
 53.09.09.2025,53.09.09,Wangka Barat
@@ -54500,14 +54501,14 @@ code,district_code,name
 53.09.18.2002,53.09.18,Wogowela
 53.09.18.2003,53.09.18,Watu Sipi
 53.09.18.2004,53.09.18,Boba
-53.09.18.2005,53.09.18,Boba Satu
+53.09.18.2005,53.09.18,Boba I
 53.09.18.2006,53.09.18,Were III
 53.09.18.2007,53.09.18,Kezewea
 53.09.18.2008,53.09.18,Nirmala
 53.09.18.2009,53.09.18,Sadha
 53.09.18.2010,53.09.18,Takatunga
 53.09.18.2011,53.09.18,Radamasa
-53.09.18.2012,53.09.18,Were Dua
+53.09.18.2012,53.09.18,Were II
 53.09.18.2013,53.09.18,Bobawa
 53.09.18.2014,53.09.18,Were V
 53.09.18.2015,53.09.18,Were VI
@@ -54518,9 +54519,9 @@ code,district_code,name
 53.09.19.2002,53.09.19,Turekisa
 53.09.19.2003,53.09.19,Rakalaba
 53.09.19.2004,53.09.19,Sobo
-53.09.19.2005,53.09.19,Sobo Satu
-53.09.19.2006,53.09.19,Rakateda Satu
-53.09.19.2007,53.09.19,Rakateda Dua
+53.09.19.2005,53.09.19,Sobo I
+53.09.19.2006,53.09.19,Rakateda I
+53.09.19.2007,53.09.19,Rakateda II
 53.09.19.2008,53.09.19,Watunay
 53.09.19.2009,53.09.19,Dizi Gedha
 53.09.19.2010,53.09.19,Bea Pawe
@@ -54530,8 +54531,8 @@ code,district_code,name
 53.09.20.2001,53.09.20,Paupaga
 53.09.20.2002,53.09.20,Sebowuli
 53.09.20.2003,53.09.20,Inerie
-53.09.20.2004,53.09.20,Warupele Satu
-53.09.20.2005,53.09.20,Warupele Dua
+53.09.20.2004,53.09.20,Warupele I
+53.09.20.2005,53.09.20,Warupele II
 53.09.20.2006,53.09.20,Kelitei
 53.09.20.2007,53.09.20,Waebela
 53.09.20.2008,53.09.20,Tiwurana
@@ -54949,7 +54950,7 @@ code,district_code,name
 53.13.01.2006,53.13.01,Ileboli
 53.13.01.2007,53.13.01,Babokerong
 53.13.01.2008,53.13.01,Penikenek
-53.13.01.2009,53.13.01,Belobaja
+53.13.01.2009,53.13.01,Belabaja
 53.13.01.2010,53.13.01,Lolong
 53.13.01.2011,53.13.01,Wuakoreng
 53.13.01.2012,53.13.01,Baobolak
@@ -54959,7 +54960,7 @@ code,district_code,name
 53.13.01.2016,53.13.01,Idalolong
 53.13.01.2017,53.13.01,Ria Bao
 53.13.01.2018,53.13.01,Liwulagang
-53.13.02.2001,53.13.02,Atakera
+53.13.02.2001,53.13.02,Atakore
 53.13.02.2002,53.13.02,Lusilame
 53.13.02.2004,53.13.02,Lerek
 53.13.02.2005,53.13.02,Nubahaeraka
@@ -55023,19 +55024,19 @@ code,district_code,name
 53.13.05.2011,53.13.05,Udak Melomata
 53.13.05.2012,53.13.05,Paubokol
 53.13.05.2013,53.13.05,Pada
-53.13.05.2014,53.13.05,Lite Ulu Mado
+53.13.05.2014,53.13.05,Lite Ulumado
 53.13.05.2018,53.13.05,Bakalerek
 53.13.05.2019,53.13.05,Bour
 53.13.06.2001,53.13.06,Balauring
 53.13.06.2002,53.13.06,Nilanapo
 53.13.06.2003,53.13.06,Leubatang
-53.13.06.2004,53.13.06,Walang Sawah
-53.13.06.2005,53.13.06,Mahal I
+53.13.06.2004,53.13.06,Walangsawa
+53.13.06.2005,53.13.06,Mahal
 53.13.06.2006,53.13.06,Aramengi
 53.13.06.2007,53.13.06,Meluwiting
 53.13.06.2008,53.13.06,Hingalamamengi
 53.13.06.2009,53.13.06,Dolulolong
-53.13.06.2010,53.13.06,Hoelea I
+53.13.06.2010,53.13.06,Hoelea
 53.13.06.2011,53.13.06,Roma
 53.13.06.2012,53.13.06,Leuwayang
 53.13.06.2013,53.13.06,Leudanung
@@ -55049,13 +55050,13 @@ code,district_code,name
 53.13.06.2021,53.13.06,Normal I
 53.13.06.2022,53.13.06,Meluwiting I
 53.13.07.2001,53.13.07,Panama
-53.13.07.2002,53.13.07,Benihading I
+53.13.07.2002,53.13.07,Benihading
 53.13.07.2003,53.13.07,Atulaleng
 53.13.07.2004,53.13.07,Roho
 53.13.07.2005,53.13.07,Loyobohor
 53.13.07.2006,53.13.07,Leuburi
 53.13.07.2007,53.13.07,Kaohua
-53.13.07.2008,53.13.07,Kalikur WL.
+53.13.07.2008,53.13.07,Kalikur WL
 53.13.07.2009,53.13.07,Umaleu
 53.13.07.2010,53.13.07,Buriwutung
 53.13.07.2011,53.13.07,Mampir
@@ -55067,13 +55068,13 @@ code,district_code,name
 53.13.07.2017,53.13.07,Tobotani
 53.13.07.2018,53.13.07,Tubung Walang
 53.13.07.2019,53.13.07,Rumang
-53.13.07.2020,53.13.07,Atu Wa'lupang
+53.13.07.2020,53.13.07,Atu' Walupang
 53.13.08.2001,53.13.08,Alap Atadei
 53.13.08.2002,53.13.08,Atakera
 53.13.08.2003,53.13.08,Leworaja
 53.13.08.2004,53.13.08,Pantai Harapan
 53.13.08.2005,53.13.08,Puor
-53.13.08.2006,53.13.08,Imu Lolong
+53.13.08.2006,53.13.08,Imulolong
 53.13.08.2007,53.13.08,Lamalera B
 53.13.08.2008,53.13.08,Lamalera A
 53.13.08.2009,53.13.08,Lelata
@@ -55178,7 +55179,7 @@ code,district_code,name
 53.14.07.2001,53.14.07,Sedeoen
 53.14.07.2002,53.14.07,Nemberala
 53.14.07.2003,53.14.07,Oenggaut
-53.14.07.2004,53.14.07,Bo"a
+53.14.07.2004,53.14.07,"Bo""a"
 53.14.07.2005,53.14.07,Oenitas
 53.14.07.2006,53.14.07,Oelolot
 53.14.07.2007,53.14.07,Mbueain
@@ -57028,7 +57029,7 @@ code,district_code,name
 61.05.07.2007,61.05.07,Tauk
 61.05.07.2008,61.05.07,Empaci
 61.05.07.2009,61.05.07,Baras
-61.05.07.2010,61.05.07,Pangkadan Sungai Rupa
+61.05.07.2010,61.05.07,Pengkadan Sungai Rupa
 61.05.07.2011,61.05.07,Kumpang
 61.05.07.2012,61.05.07,Mangat Baru
 61.05.07.2013,61.05.07,Menaong Baru
@@ -60945,7 +60946,7 @@ code,district_code,name
 63.06.08.2012,63.06.08,Baruh Kembang
 63.06.08.2013,63.06.08,Teluk Haur
 63.06.08.2014,63.06.08,Pasungkan
-63.06.08.2015,63.06.08,Teluk Kabak
+63.06.08.2015,63.06.08,Teluk Labak
 63.06.08.2016,63.06.08,Hamayung
 63.06.08.2017,63.06.08,Hamayung Utara
 63.06.08.2018,63.06.08,Paharangan
@@ -61399,7 +61400,7 @@ code,district_code,name
 63.09.03.2005,63.09.03,Barimbun
 63.09.03.2006,63.09.03,Mangkusip
 63.09.03.2007,63.09.03,Pamarangan Kanan
-63.09.03.2008,63.09.03,Pulau Ku"u
+63.09.03.2008,63.09.03,"Pulau Ku""u"
 63.09.03.2009,63.09.03,Tanta
 63.09.03.2010,63.09.03,Padang Panjang
 63.09.03.2011,63.09.03,Puain Kanan
@@ -61562,7 +61563,7 @@ code,district_code,name
 63.10.04.2026,63.10.04,Pandamaran Jaya
 63.10.04.2027,63.10.04,Sido Rejo
 63.10.04.2028,63.10.04,Beruntung Raya
-63.10.04.2029,63.10.04,Berakat Mufakat
+63.10.04.2029,63.10.04,Barakat Mufakat
 63.10.04.2030,63.10.04,Makmur Jaya
 63.10.05.2001,63.10.05,Lasung
 63.10.05.2002,63.10.05,Manuntung
@@ -62397,7 +62398,7 @@ code,district_code,name
 64.07.07.2004,64.07.07,Pepas Eheng
 64.07.07.2006,64.07.07,Juhan Asa
 64.07.07.2007,64.07.07,Asa
-64.07.07.2008,64.07.07,Pepes Asa
+64.07.07.2008,64.07.07,Pepas Asa
 64.07.07.2009,64.07.07,Muara Asa
 64.07.07.2010,64.07.07,Ongko Asa
 64.07.07.2011,64.07.07,Juaq Asa
@@ -62423,7 +62424,7 @@ code,district_code,name
 64.07.08.2010,64.07.08,Muara Tokong
 64.07.08.2011,64.07.08,Jengan Danum
 64.07.08.2012,64.07.08,Keay
-64.07.08.2013,64.07.08,Tapulang
+64.07.08.2013,64.07.08,Tepulang
 64.07.08.2014,64.07.08,Benung
 64.07.08.2020,64.07.08,Muara Nyahing
 64.07.08.2021,64.07.08,Sempatn
@@ -62435,7 +62436,7 @@ code,district_code,name
 64.07.09.2005,64.07.09,Muara Lawa
 64.07.09.2006,64.07.09,Lambing
 64.07.09.2007,64.07.09,Benggeris
-64.07.09.2008,64.07.09,Cempedes
+64.07.09.2008,64.07.09,Cempedas
 64.07.10.2015,64.07.10,Jerang Dayak
 64.07.10.2016,64.07.10,Mendung
 64.07.10.2017,64.07.10,Jerang Melayu
@@ -62460,7 +62461,7 @@ code,district_code,name
 64.07.11.2010,64.07.11,Pulau Lanting
 64.07.11.2011,64.07.11,Muara Tae
 64.07.11.2012,64.07.11,Bekokong Makmur
-64.07.12.2001,64.07.12,Gerungung
+64.07.12.2001,64.07.12,Gerunggung
 64.07.12.2002,64.07.12,Pereng Taliq
 64.07.12.2003,64.07.12,Tanjung Soke
 64.07.12.2004,64.07.12,Deraya
@@ -62526,7 +62527,7 @@ code,district_code,name
 64.07.17.2012,64.07.17,Lendian Liang Nayuq
 64.07.17.2013,64.07.17,Kenyanyan
 64.07.17.2014,64.07.17,Rikong
-64.07.17.2015,64.07.17,Kendisiq
+64.07.17.2015,64.07.17,Kendesiq
 64.07.17.2016,64.07.17,Muara Ponaq
 64.07.18.2001,64.07.18,Sakaq Lotoq
 64.07.18.2002,64.07.18,Sakaq Tada
@@ -62563,7 +62564,7 @@ code,district_code,name
 64.07.20.2002,64.07.20,Sekolaq Muliaq
 64.07.20.2003,64.07.20,Sekolaq Oday
 64.07.20.2004,64.07.20,Srimulyo
-64.07.20.2005,64.07.20,Sember Bangun
+64.07.20.2005,64.07.20,Sumber Bangun
 64.07.20.2006,64.07.20,Sumber Rejo
 64.07.20.2007,64.07.20,Sekolaq Darat
 64.07.20.2008,64.07.20,Leleng
@@ -62823,19 +62824,19 @@ code,district_code,name
 64.71.02.1005,64.71.02,Margo Mulyo
 64.71.02.1006,64.71.02,Marga Sari
 64.71.03.1001,64.71.03,Batu Ampar
-64.71.03.1002,64.71.03,Gunungsamarinda
+64.71.03.1002,64.71.03,Gunung Samarinda
 64.71.03.1003,64.71.03,Karang Joang
-64.71.03.1004,64.71.03,Muararapak
-64.71.03.1005,64.71.03,Gunungsamarinda Baru
+64.71.03.1004,64.71.03,Muara Rapak
+64.71.03.1005,64.71.03,Gunung Samarinda Baru
 64.71.03.1006,64.71.03,Graha Indah
-64.71.04.1001,64.71.04,Gunungsari Ulu
-64.71.04.1002,64.71.04,Gunungsari Ilir
+64.71.04.1001,64.71.04,Gunung Sari Ulu
+64.71.04.1002,64.71.04,Gunung Sari Ilir
 64.71.04.1003,64.71.04,Karang Rejo
 64.71.04.1004,64.71.04,Karang Jati
 64.71.04.1005,64.71.04,Mekar Sari
 64.71.04.1006,64.71.04,Sumber Rejo
 64.71.05.1002,64.71.05,Sepinggan
-64.71.05.1006,64.71.05,Gunungbahagia
+64.71.05.1006,64.71.05,Gunung Bahagia
 64.71.05.1008,64.71.05,Sepinggan Baru
 64.71.05.1009,64.71.05,Sepinggan Raya
 64.71.05.1010,64.71.05,Sungainangka
@@ -65381,27 +65382,17 @@ code,district_code,name
 72.01.09.1054,72.01.09,Cendana
 72.01.09.2001,72.01.09,Cendana Pura
 72.01.09.2011,72.01.09,Sentral Sari
-72.01.09.2012,72.01.09,Tohiti Sari
 72.01.09.2013,72.01.09,Tirta Kencana
 72.01.09.2014,72.01.09,Singkoyo
-72.01.09.2015,72.01.09,Tolisu
-72.01.09.2016,72.01.09,Piondo
 72.01.09.2017,72.01.09,Tirta Sari
 72.01.09.2026,72.01.09,Rusa Kencana
-72.01.09.2027,72.01.09,Bukit Jaya
 72.01.09.2036,72.01.09,Samalore
 72.01.09.2037,72.01.09,Ue Mea
 72.01.09.2038,72.01.09,Benteng
 72.01.09.2039,72.01.09,Mansahang
-72.01.09.2041,72.01.09,Sindang Baru
 72.01.09.2045,72.01.09,Tanah Abang
 72.01.09.2047,72.01.09,Jaya Kencana
-72.01.09.2048,72.01.09,Mekar Kencana
-72.01.09.2049,72.01.09,Marga Kencana
-72.01.09.2050,72.01.09,Sari Buana
 72.01.09.2051,72.01.09,Sentral Timur
-72.01.09.2055,72.01.09,Mulya Sari
-72.01.09.2056,72.01.09,Tirta Jaya
 72.01.09.2057,72.01.09,Sidomukti
 72.01.10.2001,72.01.10,Tangeban
 72.01.10.2002,72.01.10,Taugi
@@ -65416,7 +65407,7 @@ code,district_code,name
 72.01.10.2011,72.01.10,Serese
 72.01.10.2012,72.01.10,Cemerlang
 72.01.10.2013,72.01.10,Padangon
-72.01.10.2014,72.01.10,Rangga-Rangga
+72.01.10.2014,72.01.10,Ranga-Ranga
 72.01.11.2001,72.01.11,Kayutanyo
 72.01.11.2002,72.01.11,Pohi
 72.01.11.2003,72.01.11,Hunduhon
@@ -65578,6 +65569,16 @@ code,district_code,name
 72.01.23.2009,72.01.23,Padungnyo
 72.01.23.2010,72.01.23,Sayambongin
 72.01.23.2011,72.01.23,Lumbe
+72.01.24.2001,72.01.24,Tolisu
+72.01.24.2002,72.01.24,Mekar Kencana
+72.01.24.2003,72.01.24,Marga Kencana
+72.01.24.2004,72.01.24,Mulyasari
+72.01.24.2005,72.01.24,Tirta Jaya
+72.01.24.2006,72.01.24,Saribuana
+72.01.24.2007,72.01.24,Tohitisari
+72.01.24.2008,72.01.24,Sindang Baru
+72.01.24.2009,72.01.24,Bukit Jaya
+72.01.24.2010,72.01.24,Piondo
 72.02.01.1001,72.02.01,Moengko Lama
 72.02.01.1002,72.02.01,Moengko Baru
 72.02.01.1003,72.02.01,Kayamanya
@@ -66175,39 +66176,26 @@ code,district_code,name
 72.06.06.2015,72.06.06,Padabale
 72.06.06.2016,72.06.06,Pado-Pado
 72.06.06.2017,72.06.06,Pulaubapa
-72.06.06.2018,72.06.06,Lalemo
-72.06.06.2019,72.06.06,Lamontoli
 72.06.06.2041,72.06.06,Bungintende
 72.06.06.2043,72.06.06,Panimbawang
 72.06.06.2044,72.06.06,Po'o
 72.06.06.2045,72.06.06,Boelimau
 72.06.06.2046,72.06.06,Poaro
 72.06.06.2047,72.06.06,Umbele Lama
-72.06.06.2048,72.06.06,Pulau Dua Darat
 72.06.07.1007,72.06.07,Ulunambo
 72.06.07.2001,72.06.07,Terebino
 72.06.07.2002,72.06.07,Torukuno
 72.06.07.2003,72.06.07,Ngapaea
-72.06.07.2004,72.06.07,Padala"a
+72.06.07.2004,72.06.07,"Padala""a"
 72.06.07.2005,72.06.07,Morompaitonga
 72.06.07.2006,72.06.07,Kofalagadi
 72.06.07.2008,72.06.07,Padei Laut
 72.06.07.2009,72.06.07,Padei Darat
 72.06.07.2010,72.06.07,Samarengga
-72.06.07.2011,72.06.07,Masadian
-72.06.07.2012,72.06.07,Pulau Tiga
-72.06.07.2013,72.06.07,Matano
-72.06.07.2014,72.06.07,Matarape
 72.06.07.2015,72.06.07,Ulunipa
 72.06.07.2016,72.06.07,Wawangkolono
 72.06.07.2017,72.06.07,Buranga
-72.06.07.2018,72.06.07,Dongkalan
 72.06.07.2019,72.06.07,Tafagapi
-72.06.07.2020,72.06.07,Pulau Tengah
-72.06.07.2021,72.06.07,Mbokitta
-72.06.07.2022,72.06.07,Tanjung Tiram
-72.06.07.2023,72.06.07,Tanona
-72.06.07.2024,72.06.07,Tanjung Harapan
 72.06.08.2001,72.06.08,Bahoea Reko- Reko
 72.06.08.2002,72.06.08,Wosu
 72.06.08.2003,72.06.08,Larobenu
@@ -66272,6 +66260,19 @@ code,district_code,name
 72.06.18.2008,72.06.18,Nambo
 72.06.18.2009,72.06.18,Unsongi
 72.06.18.2010,72.06.18,Lahuafu
+72.06.20.2001,72.06.20,Tanjung Harapan
+72.06.20.2002,72.06.20,Matano
+72.06.20.2003,72.06.20,Tanona
+72.06.20.2004,72.06.20,Tanjung Tiram
+72.06.20.2005,72.06.20,Matarape
+72.06.20.2006,72.06.20,Mbokita
+72.06.20.2007,72.06.20,Dongkalan
+72.06.20.2008,72.06.20,Pulau Tengah
+72.06.20.2009,72.06.20,Masadian
+72.06.20.2010,72.06.20,Pulau Tiga
+72.06.20.2011,72.06.20,La Lemo
+72.06.20.2012,72.06.20,Lamontoli
+72.06.20.2013,72.06.20,Pulau Dua Darat
 72.07.03.2007,72.07.03,Sobonon
 72.07.03.2008,72.07.03,Bolonan
 72.07.03.2009,72.07.03,Batang Babasal
@@ -68481,7 +68482,7 @@ code,district_code,name
 73.09.12.1003,73.09.12,Soreang
 73.09.12.1004,73.09.12,Mattirodeceng
 73.09.12.2005,73.09.12,Marannu
-73.09.12.2006,73.09.12,Bonto Marannu
+73.09.12.2006,73.09.12,Tengkuru
 73.09.13.2001,73.09.13,Moncongloe
 73.09.13.2002,73.09.13,Moncongloe Bulu
 73.09.13.2003,73.09.13,Moncongloe Lappara
@@ -70271,12 +70272,12 @@ code,district_code,name
 73.72.04.1006,73.72.04,Bumi Harapan
 73.73.01.1001,73.73.01,Tompotikka
 73.73.01.1002,73.73.01,Boting
-73.73.01.1003,73.73.01,Amasangan
+73.73.01.1003,73.73.01,Ammasangan
 73.73.01.1005,73.73.01,Lagaligo
 73.73.01.1011,73.73.01,Dangerakko
 73.73.01.1012,73.73.01,Pajalesang
 73.73.02.1002,73.73.02,Batupasi
-73.73.02.1003,73.73.02,Sabbang Paru
+73.73.02.1003,73.73.02,Sabbamparu
 73.73.02.1005,73.73.02,Salobulo
 73.73.02.1007,73.73.02,Penggoli
 73.73.02.1008,73.73.02,Luminda
@@ -70291,15 +70292,15 @@ code,district_code,name
 73.73.04.1005,73.73.04,Salubattang
 73.73.04.1006,73.73.04,Jaya
 73.73.04.1007,73.73.04,Batu Walenrang
-73.73.04.1008,73.73.04,Petonjangan
+73.73.04.1008,73.73.04,Pentojangan
 73.73.05.1001,73.73.05,Surutanga
 73.73.05.1002,73.73.05,Benteng
 73.73.05.1003,73.73.05,Pontap
 73.73.05.1004,73.73.05,Malatunrung
 73.73.05.1005,73.73.05,Salekoe
-73.73.05.1006,73.73.05,Salotellue
+73.73.05.1006,73.73.05,Salutellue
 73.73.05.1007,73.73.05,Ponjalae
-73.73.06.1001,73.73.06,Tomarundung
+73.73.06.1001,73.73.06,Tamarundung
 73.73.06.1002,73.73.06,Battang
 73.73.06.1003,73.73.06,Lebang
 73.73.06.1004,73.73.06,Battang Barat
@@ -70315,7 +70316,7 @@ code,district_code,name
 73.73.09.1001,73.73.09,Temmalebba
 73.73.09.1002,73.73.09,Balandai
 73.73.09.1003,73.73.09,Rampoang
-73.73.09.1004,73.73.09,Tobulung
+73.73.09.1004,73.73.09,To'Bulung
 73.73.09.1005,73.73.09,Buntu Datu
 74.01.01.1001,74.01.01,19 Nopember
 74.01.01.1002,74.01.01,Wundulako
@@ -70518,7 +70519,7 @@ code,district_code,name
 74.02.05.2009,74.02.05,Puuloro
 74.02.05.2012,74.02.05,Andadowi
 74.02.05.2027,74.02.05,Totombe Jaya
-74.02.05.2028,74.02.05,Bao-bao
+74.02.05.2028,74.02.05,Bao-Bao
 74.02.05.2030,74.02.05,Wawolimbue
 74.02.05.2036,74.02.05,Baini
 74.02.05.2038,74.02.05,Polua
@@ -70619,7 +70620,7 @@ code,district_code,name
 74.02.19.2017,74.02.19,Bendewuta
 74.02.19.2018,74.02.19,Langgonawe
 74.02.19.2019,74.02.19,Lalohao
-74.02.19.2020,74.02.19,Wakusao
+74.02.19.2020,74.02.19,Wukusao
 74.02.19.2026,74.02.19,Tawarolondo
 74.02.19.2027,74.02.19,Polandangi
 74.02.19.2028,74.02.19,Anggoro
@@ -70685,7 +70686,7 @@ code,district_code,name
 74.02.28.2009,74.02.28,Matabura
 74.02.28.2010,74.02.28,Wawohine
 74.02.28.2011,74.02.28,Mendikonu
-74.02.28.2012,74.02.28,Amandete
+74.02.28.2012,74.02.28,Amendete
 74.02.28.2014,74.02.28,Mataiwoi
 74.02.28.2015,74.02.28,Lalombonda
 74.02.31.1004,74.02.31,Ambodiaa
@@ -70706,7 +70707,7 @@ code,district_code,name
 74.02.32.2008,74.02.32,Uete
 74.02.32.2009,74.02.32,Hudoa
 74.02.32.2010,74.02.32,Wonua Mbae
-74.02.32.2011,74.02.32,Asinowowo
+74.02.32.2011,74.02.32,Asoniwowo
 74.02.32.2012,74.02.32,Puuwonua
 74.02.33.1001,74.02.33,Kapoiala
 74.02.33.2002,74.02.33,Lalimbue Jaya
@@ -70722,7 +70723,6 @@ code,district_code,name
 74.02.33.2012,74.02.33,Lalonggombuno
 74.02.33.2013,74.02.33,Kapoiala Baru
 74.02.33.2014,74.02.33,Labotoy Jaya
-74.02.36.1009,74.02.36,Watunggarandu
 74.02.36.2001,74.02.36,Toli Toli
 74.02.36.2002,74.02.36,Nii Tanasa
 74.02.36.2003,74.02.36,Rapambinopaka
@@ -71081,7 +71081,7 @@ code,district_code,name
 74.05.02.2009,74.05.02,Simbangu
 74.05.02.2010,74.05.02,Lamooso
 74.05.02.2011,74.05.02,Landabaro
-74.05.02.2012,74.05.02,Puungoni
+74.05.02.2012,74.05.02,Puunggoni
 74.05.02.2013,74.05.02,Sandarsi Jaya
 74.05.02.2014,74.05.02,Puuroe
 74.05.02.2015,74.05.02,Lamoeri
@@ -71128,7 +71128,6 @@ code,district_code,name
 74.05.05.2022,74.05.05,Abenggi
 74.05.05.2023,74.05.05,Arongo
 74.05.05.2024,74.05.05,Endanga
-74.05.05.2028,74.05.05,Wonuakoa
 74.05.05.2032,74.05.05,Wonua Sangia
 74.05.05.2035,74.05.05,Lakomea
 74.05.05.2042,74.05.05,Morini Mulya
@@ -71160,7 +71159,6 @@ code,district_code,name
 74.05.07.2014,74.05.07,Lawoila
 74.05.07.2019,74.05.07,Lalowiu
 74.05.07.2020,74.05.07,Amohalo
-74.05.07.2021,74.05.07,Ranowila
 74.05.07.2024,74.05.07,Konda Satu
 74.05.08.1001,74.05.08,Ranomeeto
 74.05.08.2002,74.05.08,Onewila
@@ -71325,6 +71323,7 @@ code,district_code,name
 74.05.18.2003,74.05.18,Amoito Jaya
 74.05.18.2004,74.05.18,Leleka
 74.05.18.2005,74.05.18,Mata Wolasi
+74.05.18.2006,74.05.18,Ranowila
 74.05.18.2007,74.05.18,Aunupe
 74.05.19.1001,74.05.19,Puunggaluku
 74.05.19.1002,74.05.19,Ambalodangge
@@ -71387,6 +71386,7 @@ code,district_code,name
 74.05.24.2006,74.05.24,Ulu Sabulakoa
 74.05.24.2007,74.05.24,Asaria
 74.05.24.2008,74.05.24,Wawobende
+74.05.24.2009,74.05.24,Wonua Koa
 74.05.25.2001,74.05.25,Papawu
 74.05.25.2002,74.05.25,Anese
 74.05.25.2003,74.05.25,Bekenggasu
@@ -71401,12 +71401,12 @@ code,district_code,name
 74.06.01.1008,74.06.01,Kastarib
 74.06.01.1010,74.06.01,Boepinang
 74.06.01.1015,74.06.01,Boepinang Barat
-74.06.01.1016,74.06.01,Barangka
+74.06.01.1016,74.06.01,Barangga
 74.06.01.1017,74.06.01,Kasabolo
-74.06.01.2009,74.06.01,Pokohrumba
+74.06.01.2009,74.06.01,Pokurumba
 74.06.01.2011,74.06.01,Pallimae
 74.06.01.2018,74.06.01,Salosa
-74.06.01.2019,74.06.01,Matiro Walie
+74.06.01.2019,74.06.01,Mattiro Walie
 74.06.02.1011,74.06.02,Bambaea
 74.06.02.1015,74.06.02,Puu Lemo
 74.06.02.2003,74.06.02,Teppoe
@@ -71442,7 +71442,7 @@ code,district_code,name
 74.06.07.2003,74.06.07,Timbala
 74.06.07.2004,74.06.07,Ranokomea
 74.06.07.2005,74.06.07,Rakadua
-74.06.07.2006,74.06.07,Lameong-Meong
+74.06.07.2006,74.06.07,Lameo-meong
 74.06.07.2007,74.06.07,Pabiring
 74.06.07.2008,74.06.07,Balasari
 74.06.07.2009,74.06.07,Bulumanai
@@ -71456,7 +71456,7 @@ code,district_code,name
 74.06.08.2006,74.06.08,Tajuncu
 74.06.08.2007,74.06.08,Mawar
 74.06.08.2008,74.06.08,Laloa
-74.06.08.2009,74.06.08,Batusampe Indah
+74.06.08.2009,74.06.08,Batu Sempe Indah
 74.06.08.2010,74.06.08,Hambawa
 74.06.08.2011,74.06.08,Pu'u Waeya
 74.06.09.1008,74.06.09,Aneka Marga
@@ -71464,10 +71464,10 @@ code,district_code,name
 74.06.09.2002,74.06.09,Hukaea
 74.06.09.2003,74.06.09,Lantowua
 74.06.09.2004,74.06.09,Tembe
-74.06.09.2005,74.06.09,Watu Mende
+74.06.09.2005,74.06.09,Watu Mentade
 74.06.09.2006,74.06.09,Marga Jaya
 74.06.09.2007,74.06.09,Tunas Baru
-74.06.10.2001,74.06.10,Tanpabulu
+74.06.10.2001,74.06.10,Tampabulu
 74.06.10.2002,74.06.10,Tanah Poleang
 74.06.10.2003,74.06.10,Karya Baru
 74.06.10.2004,74.06.10,Toburi
@@ -71523,10 +71523,10 @@ code,district_code,name
 74.06.19.2004,74.06.19,Poleondro
 74.06.20.2001,74.06.20,Tontonunu
 74.06.20.2002,74.06.20,Tongkoseng
-74.06.20.2003,74.06.20,Tete Haka
+74.06.20.2003,74.06.20,Tetehaka
 74.06.20.2004,74.06.20,Watu Melomba
 74.06.20.2005,74.06.20,Puu Wonua
-74.06.21.2001,74.06.21,Lambikasi
+74.06.21.2001,74.06.21,Lombakasih
 74.06.21.2002,74.06.21,Lantari
 74.06.21.2003,74.06.21,Langkowala
 74.06.21.2004,74.06.21,Pasare Apua
@@ -71630,7 +71630,6 @@ code,district_code,name
 74.07.07.1002,74.07.07,Tongano Barat
 74.07.07.1003,74.07.07,Bahari
 74.07.07.1004,74.07.07,Tongano Timur
-74.07.07.1011,74.07.07,Rukuwa
 74.07.07.2005,74.07.07,Timu
 74.07.07.2006,74.07.07,Dete
 74.07.07.2007,74.07.07,Kulati
@@ -71709,7 +71708,7 @@ code,district_code,name
 74.08.07.2001,74.08.07,Walasiho
 74.08.07.2002,74.08.07,Wawo
 74.08.07.2003,74.08.07,Tinukari
-74.08.07.2004,74.08.07,Pumbolo
+74.08.07.2004,74.08.07,Puumbolo
 74.08.07.2005,74.08.07,Ulu Wawo
 74.08.07.2006,74.08.07,Latawe
 74.08.07.2007,74.08.07,Salurengko
@@ -72077,7 +72076,7 @@ code,district_code,name
 74.11.04.2006,74.11.04,Taosu
 74.11.04.2007,74.11.04,Pole Maju Jaya
 74.11.04.2008,74.11.04,Polenga Jaya
-74.11.04.2009,74.11.04,Wundumbite
+74.11.04.2009,74.11.04,Wundubite
 74.11.04.2010,74.11.04,Hakambololi
 74.11.04.2011,74.11.04,Inotu Mewao
 74.11.04.2012,74.11.04,Puundokulo
@@ -72091,8 +72090,8 @@ code,district_code,name
 74.11.05.2010,74.11.05,Bou
 74.11.05.2012,74.11.05,Lambandia
 74.11.05.2013,74.11.05,Inotu
-74.11.05.2018,74.11.05,Lalolere
-74.11.05.2019,74.11.05,Pomborea
+74.11.05.2018,74.11.05,Lalolera
+74.11.05.2019,74.11.05,Pomburea
 74.11.05.2021,74.11.05,Penanggootu
 74.11.05.2022,74.11.05,Mondoke
 74.11.05.2026,74.11.05,Onemanu
@@ -72106,7 +72105,7 @@ code,district_code,name
 74.11.07.1004,74.11.07,Horodopi
 74.11.07.2003,74.11.07,Nelombu
 74.11.07.2005,74.11.07,Watupute
-74.11.07.2006,74.11.07,Puosu
+74.11.07.2006,74.11.07,Puuosu
 74.11.07.2007,74.11.07,Ulu Mowewe
 74.11.07.2008,74.11.07,Lapangisi
 74.11.07.2009,74.11.07,Sabi-sabila
@@ -74543,17 +74542,7 @@ code,district_code,name
 81.05.02.2003,81.05.02,Kilwaru
 81.05.02.2004,81.05.02,Kellu
 81.05.02.2005,81.05.02,Keffing
-81.05.02.2006,81.05.02,Urung
 81.05.02.2028,81.05.02,Kilfura
-81.05.02.2046,81.05.02,Kwawor Kecil Mata Ata
-81.05.02.2047,81.05.02,Kwawor Kecil Mata Wawa
-81.05.02.2048,81.05.02,Kwawor Besar Ena
-81.05.02.2049,81.05.02,Kwawor Besar Witau
-81.05.02.2050,81.05.02,Guli-Guli
-81.05.02.2051,81.05.02,Manggis
-81.05.02.2052,81.05.02,Ainena
-81.05.02.2053,81.05.02,Mugusinis
-81.05.02.2054,81.05.02,Akatfadedo
 81.05.03.2001,81.05.03,Batuasa
 81.05.03.2002,81.05.03,Hatuimeten
 81.05.03.2003,81.05.03,Werinama
@@ -74726,6 +74715,16 @@ code,district_code,name
 81.05.15.2009,81.05.15,Kampung Baru
 81.05.15.2010,81.05.15,Boinfia
 81.05.15.2011,81.05.15,Madak
+81.05.16.2001,81.05.16,Urung
+81.05.16.2002,81.05.16,Kwamor Kecil Mata Ata
+81.05.16.2003,81.05.16,Kwamor Kecil Mata Wawa
+81.05.16.2004,81.05.16,Kwamor Besar Ena
+81.05.16.2005,81.05.16,Kwamor Besar Witau
+81.05.16.2006,81.05.16,Guli-Guli
+81.05.16.2007,81.05.16,Manggis
+81.05.16.2008,81.05.16,Ainena
+81.05.16.2009,81.05.16,Mugusinis
+81.05.16.2010,81.05.16,Akat Fadedo
 81.06.01.2008,81.06.01,Kamarian
 81.06.01.2009,81.06.01,Seruawan
 81.06.01.2010,81.06.01,Kairatu
@@ -77418,68 +77417,25 @@ code,district_code,name
 92.02.03.2016,92.02.03,Ibuwau
 92.02.03.2017,92.02.03,Iboisrati
 92.02.03.2018,92.02.03,Sraindabey
-92.02.03.2019,92.02.03,Mokwam
-92.02.03.2020,92.02.03,Amber
-92.02.03.2021,92.02.03,Kwau
-92.02.03.2022,92.02.03,Syou
 92.02.03.2023,92.02.03,Indonbey
-92.02.03.2024,92.02.03,Mingre
-92.02.03.2025,92.02.03,Aiwow
-92.02.03.2026,92.02.03,Asarbey
-92.02.03.2027,92.02.03,Minoqbei
-92.02.03.2028,92.02.03,Bahamyenti
-92.02.03.2029,92.02.03,Figoud
-92.02.03.2030,92.02.03,Kipuwau
-92.02.03.2031,92.02.03,Duweibey
 92.02.04.2001,92.02.04,Prafi Mulya
 92.02.04.2002,92.02.04,Umbuy
 92.02.04.2003,92.02.04,Desay
-92.02.04.2004,92.02.04,Aimasi
-92.02.04.2005,92.02.04,Udapi Hilir
-92.02.04.2006,92.02.04,Waseki Pop
-92.02.04.2007,92.02.04,Wasegi Indah
 92.02.04.2008,92.02.04,Ingkwoisi
-92.02.04.2009,92.02.04,Bogor
 92.02.04.2010,92.02.04,Somi
-92.02.04.2011,92.02.04,Bedip Matoa
-92.02.04.2012,92.02.04,Kali Amin
-92.02.04.2013,92.02.04,Lismaungu
-92.02.04.2014,92.02.04,Uhyehebrig
-92.02.04.2015,92.02.04,Kerenu
 92.02.04.2016,92.02.04,Mebji
 92.02.05.2001,92.02.05,Masni
 92.02.05.2002,92.02.05,Sumber Boga
-92.02.05.2003,92.02.05,Prafi Barat
-92.02.05.2004,92.02.05,Muara Prafi
-92.02.05.2006,92.02.05,Macuan
 92.02.05.2008,92.02.05,Wariori
 92.02.05.2009,92.02.05,Bowi Subur
-92.02.05.2010,92.02.05,Makwan
-92.02.05.2011,92.02.05,Kali Merah
-92.02.05.2012,92.02.05,Meiforga
-92.02.05.2013,92.02.05,Sibuni
 92.02.05.2014,92.02.05,Yensum
 92.02.05.2015,92.02.05,Mansaburi
 92.02.05.2016,92.02.05,Igor
-92.02.05.2017,92.02.05,Merejemeg
-92.02.05.2018,92.02.05,Aurmios
 92.02.05.2020,92.02.05,Sembab
-92.02.05.2024,92.02.05,Membowi
 92.02.05.2027,92.02.05,Yonsoribo
-92.02.05.2028,92.02.05,Meyof II
-92.02.05.2030,92.02.05,Moubja
-92.02.05.2031,92.02.05,Ririnfos
-92.02.05.2032,92.02.05,Muara Wariori
 92.02.05.2034,92.02.05,Koyani
-92.02.05.2035,92.02.05,Meyeruk
-92.02.05.2036,92.02.05,Inyei
 92.02.05.2037,92.02.05,Undi
 92.02.05.2038,92.02.05,Jowen
-92.02.05.2039,92.02.05,Aska
-92.02.05.2040,92.02.05,Mantedi
-92.02.05.2042,92.02.05,Wariori Indah
-92.02.05.2045,92.02.05,Urey
-92.02.05.2046,92.02.05,Wamfoura
 92.02.12.1001,92.02.12,Manokwari Barat
 92.02.12.1002,92.02.12,Sanggeng
 92.02.12.1003,92.02.12,Wosi
@@ -77498,27 +77454,18 @@ code,district_code,name
 92.02.13.2006,92.02.13,Aipiri
 92.02.13.2007,92.02.13,Susweni
 92.02.14.2001,92.02.14,Yoom I
-92.02.14.2002,92.02.14,Mandopi
-92.02.14.2003,92.02.14,Mubri
 92.02.14.2004,92.02.14,Yoom II
-92.02.14.2005,92.02.14,Teluk Mubri
-92.02.14.2006,92.02.14,Meyes
 92.02.14.2007,92.02.14,Bremi
 92.02.14.2008,92.02.14,Saubeba
 92.02.14.2009,92.02.14,Pami
-92.02.14.2010,92.02.14,Warbefor
 92.02.14.2011,92.02.14,Asai
-92.02.14.2012,92.02.14,Inya
 92.02.14.2013,92.02.14,Meyunfoka
 92.02.14.2014,92.02.14,Tanah Rubuh
 92.02.14.2015,92.02.14,Sairo
-92.02.14.2016,92.02.14,Singgimeba
 92.02.14.2017,92.02.14,Inoduas
 92.02.14.2018,92.02.14,Lebau
 92.02.14.2020,92.02.14,Cabang Dua
-92.02.14.2021,92.02.14,Yonggam
 92.02.14.2022,92.02.14,Indou Oufa
-92.02.14.2023,92.02.14,Mubraidiba
 92.02.15.1001,92.02.15,Sowi
 92.02.15.1002,92.02.15,Anday
 92.02.15.2003,92.02.15,Katebu
@@ -77573,6 +77520,58 @@ code,district_code,name
 92.02.21.2010,92.02.21,Womnowi
 92.02.21.2011,92.02.21,Manggupi
 92.02.21.2012,92.02.21,Sidey Jaya
+92.02.31.2001,92.02.31,Kerenu
+92.02.31.2002,92.02.31,Wasegi Indah
+92.02.31.2003,92.02.31,Udapi Hilir
+92.02.31.2004,92.02.31,Waseki Pop
+92.02.31.2005,92.02.31,Uhyehebrig
+92.02.31.2006,92.02.31,Kali Amin
+92.02.31.2007,92.02.31,Bogor
+92.02.31.2008,92.02.31,Aimasi
+92.02.31.2009,92.02.31,Lismaungu
+92.02.31.2010,92.02.31,Bedip Matoa
+92.02.32.2001,92.02.32,Duweibey
+92.02.32.2002,92.02.32,Mingre
+92.02.32.2003,92.02.32,Figoud
+92.02.32.2004,92.02.32,Kwau
+92.02.32.2005,92.02.32,Mokwam
+92.02.32.2006,92.02.32,Syou
+92.02.32.2007,92.02.32,Amber
+92.02.32.2008,92.02.32,Asarbey
+92.02.32.2009,92.02.32,Minoqbei
+92.02.32.2010,92.02.32,Bahamyenti
+92.02.32.2011,92.02.32,Kipuwau
+92.02.32.2012,92.02.32,Aiwow
+92.02.33.2001,92.02.33,Sibuni
+92.02.33.2002,92.02.33,Kali Merah
+92.02.33.2003,92.02.33,Prafi Barat
+92.02.33.2004,92.02.33,Macuan
+92.02.33.2005,92.02.33,Meiforga
+92.02.33.2006,92.02.33,Muara Prafi
+92.02.33.2007,92.02.33,Makwan
+92.02.33.2008,92.02.33,Urey
+92.02.33.2009,92.02.33,Mantedi
+92.02.33.2010,92.02.33,Aska
+92.02.34.2001,92.02.34,Moubja
+92.02.34.2002,92.02.34,Meyof II
+92.02.34.2003,92.02.34,Membowi
+92.02.34.2004,92.02.34,Ririnfos
+92.02.34.2005,92.02.34,Wariori Indah
+92.02.34.2006,92.02.34,Merejemeg
+92.02.34.2007,92.02.34,Wamfoura
+92.02.34.2008,92.02.34,Meyeruk
+92.02.34.2009,92.02.34,Aurmios
+92.02.34.2010,92.02.34,Muara Wariori
+92.02.35.2001,92.02.35,Mubraidiba
+92.02.35.2002,92.02.35,Mandopi
+92.02.35.2003,92.02.35,Mubri
+92.02.35.2004,92.02.35,Teluk Mubri
+92.02.35.2005,92.02.35,Meyes
+92.02.35.2006,92.02.35,Inya
+92.02.35.2007,92.02.35,Warbefor
+92.02.35.2008,92.02.35,Yonggam
+92.02.35.2009,92.02.35,Singgimeba
+92.02.35.2010,92.02.35,Inyei
 92.03.01.1001,92.03.01,Fak Fak Selatan
 92.03.01.1002,92.03.01,Fak Fak Utara
 92.03.01.2007,92.03.01,Gewerpe
@@ -78435,12 +78434,12 @@ code,district_code,name
 93.02.03.2001,93.02.03,Woropko
 93.02.03.2002,93.02.03,Winiktit
 93.02.03.2003,93.02.03,Kanggewot
-93.02.03.2004,93.02.03,Jetetkun
 93.02.03.2005,93.02.03,Inggembit
 93.02.03.2006,93.02.03,Wametkapa
 93.02.03.2007,93.02.03,Wombon
 93.02.03.2008,93.02.03,Upkim
 93.02.03.2009,93.02.03,Ikcan
+93.02.03.2010,93.02.03,Upyetetko
 93.02.04.2001,93.02.04,Kouh
 93.02.04.2002,93.02.04,Jair
 93.02.04.2003,93.02.04,Mandobo
@@ -78463,7 +78462,7 @@ code,district_code,name
 93.02.08.2002,93.02.08,Tetop
 93.02.08.2003,93.02.08,Wariktop
 93.02.08.2004,93.02.08,Autriop
-93.02.08.2005,93.02.08,Ogenatan
+93.02.08.2005,93.02.08,Ogenetan
 93.02.09.2001,93.02.09,Maju
 93.02.09.2002,93.02.09,Bukit
 93.02.09.2003,93.02.09,Ujung
@@ -78499,7 +78498,7 @@ code,district_code,name
 93.02.14.2003,93.02.14,Fefero
 93.02.15.2001,93.02.15,Subur
 93.02.15.2002,93.02.15,Kaisa
-93.02.15.2003,93.02.15,Waghai
+93.02.15.2003,93.02.15,Wagai
 93.02.15.2004,93.02.15,Aiwat
 93.02.16.2001,93.02.16,Wanggemalo
 93.02.16.2002,93.02.16,Sinimburu
@@ -78507,24 +78506,24 @@ code,district_code,name
 93.02.16.2004,93.02.16,Ugo
 93.02.16.2005,93.02.16,Dema
 93.02.17.2001,93.02.17,Ninati
-93.02.17.2002,93.02.17,Upyetetko
 93.02.17.2003,93.02.17,Kawaktembut
 93.02.17.2004,93.02.17,Tembutka
 93.02.17.2005,93.02.17,Timka
+93.02.17.2006,93.02.17,Yetetko
 93.02.18.2001,93.02.18,Sesnuk
 93.02.18.2002,93.02.18,Anggamburan
 93.02.18.2003,93.02.18,Kanggup
 93.02.18.2004,93.02.18,Yomkondo
 93.02.18.2005,93.02.18,Amboran
-93.02.19.2001,93.02.19,Metto
+93.02.19.2001,93.02.19,Meto
 93.02.19.2002,93.02.19,Obinangge
 93.02.19.2003,93.02.19,Watemu
-93.02.19.2004,93.02.19,Ujungkia
+93.02.19.2004,93.02.19,Ujung Kia
 93.02.20.2001,93.02.20,Wanggom
 93.02.20.2002,93.02.20,Kawagit
-93.02.20.2003,93.02.20,Kombai
-93.02.20.2004,93.02.20,Biwage
-93.02.20.2005,93.02.20,Biwage Dua
+93.02.20.2003,93.02.20,Kombay
+93.02.20.2004,93.02.20,Biwage 1
+93.02.20.2005,93.02.20,Biwage 2
 93.02.20.2006,93.02.20,Niop
 93.03.01.1013,93.03.01,Kepi
 93.03.01.2001,93.03.01,Obaa
@@ -78757,14 +78756,9 @@ code,district_code,name
 93.04.07.2007,93.04.07,Wowi
 93.04.07.2008,93.04.07,Soray
 93.04.07.2009,93.04.07,Waganu Dua
-93.04.07.2010,93.04.07,Waijens
-93.04.07.2011,93.04.07,Bumu
-93.04.07.2012,93.04.07,Kapayap Satu
-93.04.07.2013,93.04.07,Kapayap Dua
 93.04.07.2014,93.04.07,Emnam
 93.04.08.2001,93.04.08,Suru-Suru
 93.04.08.2002,93.04.08,See
-93.04.08.2007,93.04.08,Tomor
 93.04.08.2009,93.04.08,Dumaten
 93.04.08.2010,93.04.08,Hom-hom
 93.04.08.2011,93.04.08,Ajin
@@ -78789,6 +78783,12 @@ code,district_code,name
 93.04.09.2007,93.04.09,Butukatnau
 93.04.09.2008,93.04.09,Auban
 93.04.09.2009,93.04.09,Pepera
+93.04.09.2010,93.04.09,Waijens
+93.04.09.2011,93.04.09,Bumu
+93.04.09.2012,93.04.09,Kapayap Satu
+93.04.09.2013,93.04.09,Kapayap Dua
+93.04.09.2014,93.04.09,Sipanap
+93.04.10.2001,93.04.10,Komor
 93.04.10.2002,93.04.10,Amor
 93.04.10.2003,93.04.10,Yipawer
 93.04.10.2004,93.04.10,Berip
@@ -78899,7 +78899,6 @@ code,district_code,name
 93.04.23.2005,93.04.23,Nagatun
 93.04.23.2006,93.04.23,Ujung Batu
 93.04.23.2007,93.04.23,Kapayap Tiga
-93.04.23.2008,93.04.23,Sipanap
 93.04.24.2001,93.04.24,Tomor
 93.04.24.2002,93.04.24,Munu
 93.04.24.2003,93.04.24,Abamu
@@ -79601,7 +79600,7 @@ code,district_code,name
 94.04.10.1001,94.04.10,Tembagapura
 94.04.10.2002,94.04.10,Waa
 94.04.10.2003,94.04.10,Arwanop
-94.04.10.2004,94.04.10,T"Singa
+94.04.10.2004,94.04.10,"T""Singa"
 94.04.10.2005,94.04.10,Jagamin
 94.04.10.2006,94.04.10,Banigogom
 94.04.10.2007,94.04.10,Opitawak
@@ -80752,7 +80751,6 @@ code,district_code,name
 95.03.01.2019,95.03.01,Huken
 95.03.01.2020,95.03.01,Huguma
 95.03.01.2021,95.03.01,Parela
-95.03.01.2022,95.03.01,Wakunyama
 95.03.01.2023,95.03.01,Hesmat
 95.03.02.2001,95.03.02,Yahulikma
 95.03.02.2002,95.03.02,Lelambo
@@ -80954,6 +80952,7 @@ code,district_code,name
 95.03.19.2008,95.03.19,Musanarek
 95.03.19.2009,95.03.19,Walialema
 95.03.19.2010,95.03.19,Lua
+95.03.19.2022,95.03.19,Wakunyama
 95.03.20.2001,95.03.20,Pontenikma
 95.03.20.2002,95.03.20,Kuni
 95.03.20.2003,95.03.20,Panggema
@@ -82762,7 +82761,7 @@ code,district_code,name
 96.01.01.2011,96.01.01,Klasimigik
 96.01.01.2012,96.01.01,Klasigi
 96.01.01.2013,96.01.01,Klagulus
-96.01.01.2014,96.01.01,Suatolo6
+96.01.01.2014,96.01.01,Suatolo
 96.01.01.2015,96.01.01,Mibi
 96.01.02.2001,96.01.02,Klabra
 96.01.02.2002,96.01.02,Wanurian
@@ -82798,18 +82797,18 @@ code,district_code,name
 96.01.05.1003,96.01.05,Malawele
 96.01.05.1004,96.01.05,Mariat Pantai
 96.01.05.1005,96.01.05,Mariat Gunung
-96.01.05.1006,96.01.05,Warmon
-96.01.05.1007,96.01.05,Klabinain
-96.01.05.1008,96.01.05,Malasom
-96.01.05.1009,96.01.05,Klaigit
-96.01.05.1010,96.01.05,Malagusa
-96.01.05.1011,96.01.05,Klafma
-96.01.05.2012,96.01.05,Maibo
-96.01.05.2013,96.01.05,Aimo
+96.01.05.1007,96.01.05,Warmon
+96.01.05.1008,96.01.05,Klabinain
+96.01.05.1009,96.01.05,Malasom
+96.01.05.1010,96.01.05,Klaigit
+96.01.05.1012,96.01.05,Malagusa
+96.01.05.1013,96.01.05,Klafma
+96.01.05.2006,96.01.05,Maibo
+96.01.05.2011,96.01.05,Aimo
 96.01.05.2014,96.01.05,Malasaum
 96.01.06.2001,96.01.06,Klawana
 96.01.06.2002,96.01.06,Klamono
-96.01.06.2003,96.01.06,Wariayau
+96.01.06.2003,96.01.06,Wariyau
 96.01.06.2004,96.01.06,Klalomon
 96.01.06.2005,96.01.06,Wonosari
 96.01.06.2006,96.01.06,Gisim Darat
@@ -82881,12 +82880,12 @@ code,district_code,name
 96.01.14.1002,96.01.14,Mariyai
 96.01.14.1003,96.01.14,Klasuluk
 96.01.14.1004,96.01.14,Klamasen
-96.01.14.1005,96.01.14,Maklalut
-96.01.14.1006,96.01.14,Klaru
-96.01.14.1007,96.01.14,Jamaimo
-96.01.14.2008,96.01.14,Klaben
-96.01.14.2009,96.01.14,Klasan
-96.01.14.2010,96.01.14,Fafi
+96.01.14.1008,96.01.14,Maklalut
+96.01.14.1009,96.01.14,Klaru
+96.01.14.1010,96.01.14,Jamaimo
+96.01.14.2005,96.01.14,Klaben
+96.01.14.2006,96.01.14,Klasan
+96.01.14.2007,96.01.14,Fafi
 96.01.14.2011,96.01.14,Kasih
 96.01.15.2001,96.01.15,Klayili
 96.01.15.2002,96.01.15,Klawuluh
@@ -82969,7 +82968,7 @@ code,district_code,name
 96.01.25.2007,96.01.25,Klaflum
 96.01.25.2008,96.01.25,Klarin
 96.01.25.2009,96.01.25,Mlaron
-96.01.26.2001,96.01.26,Keladum/Maladuk
+96.01.26.2001,96.01.26,Maladuk
 96.01.26.2002,96.01.26,Klamono Olie
 96.01.26.2003,96.01.26,Barros
 96.01.26.2004,96.01.26,Pusu Tiligum
@@ -83002,9 +83001,9 @@ code,district_code,name
 96.01.30.2004,96.01.30,Klawon
 96.01.30.2005,96.01.30,Klakak
 96.01.30.2006,96.01.30,Klalwok
-96.02.01.1001,96.02.01,Kaibus
-96.02.01.1002,96.02.01,Kohoin
-96.02.01.2003,96.02.01,Wersar
+96.02.01.1002,96.02.01,Kaibus
+96.02.01.1003,96.02.01,Kohoin
+96.02.01.2001,96.02.01,Wersar
 96.02.01.2004,96.02.01,Wehali
 96.02.01.2005,96.02.01,Aibobor
 96.02.01.2006,96.02.01,Wermit
@@ -83399,9 +83398,9 @@ code,district_code,name
 96.04.22.2001,96.04.22,Wausin
 96.04.22.2002,96.04.22,Asiti
 96.04.22.2003,96.04.22,Bisaud
-96.04.22.2005,96.04.22,Nisandauw
-96.04.22.2006,96.04.22,Afrawi
-96.04.22.2007,96.04.22,Ajokwapi
+96.04.22.2004,96.04.22,Nisandauw
+96.04.22.2005,96.04.22,Afrawi
+96.04.22.2006,96.04.22,Ajokwapi
 96.04.23.2001,96.04.23,Inam
 96.04.23.2002,96.04.23,Jandurauw
 96.04.23.2003,96.04.23,Inambuari
@@ -83433,12 +83432,12 @@ code,district_code,name
 96.04.25.2009,96.04.25,Waumi
 96.04.25.2010,96.04.25,Aneti
 96.04.26.2001,96.04.26,Arupi
-96.04.26.2003,96.04.26,Mangganek
-96.04.26.2004,96.04.26,Wajarek
-96.04.26.2005,96.04.26,Kali An
-96.04.26.2006,96.04.26,Araro
-96.04.26.2007,96.04.26,Wekari
-96.04.26.2008,96.04.26,Serayo
+96.04.26.2002,96.04.26,Mangganek
+96.04.26.2003,96.04.26,Wajarek
+96.04.26.2004,96.04.26,Kali An
+96.04.26.2005,96.04.26,Araro
+96.04.26.2006,96.04.26,Wekari
+96.04.26.2007,96.04.26,Serayo
 96.04.27.2001,96.04.27,Sasui
 96.04.27.2002,96.04.27,Imbuan
 96.04.27.2003,96.04.27,Manggaew
@@ -83725,10 +83724,10 @@ code,district_code,name
 96.71.01.1002,96.71.01,Klademak
 96.71.01.1003,96.71.01,Kofkerbu
 96.71.01.1004,96.71.01,Remu
-96.71.02.1005,96.71.02,Klawalu
-96.71.02.1006,96.71.02,Klamana
-96.71.02.1007,96.71.02,Klawuyuk
-96.71.02.1008,96.71.02,Kladufu
+96.71.02.1001,96.71.02,Klawalu
+96.71.02.1002,96.71.02,Klamana
+96.71.02.1003,96.71.02,Klawuyuk
+96.71.02.1004,96.71.02,Kladufu
 96.71.03.1001,96.71.03,Rufei
 96.71.03.1002,96.71.03,Klawasi
 96.71.03.1003,96.71.03,Puncak Cendrawasih

@@ -14,7 +14,7 @@ Provides the administrative areas data of Indonesia (province, regency, district
 
 ## Upgrading
 
-If you are upgrading from version 2 to version 3, please read the [upgrade guide](docs/upgrading/upgrade-to-v3.md).
+If you are upgrading from version 3 to version 4, please read the [upgrade guide](docs/upgrading/upgrade-to-v4.md).
 
 ## Installation
 
