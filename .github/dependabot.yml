@@ -3,41 +3,80 @@
 
 version: 2
 updates:
-  # 1. Scheduled consolidated updates (minimal PR noise)
+  # NPM / PNPM (Dependabot understands pnpm-lock.yaml in the npm ecosystem)
   - package-ecosystem: npm
     directory: /
     schedule:
       interval: weekly
+      day: monday
     open-pull-requests-limit: 2
+    versioning-strategy: increase-if-necessary
+
+    # Only update direct dependencies (transitive dependencies remain if there's a security advisory)
+    allow:
+      - dependency-type: direct
+
+    # ====== GROUPING ======
+    # 1) Tooling (devDependencies, build/test/format/lint) → merge minor/patch updates
     groups:
-      all-minor-and-patch:
+      tooling-minor-patch:
+        patterns:
+          # TypeScript & TS tooling
+          - "typescript"
+          - "ts-node"
+          - "tsx"
+          - "tsup"
+          - "@types/*"
+          # Test stack
+          - "vitest"
+          - "@vitest/*"
+          # Lint/format
+          - "eslint"
+          - "eslint-*"
+          - "@eslint/*"
+          - "prettier"
+          - "prettier-*"
+          - "@biomejs/*"
+          # Bundlers/build tools populer
+          - "vite"
+          - "@vitejs/*"
+          - "rollup"
+          - "rollup-*"
+          - "webpack"
+          - "webpack-*"
+          - "babel"
+          - "@babel/*"
+        update-types: ["minor", "patch"]
+
+      # 2) Runtime (everything except tooling) → automatic via wildcard
+      runtime-minor-patch:
         patterns:
           - "*"
-        update-types:
-          - minor
-          - patch
+        update-types: ["minor", "patch"]
+
+    # Avoid creating major PRs for high-churn tools (you can still update them manually if needed)
     ignore:
-      # Ignore only major bumps for high-churn dev tools
-      - dependency-name: typescript
+      - dependency-name: "typescript"
         update-types: [version-update:semver-major]
       - dependency-name: "@biomejs/biome"
         update-types: [version-update:semver-major]
-      - dependency-name: vitest
+      - dependency-name: "vitest"
         update-types: [version-update:semver-major]
-      - dependency-name: tsup
+      - dependency-name: "tsup"
         update-types: [version-update:semver-major]
       - dependency-name: "@types/node"
         update-types: [version-update:semver-major]
-    allow:
-      - dependency-type: direct
-    versioning-strategy: increase-if-necessary
+      - dependency-name: "@vitest/coverage-v8"
+        update-types: [version-update:semver-major]
 
-  # 2. Fast security updates (advisories only)
-  - package-ecosystem: npm
+    # Refine Dependabot PR commit message
+    commit-message:
+      prefix: "chore"
+      include: "scope"
+
+  # Update GitHub Actions in .github/workflows
+  - package-ecosystem: github-actions
     directory: /
     schedule:
-      interval: daily
-    security-updates-only: true
-    labels:
-      - security
-      - dependencies
+      interval: weekly
+    labels: [ci, dependencies]
