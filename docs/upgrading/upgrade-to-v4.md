@@ -8,11 +8,11 @@
 
   For example:
 
-  | Old data (v3) | New data (v4) |
-  |---|---|
-  | `35.29.22,35.29,Ra'as` | `35.29.22,35.29,"Ra""as"` |
+  | Old data (v3)                    | New data (v4)                       |
+  | -------------------------------- | ----------------------------------- |
+  | `35.29.22,35.29,Ra'as`           | `35.29.22,35.29,"Ra""as"`           |
   | `35.13.15.2017,35.13.15,Soka"an` | `35.13.15.2017,35.13.15,"Soka""an"` |
-  | `35.18.17.2007,35.18.17,Ja"an` | `35.18.17.2007,35.18.17,"Ja""an"` |
+  | `35.18.17.2007,35.18.17,Ja"an`   | `35.18.17.2007,35.18.17,"Ja""an"`   |
 
   So, if you see a name like `"Soka""an"` in the CSV files, it means the actual name is `Soka"an`.
 
@@ -23,18 +23,29 @@
 
   For example:
 
-  | Old data (v3) | New data (v4) |
-  |---|---|
+  | Old data (v3)                             | New data (v4)                               |
+  | ----------------------------------------- | ------------------------------------------- |
   | `12.07.28.1007,12.07.28,Lubuk Pakam I II` | `12.07.28.1007,12.07.28,"Lubuk Pakam I,II"` |
+
+- **Island coordinates are now escaped** in the same way as district and village names.
+
+  For example:
+
+  | Old data (v3)                                      | New data (v4)                                          |
+  | -------------------------------------------------- | ------------------------------------------------------ |
+  | `11.01.40001,11.01,03°19'03.44" N 097°07'41.73" E` | `11.01.40001,11.01,"03°19'03.44"" N 097°07'41.73"" E"` |
+
+  So if you see a coordinate like `"03°19'03.44"" N 097°07'41.73"" E"` in the CSV files, it means the actual coordinate is `03°19'03.44" N 097°07'41.73" E`.
 
 - **Spaces in names are now normalized**, making names consistent and easier to read.
 
   For example:
 
-  | Old data (v3) | New data (v4) |
-  |---|---|
-  | `12.71.15.1001,12.71.15,A u r` | `12.71.15.1001,12.71.15,Aur` |
+  | Old data (v3)                    | New data (v4)                 |
+  | -------------------------------- | ----------------------------- |
+  | `12.71.15.1001,12.71.15,A u r`   | `12.71.15.1001,12.71.15,Aur`  |
   | `12.71.15.1003,12.71.15,J a t i` | `12.71.15.1003,12.71.15,Jati` |
+
 
 ### Province data
 
@@ -42,9 +53,9 @@
 
   For example:
 
-  | Old name (v3) | New name (v4) |
-  |---|---|
-  | `ACEH` | `Aceh` |
+  | Old name (v3)    | New name (v4)    |
+  | ---------------- | ---------------- |
+  | `ACEH`           | `Aceh`           |
   | `SUMATERA UTARA` | `Sumatera Utara` |
 
 ### Regency data
@@ -53,15 +64,15 @@
 
   For example:
 
-  | Old name (v3) | New name (v4) |
-  |---|---|
+  | Old name (v3)            | New name (v4)            |
+  | ------------------------ | ------------------------ |
   | `KABUPATEN ACEH SELATAN` | `Kabupaten Aceh Selatan` |
-  | `KOTA BANDA ACEH` | `Kota Banda Aceh` |
+  | `KOTA BANDA ACEH`        | `Kota Banda Aceh`        |
 
 - Dashes (`-`) are now allowed in regency names.
 
   For example:
 
-  | Old name (v3) | New name (v4) |
-  |---|---|
+  | Old name (v3)                  | New name (v4)                  |
+  | ------------------------------ | ------------------------------ |
   | `72.04,72,Kabupaten Toli Toli` | `72.04,72,Kabupaten Toli-Toli` |
