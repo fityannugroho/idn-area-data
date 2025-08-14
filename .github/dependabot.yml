@@ -1,15 +1,43 @@
-# To get started with Dependabot version updates, you'll need to specify which
-# package ecosystems to update and where the package manifests are located.
-# Please see the documentation for all configuration options:
-# https://docs.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
+# Dependabot configuration
+# Docs: https://docs.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
 
 version: 2
 updates:
-  - package-ecosystem: 'npm' # See documentation for possible values
-    directory: '/' # Location of package manifests
+  # 1. Scheduled consolidated updates (minimal PR noise)
+  - package-ecosystem: npm
+    directory: /
     schedule:
-      interval: 'daily'
+      interval: weekly
+    open-pull-requests-limit: 2
+    groups:
+      all-minor-and-patch:
+        patterns:
+          - "*"
+        update-types:
+          - minor
+          - patch
     ignore:
-      # Ignore all patch updates
-      - dependency-name: '*'
-        update-types: ['version-update:semver-patch']
+      # Ignore only major bumps for high-churn dev tools
+      - dependency-name: typescript
+        update-types: [version-update:semver-major]
+      - dependency-name: "@biomejs/biome"
+        update-types: [version-update:semver-major]
+      - dependency-name: vitest
+        update-types: [version-update:semver-major]
+      - dependency-name: tsup
+        update-types: [version-update:semver-major]
+      - dependency-name: "@types/node"
+        update-types: [version-update:semver-major]
+    allow:
+      - dependency-type: direct
+    versioning-strategy: increase-if-necessary
+
+  # 2. Fast security updates (advisories only)
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: daily
+    security-updates-only: true
+    labels:
+      - security
+      - dependencies
