@@ -48,6 +48,6 @@ jobs:
             ${{ runner.os }}-pnpm-store-
 
       - run: pnpm install --frozen-lockfile
-      - run: pnpm publish --tag ${{ github.event.release.tag_name || inputs.version }}
+      - run: pnpm publish --tag ${{ github.event.release.tag_name || inputs.version }} --no-git-checks
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
