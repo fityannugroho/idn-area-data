@@ -9,17 +9,23 @@ on:
   workflow_dispatch:
     inputs:
       version:
-        description: 'Version to publish'
+        description: 'npm dist-tag to use (e.g. latest, next, v4.0.0)'
         required: true
         type: string
+      git_tag:
+        description: 'Optional git tag to publish from (e.g. v4.0.0). If empty, publish from main.'
+        required: false
+        type: string
 
-run-name: Publish ${{ github.event.release.tag_name || inputs.version }}
+run-name: Publish ${{ github.event.release.tag_name || inputs.git_tag || inputs.version }}
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       # Install pnpm
       - uses: pnpm/action-setup@v4
@@ -36,18 +42,69 @@ jobs:
       - name: Get pnpm store directory
         id: pnpm-cache
         shell: bash
-        run: |
-          echo "STORE_PATH=$(pnpm store path)" >> $GITHUB_OUTPUT
+        run: echo "STORE_PATH=$(pnpm store path)" >> "$GITHUB_OUTPUT"
 
       # Setup cache
       - uses: actions/cache@v4
         with:
           path: ${{ steps.pnpm-cache.outputs.STORE_PATH }}
           key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
-          restore-keys: |
-            ${{ runner.os }}-pnpm-store-
+          restore-keys: ${{ runner.os }}-pnpm-store-
+
+      # -------- Attach HEAD according to event --------
+      - name: Attach HEAD appropriately (release or dispatch)
+        shell: bash
+        run: |
+          set -euo pipefail
+          # Fetch all branches & tags
+          git fetch --tags --force
+          git fetch origin +refs/heads/*:refs/remotes/origin/*
+
+          EVENT="${{ github.event_name }}"
+          if [[ "$EVENT" == "release" ]]; then
+            GIT_TAG="${{ github.event.release.tag_name }}"
+          else
+            GIT_TAG="${{ inputs.git_tag || '' }}"
+          fi
+
+          if [[ -n "${GIT_TAG}" ]]; then
+            echo "Publishing from git tag: ${GIT_TAG}"
+            # Checkout to tag (detached HEAD)
+            git checkout "refs/tags/${GIT_TAG}"
+
+            # Ensure the tag commit exists in main, then attach HEAD to main at this commit
+            if git merge-base --is-ancestor "$(git rev-parse HEAD)" origin/main; then
+              git checkout -B main
+              echo "HEAD attached to local 'main' at tag commit."
+            else
+              echo "Tag '${GIT_TAG}' is not contained in origin/main. Failing git checks."
+              exit 1
+            fi
+          else
+            # No specific tag -> publish from main (attached)
+            echo "No git_tag provided; publishing from 'main'."
+            git checkout main
+            git pull --ff-only origin main
+          fi
+
+          # (Optional) display HEAD position
+          echo "HEAD at: $(git rev-parse --short HEAD) on branch: $(git rev-parse --abbrev-ref HEAD)"
 
       - run: pnpm install --frozen-lockfile
-      - run: pnpm publish --tag ${{ github.event.release.tag_name || inputs.version }}
+
+      - name: Publish to npm
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          # Select npm dist-tag: release.tag_name > inputs.version > latest
+          if [[ "${{ github.event_name }}" == "release" ]]; then
+            DIST_TAG="${{ github.event.release.tag_name }}"
+          else
+            DIST_TAG="${{ inputs.version }}"
+          fi
+          if [[ -z "$DIST_TAG" ]]; then
+            DIST_TAG="latest"
+          fi
+
+          # Publish with git checks ENABLED (since we already attached HEAD)
+          pnpm publish --tag "$DIST_TAG"
