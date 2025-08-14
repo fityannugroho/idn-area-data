@@ -9,8 +9,8 @@ Provides the administrative areas data of Indonesia (province, regency, district
 
 ## Prerequisite
 
-- [Node.js](https://nodejs.org) (version 18 or higher)
-- [npm 9](https://www.npmjs.com) or [yarn](https://yarnpkg.com)
+- [Node.js](https://nodejs.org) (version 22 or higher)
+- [npm 10](https://www.npmjs.com) or [yarn](https://yarnpkg.com)
 
 ## Upgrading
 
@@ -20,7 +20,7 @@ If you are upgrading from version 3 to version 4, please read the [upgrade guide
 
 You can install this package via [npm](https://www.npmjs.com), [yarn](https://yarnpkg.com), or [pnpm](https://pnpm.io) (pnpm is recommended).
 
-```pnpm
+```bash
 pnpm add idn-area-data
 ```
 
