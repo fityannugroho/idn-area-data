@@ -136,12 +136,12 @@ describe('getDistricts', () => {
 
 describe('getIslands', () => {
   const islandCodeRegex = /^\d{2}\.\d{2}\.4\d{4}$/;
-  const islandNameRegex = /^[a-zA-Z0-9\-'/ ]+$/;
+  const islandNameRegex = /^[a-zA-Z0-9\-'/’ ]+$/;
   /**
-   * The regex is already tested in https://regex101.com/r/GQe8WT
+   * The regex is already tested in https://regex101.com/r/GQe8WT/4
    */
   const coordinateRegex =
-    /^([0-8][0-9]|90)°([0-5][0-9]|60)'(([0-5][0-9].[0-9]{2})|60.00)"\s(N|S)\s(0\d{2}|1([0-7][0-9]|80))°([0-5][0-9]|60)'(([0-5][0-9].[0-9]{2})|60.00)"\s(E|W)$/;
+    /^([0-8][0-9]|90)°([0-5][0-9])'([0-5][0-9]\.[0-9]{2})"\s(N|S)\s(0[0-9]{2}|1([0-7][0-9]|80))°([0-5][0-9])'([0-5][0-9]\.[0-9]{2})"\s(E|W)$/
 
   describe('options.transform', () => {
     let regencyCodeRegex: RegExp;

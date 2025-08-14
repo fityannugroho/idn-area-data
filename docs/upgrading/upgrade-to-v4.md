@@ -37,6 +37,16 @@
 
   So if you see a coordinate like `"03°19'03.44"" N 097°07'41.73"" E"` in the CSV files, it means the actual coordinate is `03°19'03.44" N 097°07'41.73" E`.
 
+- **`’` (U+2019) is now allowed in district, village, and island names**, so names can be written as they are, without needing to replace the apostrophe with a different character.
+
+  For example:
+
+  | Old data (v3)                    | New data (v4)                      |
+  | -------------------------------- | ---------------------------------- |
+  | `35.29.22,35.29,Ra’as`           | `35.29.22,35.29,"Ra’as"`           |
+  | `35.13.15.2017,35.13.15,Soka’an` | `35.13.15.2017,35.13.15,"Soka’an"` |
+  | `35.18.17.2007,35.18.17,Ja’an`   | `35.18.17.2007,35.18.17,"Ja’an"`   |
+
 - **Spaces in names are now normalized**, making names consistent and easier to read.
 
   For example:
