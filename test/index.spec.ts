@@ -141,7 +141,7 @@ describe('getIslands', () => {
    * The regex is already tested in https://regex101.com/r/GQe8WT/4
    */
   const coordinateRegex =
-    /^([0-8][0-9]|90)°([0-5][0-9])'([0-5][0-9]\.[0-9]{2})"\s(N|S)\s(0[0-9]{2}|1([0-7][0-9]|80))°([0-5][0-9])'([0-5][0-9]\.[0-9]{2})"\s(E|W)$/
+    /^([0-8][0-9]|90)°([0-5][0-9])'([0-5][0-9]\.[0-9]{2})"\s(N|S)\s(0[0-9]{2}|1([0-7][0-9]|80))°([0-5][0-9])'([0-5][0-9]\.[0-9]{2})"\s(E|W)$/;
 
   describe('options.transform', () => {
     let regencyCodeRegex: RegExp;
