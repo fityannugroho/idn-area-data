@@ -1,53 +1,64 @@
 name: Publish Package to npmjs
 
 permissions:
-  contents: read
+  contents: read       # needed to checkout
+  id-token: write      # required for npm provenance
 
 on:
   release:
     types: [published]
-  workflow_dispatch:
-    inputs:
-      version:
-        description: 'Version to publish'
-        required: true
-        type: string
 
-run-name: Publish ${{ github.event.release.tag_name || inputs.version }}
+run-name: Publish ${{ github.event.release.tag_name }}
 
 jobs:
-  build:
+  publish:
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
 
-      # Install pnpm
-      - uses: pnpm/action-setup@v4
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          fetch-tags: true
+
+      - name: Use pnpm
+        uses: pnpm/action-setup@v4
         with:
           version: 9
 
-      # Setup Node.js and pnpm
-      - uses: actions/setup-node@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          node-version: '22.x'
-          registry-url: 'https://registry.npmjs.org'
+          node-version: "22.x"
+          registry-url: "https://registry.npmjs.org"
+          cache: "pnpm"
 
-      # Get pnpm store directory for caching
-      - name: Get pnpm store directory
-        id: pnpm-cache
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Verify package.json matches release tag
         shell: bash
         run: |
-          echo "STORE_PATH=$(pnpm store path)" >> $GITHUB_OUTPUT
+          PKG_VERSION=$(node -p "require('./package.json').version")
+          RAW_TAG="${{ github.event.release.tag_name }}"
+          EXPECTED="${RAW_TAG#v}"   # strip leading 'v' if present
 
-      # Setup cache
-      - uses: actions/cache@v4
-        with:
-          path: ${{ steps.pnpm-cache.outputs.STORE_PATH }}
-          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
-          restore-keys: |
-            ${{ runner.os }}-pnpm-store-
+          if [[ "$PKG_VERSION" != "$EXPECTED" ]]; then
+            echo "::error::package.json version ($PKG_VERSION) does not match release tag ($EXPECTED)"
+            exit 1
+          fi
+          echo "Version check OK: $PKG_VERSION"
 
-      - run: pnpm install --frozen-lockfile
-      - run: pnpm publish --tag ${{ github.event.release.tag_name || inputs.version }} --no-git-checks
+      - name: Lint
+        run: pnpm run lint
+
+      - name: Test
+        run: pnpm run test
+
+      - name: Build
+        run: pnpm run build
+
+      - name: Publish to npm
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: pnpm publish --access public
