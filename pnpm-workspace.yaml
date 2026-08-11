@@ -1,0 +1,7 @@
+allowBuilds:
+  esbuild: true
+overrides:
+  # esbuild >=0.28.1 (GHSA-...); tsup@8.5.1 (latest 8.x) pins ^0.27.0 sehingga
+  # tidak bisa resolve versi patched. Bump tsup ke 9.x = major bump (di luar
+  # izin). Re-add override sesuai kebijakan: hanya jika tidak ada cara lain.
+  esbuild: ^0.28.1
