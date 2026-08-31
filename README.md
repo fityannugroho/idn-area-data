@@ -1,3 +1,5 @@
+
+
 <h1 align="">Indonesian Area Data (<i>Data Wilayah Indonesia</i>)</h1>
 
 Provides the administrative areas data of Indonesia (province, regency, district, village, and island) based on the latest official sources.
@@ -10,7 +12,7 @@ Provides the administrative areas data of Indonesia (province, regency, district
 ## Prerequisite
 
 - [Node.js](https://nodejs.org) (version 22 or higher)
-- [npm 10](https://www.npmjs.com) or [yarn](https://yarnpkg.com)
+- [npm 10](https://www.npmjs.com), [yarn](https://yarnpkg.com), or [pnpm](https://pnpm.io)
 
 ## Upgrading
 
@@ -139,7 +141,7 @@ console.log(districts);
 /*
 [
   {
-    code: '11.01.01',
+    code: '11.01.01.01',
     name: 'Bakongan',
     regency_code: '11.01',
   },
