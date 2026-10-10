@@ -3,6 +3,42 @@ packages:
 
 allowBuilds:
   esbuild: true
+
+# pnpm >=11 enforces a 1-day minimumReleaseAge on every lockfile entry, so a
+# lockfile pinned to a package published less than 24h ago fails
+# `pnpm install --frozen-lockfile` (ERR_PNPM_MINIMUM_RELEASE_AGE_VIOLATION).
+# These versions are unavoidable: package.json ranges float to the newest
+# release, so a fresh resolution picks exactly these versions again.
+minimumReleaseAgeExclude:
+  # dependency-upgrade picks younger than the 24h policy window
+  - '@rollup/rollup-android-arm-eabi@4.64.4'
+  - '@rollup/rollup-android-arm64@4.64.4'
+  - '@rollup/rollup-darwin-arm64@4.64.4'
+  - '@rollup/rollup-darwin-x64@4.64.4'
+  - '@rollup/rollup-freebsd-arm64@4.64.4'
+  - '@rollup/rollup-freebsd-x64@4.64.4'
+  - '@rollup/rollup-linux-arm-gnueabihf@4.64.4'
+  - '@rollup/rollup-linux-arm-musleabihf@4.64.4'
+  - '@rollup/rollup-linux-arm64-gnu@4.64.4'
+  - '@rollup/rollup-linux-arm64-musl@4.64.4'
+  - '@rollup/rollup-linux-loong64-gnu@4.64.4'
+  - '@rollup/rollup-linux-loong64-musl@4.64.4'
+  - '@rollup/rollup-linux-ppc64-gnu@4.64.4'
+  - '@rollup/rollup-linux-ppc64-musl@4.64.4'
+  - '@rollup/rollup-linux-riscv64-gnu@4.64.4'
+  - '@rollup/rollup-linux-riscv64-musl@4.64.4'
+  - '@rollup/rollup-linux-s390x-gnu@4.64.4'
+  - '@rollup/rollup-linux-x64-gnu@4.64.4'
+  - '@rollup/rollup-linux-x64-musl@4.64.4'
+  - '@rollup/rollup-openbsd-x64@4.64.4'
+  - '@rollup/rollup-openharmony-arm64@4.64.4'
+  - '@rollup/rollup-win32-arm64-msvc@4.64.4'
+  - '@rollup/rollup-win32-ia32-msvc@4.64.4'
+  - '@rollup/rollup-win32-x64-gnu@4.64.4'
+  - '@rollup/rollup-win32-x64-msvc@4.64.4'
+  - 'rollup@4.64.4'
+  - '@types/node@26.6.5'
+
 overrides:
   # esbuild >=0.28.1 (GHSA-...); tsup@8.5.1 (latest 8.x) pins ^0.27.0 sehingga
   # tidak bisa resolve versi patched. Bump tsup ke 9.x = major bump (di luar
