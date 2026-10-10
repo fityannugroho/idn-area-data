@@ -6,7 +6,6 @@ settings:
 
 overrides:
   esbuild: ^0.28.1
-  source-map-js: ^1.2.2
 
 importers:
 
