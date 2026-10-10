@@ -8,3 +8,10 @@ overrides:
   # tidak bisa resolve versi patched. Bump tsup ke 9.x = major bump (di luar
   # izin). Re-add override sesuai kebijakan: hanya jika tidak ada cara lain.
   esbuild: ^0.28.1
+  # source-map-js <1.2.2 (GHSA-68fv-2mgg-jv7q, event-loop DoS via indexed
+  # source-map section offsets). Dipicu lewat build/test toolchain
+  # (postcss -> vite/vitest, magicast -> coverage-v8) yang masih memakai
+  # range di bawah 1.2.2. Semua finding dev-only (tidak memengaruhi konsumen
+  # paket terbit). Bump vite/vitest = major bump (di luar izin), jadi pakai
+  # override sampai majors tersebut di-upgrade.
+  source-map-js: ^1.2.2
